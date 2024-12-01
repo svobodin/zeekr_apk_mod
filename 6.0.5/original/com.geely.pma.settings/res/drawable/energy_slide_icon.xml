@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="29.0dip" android:width="36.0dip" android:viewportWidth="36.0" android:viewportHeight="29.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/energy_slide_icon_color" android:pathData="M0.786,23.92L15.792,1.76C16.787,0.294 18.826,0.294 19.821,1.76L34.827,23.92C36.02,25.685 34.852,28.16 32.813,28.16H2.8C0.762,28.16 -0.407,25.685 0.786,23.92Z" />
+</vector>

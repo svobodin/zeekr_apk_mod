@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bx_item_sound_balance" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/sound_car" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sound_3d" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/in_sound_balance" android:clipChildren="false" android:clipToPadding="false" android:layout_width="950.0dip" android:layout_height="800.0dip" android:layout_marginTop="240.0dip" android:layout_marginBottom="100.0dip" android:layout_marginStart="240.0dip" app:layout_constraintBottom_toBottomOf="@id/sound_car" app:layout_constraintEnd_toEndOf="@id/sound_car" app:layout_constraintStart_toStartOf="@id/sound_car" app:layout_constraintTop_toTopOf="@id/sound_car">
+        <ImageView android:id="@id/volume_balance_point_bg" android:layout_width="650.0dip" android:layout_height="500.0dip" android:layout_marginTop="100.0dip" android:layout_marginStart="150.0dip" app:layout_constraintEnd_toEndOf="@id/volume_balance_point_view" app:layout_constraintStart_toStartOf="@id/volume_balance_point_view" app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:id="@id/volume_balance_point_view" android:layout_width="950.0dip" android:layout_height="600.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/press_img" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sound_wave_press" />
+            <com.geely.pma.settings.commons.ui.widget.ZeekrPagImageView android:layout_gravity="center" android:id="@id/point_pag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.zeekr.component.button.ZeekrButton android:id="@id/reset" android:layout_width="@dimen/common_dp_400" android:layout_height="@dimen/common_dp_108" android:layout_marginTop="-43.0dip" android:text="@string/common_reset" android:layout_marginStart="240.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/in_sound_balance" style="@style/Widget.ZeekrButton.GhostButton.Large" />
+</androidx.constraintlayout.widget.ConstraintLayout>

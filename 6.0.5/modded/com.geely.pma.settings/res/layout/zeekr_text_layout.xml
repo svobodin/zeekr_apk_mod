@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="36.0px" android:textColor="@color/zeekr_text_layout_title" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="89.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="32.0px" android:textColor="@color/zeekr_text_layout_title" android:layout_gravity="center_vertical" android:id="@id/tv_progress_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:alpha="0.8" />
+        <View android:layout_gravity="center_vertical" android:id="@id/view_line" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginRight="20.0dip" android:alpha="0.4" />
+        <TextView android:textSize="32.0px" android:textColor="@color/zeekr_text_layout_title" android:layout_gravity="center_vertical" android:id="@id/tv_progress_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" android:alpha="0.8" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="20.0dip" />
+</RelativeLayout>

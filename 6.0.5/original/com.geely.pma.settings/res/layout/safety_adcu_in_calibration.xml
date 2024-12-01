@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="1620.0dip" android:layout_height="1116.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="1620.0dip" android:layout_height="1116.0dip">
+        <TextView android:textSize="44.0sp" android:textColor="@color/common_text_color_one" android:gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="57.0dip" android:text="@string/safety_adcu_calibration" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="36.0sp" android:textColor="@color/common_text_color_two" android:gravity="center" android:id="@id/tv_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="57.0dip" android:text="@string/safety_adcu_calibration_dialog_describe_1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title" />
+        <ImageView android:id="@id/iv_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="202.0dip" android:src="@drawable/safety_aducu_calibration_1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <com.zeekr.component.button.ZeekrButton android:id="@id/btn_confirm" android:layout_width="1460.0dip" android:layout_height="108.0dip" android:layout_marginBottom="64.0dip" android:text="@string/common_know" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Widget.ZeekrDialog.Button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

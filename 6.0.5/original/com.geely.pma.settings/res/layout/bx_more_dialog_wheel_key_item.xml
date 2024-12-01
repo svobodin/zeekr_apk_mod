@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/item_root" android:background="@drawable/selector_wheel_key_item" android:layout_width="712.0dip" android:layout_height="122.0dip" android:layout_marginBottom="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_check" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_wheel_key_normal" android:layout_marginStart="64.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/tip2_sp_32" android:textColor="@color/color_primary_app" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="扩音器" android:layout_marginStart="64.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/iv_check" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

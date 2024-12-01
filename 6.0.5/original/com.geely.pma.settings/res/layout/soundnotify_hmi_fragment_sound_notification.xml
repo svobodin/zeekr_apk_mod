@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/soundnotify_hmi_fragment_sound_notification_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.geely.pma.settings.commons.ui.widget.ZeekrPagView android:id="@id/pag_background" android:layout_width="1937.0dip" android:layout_height="1465.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:src="@drawable/sound_zeekr_logo" android:layout_marginEnd="255.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/bottom_rect" android:background="@drawable/sound_car_bottom_bg" android:visibility="invisible" android:layout_width="1100.0dip" android:layout_height="300.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <com.zeekr.component.tab.ZeekrTabLayout android:id="@id/tab_sound_notification" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CommonTabLayoutStyle.CS" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tab_sound_notification" style="@style/CommonScaffoldVp8295" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_root" android:tag="layout/safety_storage_percent_view_0" android:background="@color/safety_storage_bg" android:layout_width="1620.0dip" android:layout_height="952.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="44.0sp" android:textColor="@color/safety_text_common_color" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="180.0dip" android:text="@string/safety_memory_card" />
+    <ImageView android:id="@id/iv_close" android:padding="32.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:src="@drawable/safety_icon_close" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="72.0sp" android:textColor="@color/safety_text_common_color" android:gravity="center" android:id="@id/tv_residue_available" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="56.0dip" android:text="@string/safety_residue_available" android:layout_marginStart="80.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title" />
+    <TextView android:textSize="44.0sp" android:textColor="@color/safety_text_common_tip_color" android:gravity="center" android:id="@id/tv_total_available" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/safety_total_available" app:layout_constraintStart_toStartOf="@id/tv_residue_available" app:layout_constraintTop_toBottomOf="@id/tv_residue_available" />
+    <com.zeekr.component.button.ZeekrButton android:id="@id/btn_format" android:tag="binding_1" android:layout_width="270.0dip" android:layout_height="108.0dip" android:layout_marginTop="56.0dip" android:text="@string/common_format" android:layout_marginStart="@dimen/common_dp_40" android:layout_marginEnd="80.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title" style="@style/Widget.ZeekrButton.GhostButton" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="46.0dip" app:layout_constraintTop_toBottomOf="@id/tv_total_available">
+        <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/safety_bg_storage_percent_view" android:layout_width="1453.0dip" android:layout_height="166.0dip" android:layout_marginStart="@dimen/common_dp_40" android:layout_marginEnd="@dimen/common_dp_40">
+            <TextView android:gravity="center" android:id="@id/tv_normal" android:background="@color/safety_memory_card_normal" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintHeight_percent="1.0" app:layout_constraintWidth_percent="0.0" />
+            <TextView android:gravity="center" android:id="@id/tv_emergent" android:background="@color/safety_memory_card_emergent" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintHeight_percent="1.0" app:layout_constraintLeft_toRightOf="@id/tv_normal" app:layout_constraintWidth_percent="0.0" />
+            <TextView android:gravity="center" android:id="@id/tv_parking" android:background="@color/safety_memory_card_parking" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintHeight_percent="1.0" app:layout_constraintLeft_toRightOf="@id/tv_emergent" app:layout_constraintWidth_percent="0.0" />
+            <TextView android:gravity="center" android:id="@id/tv_sentinel" android:background="@color/safety_memory_card_sentinel" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintHeight_percent="1.0" app:layout_constraintLeft_toRightOf="@id/tv_parking" app:layout_constraintWidth_percent="0.0" />
+            <TextView android:gravity="center" android:id="@id/tv_other" android:background="@color/safety_memory_card_other" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintHeight_percent="1.0" app:layout_constraintLeft_toRightOf="@id/tv_sentinel" app:layout_constraintWidth_percent="0.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="75.0dip">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <View android:background="@drawable/safety_bg_storage_normal_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+                    <TextView android:textSize="32.0sp" android:textColor="@color/safety_memory_text_color" android:id="@id/tv_normal_title" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/safety_memory_card_size_normal" android:layout_marginStart="@dimen/common_dp_16" />
+                </LinearLayout>
+                <TextView android:textSize="48.0sp" android:textColor="@color/safety_memory_text_color" android:id="@id/tv_normal_text" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/safety_memory_card_size_null" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <View android:background="@drawable/safety_bg_storage_emergent_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+                    <TextView android:textSize="32.0sp" android:textColor="@color/safety_memory_text_color" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/safety_memory_card_size_emergent" android:layout_marginStart="@dimen/common_dp_16" />
+                </LinearLayout>
+                <TextView android:textSize="48.0sp" android:textColor="@color/safety_memory_text_color" android:id="@id/tv_emergent_text" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/safety_memory_card_size_null" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <View android:background="@drawable/safety_bg_storage_parking_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+                    <TextView android:textSize="32.0sp" android:textColor="@color/safety_memory_text_color" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/safety_memory_card_size_parking" android:layout_marginStart="@dimen/common_dp_16" />
+                </LinearLayout>
+                <TextView android:textSize="48.0sp" android:textColor="@color/safety_memory_text_color" android:id="@id/tv_parking_text" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/safety_memory_card_size_null" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <View android:background="@drawable/safety_bg_storage_sentinel_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+                    <TextView android:textSize="32.0sp" android:textColor="@color/safety_memory_text_color" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/safety_memory_card_size_sentinel" android:layout_marginStart="@dimen/common_dp_16" />
+                </LinearLayout>
+                <TextView android:textSize="48.0sp" android:textColor="@color/safety_memory_text_color" android:id="@id/tv_sentinel_text" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/safety_memory_card_size_null" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <View android:background="@drawable/safety_bg_storage_other_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+                    <TextView android:textSize="32.0sp" android:textColor="@color/safety_memory_text_color" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/safety_memory_card_size_other" android:layout_marginStart="@dimen/common_dp_16" />
+                </LinearLayout>
+                <TextView android:textSize="48.0sp" android:textColor="@color/safety_memory_text_color" android:id="@id/tv_other_text" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/safety_memory_card_size_null" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/tow_guide_page1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/out_guide_cl" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/safety_enter_tow_mode_image3" android:scaleType="fitXY" />
+        <View android:background="@drawable/safety_trailer_mode_shadow" android:layout_width="fill_parent" android:layout_height="334.0dip" app:layout_constraintBottom_toBottomOf="@id/out_guide_cl" app:layout_constraintStart_toStartOf="@id/out_guide_cl" />
+        <TextView android:textSize="@dimen/tip2_sp_28" android:textColor="@color/safety_trailer_mode_step_text" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="90.0dip" android:text="@string/safety_pop_enter_step_three" android:layout_marginStart="48.0dip" android:layout_marginEnd="48.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/out_guide_cl" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

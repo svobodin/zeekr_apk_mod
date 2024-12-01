@@ -1,0 +1,294 @@
+[
+  {
+    "fragmentIndex": -1,
+    "tabIndex": 0,
+    "tag": "QuickSettingFragment",
+    "intentList": [
+      "INTENT_Interface_OpenParkingComfortModePage",
+      "INTENT_VEH_SwitchCustomDriving",
+      "INTENT_Interface_OpenSuspensionControlPage",
+      "INTENT_Interface_OpenCustomDriving",
+      "INTENT_VEH_RunningMode",
+      "INTENT_Interface_OpenPanoramicImageSettingPage",
+      "INTENT_Interface_OpenStreamingMediaSettingPage",
+      "INTENT_Interface_OpenWheel",
+      "INTENT_Interface_OpenHUDControl",
+      "INTENT_HUDControl_Set",
+      "INTENT_Interface_OpenRearView",
+      "INTENT_Interface_OpenLeftRearView",
+      "INTENT_Interface_OpenRightRearView",
+      "INTENT_System_SpecifiedPage_Open"
+    ]
+  },
+  {
+    "fragmentIndex": 0,
+    "tabIndex": 0,
+    "tag": "VehicleFragment",
+    "intentList": [
+      "INTENT_Interface_OpenParkingComfortModePage"
+    ]
+  },
+  {
+    "fragmentIndex": 0,
+    "tabIndex": 1,
+    "tag": "VehicleFragment",
+    "intentList": [
+      "INTENT_Interface_OpenDoorLockSettingPage",
+      "INTENT_VEH_OpenCarDoor",
+      "INTENT_VEH_CloseCarDoor",
+      "INTENT_Interface_TurnOnCarLock",
+      "INTENT_VEH_TurnOnCentralLock",
+      "INTENT_VEH_OpenTrunk",
+      "INTENT_Interface_OpenCarDoorSettingPage",
+      "INTENT_System_SpecifiedPage_Open",
+      "INTENT_System_SpecifiedPage_Open",
+      "INTENT_VEH_SunproofInterface_Open",
+      "INTENT_Interface_OpenWindowControl"
+    ]
+  },
+  {
+    "fragmentIndex": 1,
+    "tabIndex": 0,
+    "tag": "LightingFragment",
+    "intentList": [
+      "INTENT_System_AtmosphereLampPage_Open",
+      "INTENT_VEH_AtmosphereLamp_ChangColor"
+    ]
+  },
+  {
+    "fragmentIndex": 1,
+    "tabIndex": 1,
+    "tag": "LightingFragment",
+    "intentList": [
+      "INTENT_VEH_TurnOnLampSetting",
+      "INTENT_System_OutsideLightSettingPage_Open"
+    ]
+  },
+  {
+    "fragmentIndex": 2,
+    "tabIndex": 0,
+    "tag": "DrivingFragment",
+    "intentList": [
+      "INTENT_VEH_RunningMode",
+      "INTENT_VEH_DrivingPositionSettingPage_Open",
+      "INTENT_VEH_TurnOnE-PedalSetting",
+      "INTENT_VEH_TurnOnAutomaticParking",
+      "INTENT_VEH_TurnOffE-PedalSetting",
+      "INTENT_VEH_BrakeSettingPage_Open",
+      "INTENT_VEH_ActivateParkingBrake",
+      "INTENT_Interface_OpenEnergyLevel",
+      "INTENT_VEH_ReleaseParkingBrake",
+      "INTENT_System_SpecifiedPage_Open",
+      "INTENT_System_SpecifiedPage_Open",
+      "INTENT_Interface_OpenHUDControl",
+      "INTENT_HUDControl_Set",
+      "INTENT_Interface_OpenRearView",
+      "INTENT_Interface_OpenLeftRearView",
+      "INTENT_Interface_OpenRightRearView"
+    ]
+  },
+  {
+    "fragmentIndex": 3,
+    "tabIndex": 0,
+    "tag": "TrafficAndSafetyFragment",
+    "intentList": [
+      "INTENT_Interface_OpenAutopilot",
+      "INTENT_VEH_TurnOnFrontCollisionWarning",
+      "INTENT_Interface_OpenAutopilot",
+      "INTENT_VEH_TurnOnRedLightBrake_Page",
+      "INTENT_VEH_TurnOnTrafficLight_Warning_Page",
+      "INTENT_VEH_TurnOnADAS_Overspeed_Warning_Page",
+      "INTENT_VEH_TurnOnADAS_Blind_Area_Page",
+      "INTENT_VEH_TurnOnFrontCollisionAvoidance_Page",
+      "INTENT_VEH_PreventiveBraking_Page",
+      "INTENT_VEH_TurnOnADAS_Page",
+      "INTENT_VEH_TurnOnLaneKeepingAssist",
+      "INTENT_VEH_TurnOnReverseLateralWarning",
+      "INTENT_VEH_TurnOffReverseLateralWarning",
+      "INTENT_VEH_TurnOnLowSpeedEmergencyBraking",
+      "INTENT_VEH_TurnOffLowSpeedEmergencyBraking",
+      "INTENT_VEH_TurnOnTrafficLightRecognition",
+      "INTENT_VEH_TurnOffTrafficLightRecognition",
+      "INTENT_VEH_TurnOnDriverAssistanceSystemSupport",
+      "INTENT_VEH_TurnOffDriverAssistanceSystemSupport",
+      "INTENT_VEH_SpeedLimitAlarm_Set",
+      "INTENT_VEH_TurnOnSpeedLimitSetting",
+      "INTENT_VEH_TurnOnRoadInformationAlert",
+      "INTENT_VEH_TurnOffRoadInformationAlert",
+      "INTENT_VEH_TurnOnTrafficLightWarning",
+      "INTENT_VEH_TurnOffTrafficLightWarning",
+      "INTENT_VEH_TurnOnTrafficLightSoundWarning",
+      "INTENT_VEH_TurnOffTrafficLightSoundWarning",
+      "INTENT_VEH_TurnOnLaneKeepingAssist",
+      "INTENT_VEH_TurnOffLaneKeepingAssist",
+      "INTENT_VEH_TurnOnAutomaticChangeLaneAssist",
+      "INTENT_VEH_TurnOffAutomaticChangeLaneAssist",
+      "INTENT_VEH_TurnOnChangeLaneWarningSystem",
+      "INTENT_VEH_TurnOffChangeLaneWarningSystem",
+      "INTENT_VEH_TurnOnFrontCollisionAvoidance",
+      "INTENT_VEH_TurnOffFrontCollisionAvoidance",
+      "INTENT_VEH_TurnOnFrontCollisionWarning",
+      "INTENT_VEH_TurnOffFrontCollisionWarning",
+      "INTENT_VEH_TurnOnRearCollisionWarning",
+      "INTENT_VEH_TurnOffRearCollisionWarning",
+      "INTENT_VEH_TurnOnOpenTheDoorWarning",
+      "INTENT_VEH_TurnOffOpenTheDoorWarning",
+      "INTENT_VEH_TurnOnDriverFatigueRemind",
+      "INTENT_VEH_TurnOffDriverFatigueRemind",
+      "INTENT_VEH_TurnOnSeatBeltComfortAdjustment",
+      "INTENT_VEH_TurnOffSeatBeltComfortAdjustment",
+      "INTENT_VEH_TurnOnSteeringWheelResetWarning",
+      "INTENT_VEH_TurnOffSteeringWheelResetWarning",
+      "INTENT_VEH_TurnOnPreventiveBrake",
+      "INTENT_VEH_TurnOffPreventiveBrake",
+      "INTENT_VEH_TurnOnRedLightBrakeAssist",
+      "INTENT_VEH_TurnOffRedLightBrakeAssist",
+      "INTENT_VEH_TurnOnBlindAreaMonitorSystem",
+      "INTENT_VEH_TurnOffBlindAreaMonitorSystem",
+      "INTENT_VEH_TurnOnForwardCollisionMitigation",
+      "INTENT_VEH_TurnOffForwardCollisionMitigation"
+    ]
+  },
+  {
+    "fragmentIndex": 3,
+    "tabIndex": 1,
+    "tag": "TrafficAndSafetyFragment",
+    "intentList": [
+      "INTENT_Interface_OpenParkingAssistant",
+      "INTENT_Interface_OpenParkingSettingPage",
+      "INTENT_Interface_OpenParkingAuxiliary",
+      "INTENT_VEH_TurnOffAutomaticParkingRecommendMode",
+      "INTENT_VEH_TurnOffRemoteControlParking",
+      "INTENT_VEH_TurnOnParkingAuxiliarySystem",
+      "INTENT_VEH_TurnOffParkingAuxiliarySystem",
+      "INTENT_VEH_TurnOnAutomaticParkingRecommendMode",
+      "INTENT_VEH_TurnOffAutomaticParkingRecommendMode",
+      "INTENT_VEH_TurnOnRemoteControlParking",
+      "INTENT_VEH_TurnOffRemoteControlParking",
+      "INTENT_VEH_TurnOnReverse_RadarAlarm_Page"
+    ]
+  },
+  {
+    "fragmentIndex": 4,
+    "tabIndex": 0,
+    "tag": "LabFragment",
+    "intentList": [
+    ]
+  },
+  {
+    "fragmentIndex": 5,
+    "tabIndex": 0,
+    "tag": "SafetyAndSecurityFragment",
+    "intentList": [
+      "INTENT_Interface_OpenSecuritySettingPage",
+      "INTENT_Interface_OpenCarSearchModePage",
+      "INTENT_VEH_TurnOnGloveBox",
+      "INTENT_VEH_TurnOffGloveBox",
+      "INTENT_Interface_OpenGloveBoxSettingPage",
+      "INTENT_DVR_VideoFormatting",
+      "INTENT_System_VideoSettingPage_Open"
+    ]
+  },
+  {
+    "fragmentIndex": 5,
+    "tabIndex": 1,
+    "tag": "SafetyAndSecurityFragment",
+    "intentList": [
+      "INTENT_Interface_OpenVehicleServicePage",
+      "INTENT_VEH_TurnOffPower"
+    ]
+  },
+  {
+    "fragmentIndex": 6,
+    "tabIndex": 0,
+    "tag": "EnergyDiffFragment",
+    "intentList": [
+      "INTENT_VEH_ChargingTimeCheck",
+      "INTENT_VEH_CurrentPowerCheck",
+      "INTENT_VEH_DrivingMileageCheck",
+      "INTENT_VEH_ChargingStatusQuery",
+      "INTENT_VEH_ReservationCharging"
+    ]
+  },
+  {
+    "fragmentIndex": 6,
+    "tabIndex": 1,
+    "tag": "EnergyDiffFragment",
+    "intentList": [
+      "INTENT_VEH_OtherEquipmentCharging"
+    ]
+  },
+  {
+    "fragmentIndex": 7,
+    "tabIndex": 0,
+    "tag": "ConnFragment",
+    "intentList": [
+      "INTENT_Gen_ScreenSwitch",
+      "INTENT_System_BT_TurnOn",
+      "INTENT_System_BT_TurnOff"
+    ]
+  },
+  {
+    "fragmentIndex": 8,
+    "tabIndex": 0,
+    "tag": "SoundNotificationFragment",
+    "intentList": [
+      "INTENT_Interface_OpenSoundSimulation",
+      "INTENT_SoundSimulation_SetPreview",
+      "INTENT_TurnOffSoundSimulation",
+      "INTENT_PauseSoundSimulation",
+      "INTENT_SelectSoundSimulation",
+      "INTENT_NextSoundSimulation",
+      "INTENT_PreviousSoundSimulation",
+      "INTENT_System_CallReminderPage_Open",
+      "INTENT_System_SeatSoundOptimizationPage_Open",
+      "INTENT_System_SeatSoundOptimizationPage_Set",
+      "INTENT_Interface_OpenSoundSimulation",
+      "INTENT_System_SoundEffectPage_Open",
+      "INTENT_System_SoundEqualizerPage_Open",
+      "INTENT_System_LowSpeedAlarmPage_Open"
+    ]
+  },
+  {
+    "fragmentIndex": 8,
+    "tabIndex": 1,
+    "tag": "SoundNotificationFragment",
+    "intentList": [
+      "INTENT_System_KeyVolume_Set",
+      "INTENT_Interface_OpenSystemVolume",
+      "INTENT_System_PromptSoundPage_Open",
+      "INTENT_System_Speed_VolumeCompensationPage_Open"
+    ]
+  },
+  {
+    "fragmentIndex": 9,
+    "tabIndex": 0,
+    "tag": "DisplayFragment",
+    "intentList": [
+      "INTENT_System_TimeFormatPage_Open",
+      "INTENT_System_BrightnessPage_Open",
+      "INTENT_System_TimeFormat_Set",
+      "INTENT_System_BacklightBrightness_Inc",
+      "INTENT_System_Brightness_Switch_AutoMode",
+      "INTENT_System_ScreenThemePage_Open"
+    ]
+  },
+  {
+    "fragmentIndex": 10,
+    "tabIndex": 0,
+    "tag": "OtaFragment",
+    "intentList": [
+      "INTENT_System_VersionInformationPage_Open",
+      "INTENT_System_UpgradePage_Open",
+      "INTENT_System_OpenUpdatePage",
+      "INTENT_System_NotificationSettingPage_Open",
+      "INTENT_System_NotificationSet_Open",
+      "INTENT_System_NotificationSet_Close",
+      "INTENT_System_NotificationVoiceBroadcast_Open",
+      "INTENT_System_NotificationVoiceBroadcast_Close",
+      "INTENT_System_NotificationHidden_Open",
+      "INTENT_System_NotificationHidden_Close",
+      "INTENT_System_CommonSettingPage_Open"
+    ]
+  }
+]

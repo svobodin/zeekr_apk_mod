@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acceleration_level">
+        <item>Slow</item>
+        <item>Standard</item>
+        <item>Fast</item>
+    </string-array>
+    <string-array name="adas_fix_speed_percentage">
+        <item>固定车速km/h</item>
+        <item>百分比%</item>
+    </string-array>
+    <string-array name="adas_lane_change_style_options">
+        <item>关闭</item>
+        <item>标准</item>
+        <item>敏捷</item>
+    </string-array>
+    <string-array name="adas_options_sensitivity_level">
+        <item>关闭</item>
+        <item>较晚</item>
+        <item>适中</item>
+        <item>较早</item>
+    </string-array>
+    <string-array name="adas_remind_type">
+        <item>蜂鸣</item>
+        <item>振动</item>
+    </string-array>
+    <string-array name="adas_remind_type_display_and_buzzing">
+        <item>显示</item>
+        <item>蜂鸣</item>
+    </string-array>
+    <string-array name="adas_remind_type_display_and_buzzing_with_off">
+        <item>OFF</item>
+        <item>显示</item>
+        <item>蜂鸣</item>
+    </string-array>
+    <string-array name="adas_remind_type_with_off">
+        <item>OFF</item>
+        <item>蜂鸣</item>
+        <item>振动</item>
+    </string-array>
+    <string-array name="adas_search_car_remind_type">
+        <item>灯光</item>
+        <item>灯光+声音</item>
+    </string-array>
+    <string-array name="adas_sensitivity_level">
+        <item>较晚</item>
+        <item>适中</item>
+        <item>较早</item>
+    </string-array>
+    <string-array name="adas_sensitivity_level_with_off">
+        <item>OFF</item>
+        <item>较晚</item>
+        <item>适中</item>
+        <item>较早</item>
+    </string-array>
+    <string-array name="adas_sensitivity_sensitivity_level_low_middle_high">
+        <item>LOW</item>
+        <item>MEDIUM</item>
+        <item>HIGH</item>
+    </string-array>
+    <string-array name="adas_speed_limit_type">
+        <item>Fixed speed</item>
+        <item>Percentage</item>
+    </string-array>
+    <string-array name="adas_speed_limit_warn_offset">
+        <item>-10</item>
+        <item>-5</item>
+        <item>0</item>
+        <item>+5</item>
+        <item>+10</item>
+    </string-array>
+    <string-array name="adas_speed_limit_warning">
+        <item>Visual</item>
+        <item>Audio</item>
+    </string-array>
+    <string-array name="adas_speed_limit_warning_with_off">
+        <item>关闭</item>
+        <item>显示</item>
+        <item>显示+声音</item>
+    </string-array>
+    <string-array name="adas_voice_broadcasting_mode">
+        <item>标准</item>
+        <item>简洁</item>
+    </string-array>
+    <string-array name="avas_sound">
+        <item>极氪AVAS</item>
+        <item>光子踏星</item>
+        <item>灵晔西征</item>
+        <item>魔法森林</item>
+    </string-array>
+    <string-array name="avas_sound_upd1">
+        <item>ZEEKR AVAS</item>
+        <item>Photon stepping star</item>
+        <item>Sun going down to west</item>
+        <item>Magic forest</item>
+    </string-array>
+    <string-array name="bx_copilot_and_parking">
+        <item>Intelligent Drive System</item>
+        <item>Auto Park System</item>
+        <item>NZP</item>
+    </string-array>
+    <string-array name="bx_door_angle_tab">
+        <item>前车门</item>
+        <item>后车门</item>
+        <item>尾门</item>
+    </string-array>
+    <string-array name="bx_door_angle_tab1">
+        <item>前车门</item>
+        <item>尾门</item>
+    </string-array>
+    <string-array name="bx_door_angle_tab2">
+        <item>前车门</item>
+        <item>后车门</item>
+    </string-array>
+    <string-array name="bx_door_angle_tab3">
+        <item>前车门</item>
+    </string-array>
+    <string-array name="bx_door_angle_tab4">
+        <item>尾门</item>
+    </string-array>
+    <string-array name="bx_door_angle_tab5">
+        <item>后车门</item>
+        <item>尾门</item>
+    </string-array>
+    <string-array name="bx_door_angle_tab6">
+        <item>后车门</item>
+    </string-array>
+    <string-array name="bx_door_key_unlock_position">
+        <item>主驾门</item>
+        <item>所有门</item>
+    </string-array>
+    <string-array name="bx_door_window_style_tab">
+        <item>涟漪</item>
+        <item>波澜</item>
+        <item>激流</item>
+    </string-array>
+    <string-array name="bx_home_safety_light">
+        <item>OFF</item>
+        <item>30s</item>
+        <item>60s</item>
+        <item>90s</item>
+    </string-array>
+    <string-array name="bx_light">
+        <item>Interior Light</item>
+        <item>Exterior Light</item>
+    </string-array>
+    <string-array name="bx_light_A2">
+        <item>Monochrome</item>
+        <item>Breathe</item>
+        <item>Music show</item>
+        <item>Driving mode</item>
+        <item>Theme mode</item>
+    </string-array>
+    <string-array name="bx_light_farewell">
+        <item>OFF</item>
+        <item>Subdued</item>
+        <item>Fun</item>
+        <item>Cool</item>
+    </string-array>
+    <string-array name="bx_light_follow">
+        <item>Monochrome</item>
+        <item>Breathe</item>
+        <item>渐变</item>
+        <item>Music show</item>
+    </string-array>
+    <string-array name="bx_light_follow_drive">
+        <item>Monochrome</item>
+        <item>Breathe</item>
+        <item>渐变</item>
+        <item>Music show</item>
+        <item>竞速联动</item>
+    </string-array>
+    <string-array name="bx_light_follow_low">
+        <item>Monochrome</item>
+        <item>Theme</item>
+    </string-array>
+    <string-array name="bx_light_low">
+        <item>Exterior Light</item>
+    </string-array>
+    <string-array name="bx_light_seat_position">
+        <item>Front row</item>
+        <item>Rear row</item>
+    </string-array>
+    <string-array name="bx_more_wheel_key">
+        <item>左侧</item>
+        <item>右侧</item>
+    </string-array>
+    <string-array name="bx_vehicle_and_door">
+        <item>基础控制</item>
+        <item>门窗</item>
+    </string-array>
+    <string-array name="common_bx_drive_sat_tabs">
+        <item>驱动</item>
+        <item>转向</item>
+    </string-array>
+    <string-array name="common_car_locator_type">
+        <item>Flashing light</item>
+        <item>flashing and Siren</item>
+    </string-array>
+    <string-array name="common_dc_drive_sat_tabs">
+        <item>Propulsion</item>
+        <item>Suspension</item>
+        <item>Rab</item>
+        <item>Steering Wheel</item>
+    </string-array>
+    <string-array name="common_door_manual_helps">
+        <item>Portable</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="common_door_mode">
+        <item>Close</item>
+        <item>Boarding only</item>
+        <item>Getting on and off</item>
+    </string-array>
+    <string-array name="common_door_mode_two">
+        <item>Close</item>
+        <item>Getting on and off</item>
+    </string-array>
+    <string-array name="common_driver_mode_a2">
+        <item>Comfort</item>
+        <item>Eco</item>
+        <item>Sport</item>
+        <item>Track</item>
+        <item>Snow</item>
+        <item>Sand</item>
+        <item>Off-Road</item>
+        <item>Individual</item>
+    </string-array>
+    <string-array name="common_energy_recovery_level">
+        <item>弱</item>
+        <item>标准</item>
+        <item>强</item>
+    </string-array>
+    <string-array name="common_equalizer_presets">
+        <item>Flat</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Jazz</item>
+        <item>Classic</item>
+        <item>Vocal</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="common_general_time">
+        <item>12h</item>
+        <item>24h</item>
+    </string-array>
+    <string-array name="common_hud_adjust_type">
+        <item>常规</item>
+        <item>AR</item>
+    </string-array>
+    <string-array name="common_individual_propulsion">
+        <item>Eco</item>
+        <item>Comfort</item>
+        <item>Dynamic</item>
+    </string-array>
+    <string-array name="common_individual_rab">
+        <item>Standard</item>
+        <item>Dynamic</item>
+    </string-array>
+    <string-array name="common_individual_steer">
+        <item>Comfort</item>
+        <item>Eco</item>
+        <item>Dynamic</item>
+    </string-array>
+    <string-array name="common_individual_suspension">
+        <item>很高</item>
+        <item>高</item>
+        <item>标准</item>
+        <item>低</item>
+        <item>很低</item>
+    </string-array>
+    <string-array name="common_key_unlock_handle">
+        <item>Driver Doors</item>
+        <item>All Doors</item>
+    </string-array>
+    <string-array name="common_mirror_title">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    <string-array name="common_mirror_title_beta">
+        <item>左后视镜</item>
+        <item>右后视镜</item>
+        <item>随视线朝向</item>
+    </string-array>
+    <string-array name="common_offset_value">
+        <item>-10</item>
+        <item>-5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="common_point_mode">
+        <item>2.4GHz</item>
+        <item>5GHz</item>
+    </string-array>
+    <string-array name="common_regeneration_level">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="common_regeneration_level_bx">
+        <item>弱</item>
+        <item>标准</item>
+        <item>强</item>
+    </string-array>
+    <string-array name="common_sound_notification_bx">
+        <item>Sound</item>
+        <item>System</item>
+    </string-array>
+    <string-array name="common_suspa_level">
+        <item>舒适</item>
+        <item>标准</item>
+        <item>运动</item>
+    </string-array>
+    <string-array name="common_suspension_height">
+        <item>Very Low</item>
+        <item>Low</item>
+        <item>Standard</item>
+        <item>Hight</item>
+        <item>Very high</item>
+    </string-array>
+    <string-array name="common_tilt_mirror">
+        <item>两侧</item>
+        <item>左侧</item>
+        <item>右侧</item>
+    </string-array>
+    <string-array name="common_touch_handle">
+        <item>All Doors</item>
+        <item>Single Door</item>
+    </string-array>
+    <string-array name="common_window_alpha">
+        <item>Left business class</item>
+        <item>Right business class</item>
+    </string-array>
+    <string-array name="common_zeekr_arrmode">
+        <item>LOW</item>
+        <item>MEDIUM</item>
+        <item>HIGH</item>
+    </string-array>
+    <string-array name="common_zeekrad_blind_zone_warning_type">
+        <item>关闭</item>
+        <item>灯光</item>
+        <item>灯光+声音</item>
+    </string-array>
+    <string-array name="common_zeekrad_imgtotext">
+        <item>OFF</item>
+        <item>Late</item>
+        <item>Medium</item>
+        <item>Early</item>
+    </string-array>
+    <string-array name="common_zeekrad_lane">
+        <item>OFF</item>
+        <item>beep</item>
+        <item>vibration</item>
+    </string-array>
+    <string-array name="common_zeekrad_lane_change_warning">
+        <item>关</item>
+        <item>音效</item>
+        <item>语音</item>
+    </string-array>
+    <string-array name="common_zeekrad_lane_keep_warning">
+        <item>关闭</item>
+        <item>预警</item>
+        <item>纠偏</item>
+        <item>预警+纠偏</item>
+    </string-array>
+    <string-array name="common_zeekrad_offset_unit">
+        <item>km/h</item>
+        <item>%</item>
+    </string-array>
+    <string-array name="common_zeekrad_reminder_mode">
+        <item>显示</item>
+        <item>显示+声音</item>
+    </string-array>
+    <string-array name="common_zeekrad_reminder_mode_blind_spot">
+        <item>灯光</item>
+        <item>灯光+声音</item>
+    </string-array>
+    <string-array name="common_zeekrad_reveal">
+        <item>OFF</item>
+        <item>display</item>
+        <item>beep</item>
+    </string-array>
+    <string-array name="common_zeekrad_reveal_sencond">
+        <item>display</item>
+        <item>beep</item>
+    </string-array>
+    <string-array name="common_zeekrad_sensitivity">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="common_zeekrad_waring_timing">
+        <item>Late</item>
+        <item>Medium</item>
+        <item>Early</item>
+    </string-array>
+    <string-array name="csd_tilt_intelligent_orientation_one">
+        <item>手动优先</item>
+        <item>主驾优先</item>
+        <item>自动旋转</item>
+    </string-array>
+    <string-array name="csd_tilt_intelligent_orientation_two">
+        <item>手动优先</item>
+        <item>主驾优先</item>
+    </string-array>
+    <string-array name="csd_tilt_position">
+        <item>主驾</item>
+        <item>中间</item>
+        <item>副驾</item>
+    </string-array>
+    <string-array name="dc_door_and_window">
+        <item>车门</item>
+        <item>车窗</item>
+    </string-array>
+    <string-array name="dc_door_skylight_window">
+        <item>Car Door</item>
+        <item>Sky Window</item>
+        <item>Car Window</item>
+    </string-array>
+    <string-array name="display_array_home_weather_effect">
+        <item>动态</item>
+        <item>晴</item>
+        <item>雨</item>
+        <item>雪</item>
+    </string-array>
+    <string-array name="display_array_time_format">
+        <item>12h</item>
+        <item>24h</item>
+    </string-array>
+    <string-array name="display_dim_screen_saver_time_array">
+        <item>3分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>20分钟</item>
+    </string-array>
+    <string-array name="door_sound_ef1e_4s">
+        <item>优雅竖琴</item>
+        <item>轻盈灵动</item>
+        <item>梦幻开场</item>
+    </string-array>
+    <string-array name="doorwindow_angle_tab">
+        <item>Front doors</item>
+        <item>Rear doors</item>
+        <item>Trunk</item>
+    </string-array>
+    <string-array name="doorwindow_angle_tab1">
+        <item>Front doors</item>
+        <item>Trunk</item>
+    </string-array>
+    <string-array name="doorwindow_angle_tab2">
+        <item>Front doors</item>
+        <item>Rear doors</item>
+    </string-array>
+    <string-array name="doorwindow_angle_tab3">
+        <item>Front doors</item>
+    </string-array>
+    <string-array name="doorwindow_angle_tab4">
+        <item>Trunk</item>
+    </string-array>
+    <string-array name="doorwindow_angle_tab5">
+        <item>Rear doors</item>
+        <item>Trunk</item>
+    </string-array>
+    <string-array name="doorwindow_angle_tab6">
+        <item>Rear doors</item>
+    </string-array>
+    <string-array name="energy_pre">
+        <item>预约充电</item>
+        <item>预约出行</item>
+    </string-array>
+    <string-array name="energy_range_mode">
+        <item>标准续航</item>
+        <item>动态续航</item>
+    </string-array>
+    <string-array name="energy_tab">
+        <item>车辆充电</item>
+        <item>对外供电</item>
+    </string-array>
+    <string-array name="in_available_sound">
+        <item>极氪声浪</item>
+        <item>空战风暴</item>
+        <item>机械时代</item>
+        <item>空战风暴-播报模式</item>
+        <item>机械时代-播报模式</item>
+    </string-array>
+    <string-array name="in_available_sound_cm2e">
+        <item>极氪声浪</item>
+        <item>空战风暴</item>
+        <item>凌空永恒</item>
+        <item>空战风暴-播报模式</item>
+        <item>凌空永恒-播报模式</item>
+    </string-array>
+    <string-array name="in_rear_mirror_display_list">
+        <item>后视镜</item>
+        <item>后排</item>
+    </string-array>
+    <string-array name="in_rear_mirror_scale_list">
+        <item>X1</item>
+        <item>X1.2</item>
+        <item>X1.4</item>
+    </string-array>
+    <string-array name="key_stone_type">
+        <item>Type1</item>
+        <item>Type2</item>
+        <item>Type3</item>
+    </string-array>
+    <string-array name="light_mode_array">
+        <item>OFF</item>
+        <item>Stealth</item>
+        <item>Wait</item>
+        <item>Finding object</item>
+    </string-array>
+    <string-array name="lighting_follow_ef">
+        <item>Monochrome</item>
+        <item>Driving mode</item>
+    </string-array>
+    <string-array name="list_program_type_a2">
+        <item>背部舒展</item>
+        <item>背部放松</item>
+        <item>背部激活</item>
+        <item>脊柱松弛</item>
+        <item>肩部舒展</item>
+        <item>腰部放松</item>
+    </string-array>
+    <string-array name="list_program_type_cs1e">
+        <item>全背放松</item>
+        <item>全背舒展</item>
+        <item>脊柱放松</item>
+        <item>背部放松</item>
+        <item>腰部放松</item>
+        <item>背部激活</item>
+    </string-array>
+    <string-array name="list_program_type_cx1e_cm2e">
+        <item>海浪</item>
+        <item>放松</item>
+        <item>清新</item>
+        <item>激情</item>
+        <item>舒展</item>
+        <item>背部</item>
+        <item>腰部</item>
+        <item>单点</item>
+    </string-array>
+    <string-array name="list_program_type_ef1e4s">
+        <item>全身舒展</item>
+        <item>深层释压</item>
+        <item>肩颈舒缓</item>
+        <item>背部推拿</item>
+        <item>脊椎释压</item>
+        <item>腰部推拿</item>
+        <item>腰臀舒缓</item>
+        <item>臀腿推拿</item>
+    </string-array>
+    <string-array name="mode_headlights_height_adjustment">
+        <item>标准</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mode_headrest">
+        <item>沉浸模式</item>
+        <item>私享模式</item>
+        <item>专注模式</item>
+    </string-array>
+    <string-array name="more_hud_adjust">
+        <item>高度</item>
+        <item>亮度</item>
+        <item>角度</item>
+    </string-array>
+    <string-array name="more_mirror_title">
+        <item>左后视镜</item>
+        <item>右后视镜</item>
+    </string-array>
+    <string-array name="more_mirror_title_beta">
+        <item>左后视镜</item>
+        <item>右后视镜</item>
+        <item>随视线朝向</item>
+    </string-array>
+    <string-array name="multi_sound_effects_bx">
+        <item>Standard</item>
+        <item>Jazz Club</item>
+        <item>Stage Act</item>
+        <item>Movie</item>
+    </string-array>
+    <string-array name="multi_sound_effects_dc">
+        <item>Jazz Club</item>
+        <item>Stage Act</item>
+    </string-array>
+    <string-array name="ota_and_system">
+        <item>System</item>
+        <item>Laboratory</item>
+        <item>My car</item>
+    </string-array>
+    <string-array name="ota_more_gesture_title_name">
+        <item>1/4 Mute</item>
+        <item>2/4 Previous song</item>
+        <item>3/4 Next song</item>
+        <item>4/4 Favorite</item>
+    </string-array>
+    <string-array name="quick_setting_dc_drive_sat_tabs">
+        <item>Propulsion</item>
+        <item>Suspension</item>
+        <item>Damp</item>
+        <item>Brake</item>
+        <item>Steering</item>
+    </string-array>
+    <string-array name="quick_setting_driver_mode">
+        <item>Comfort</item>
+        <item>Eco</item>
+        <item>Sport</item>
+        <item>Track</item>
+        <item>Snow</item>
+        <item>Sand</item>
+        <item>Off-Road</item>
+        <item>Customization</item>
+    </string-array>
+    <string-array name="quick_setting_driver_mode_two">
+        <item>Comfort</item>
+        <item>Eco</item>
+        <item>Sport</item>
+        <item>Track</item>
+        <item>Customization</item>
+    </string-array>
+    <string-array name="quick_setting_individual_climate">
+        <item>Standard</item>
+        <item>Eco</item>
+    </string-array>
+    <string-array name="quick_setting_individual_propulsion">
+        <item>Eco</item>
+        <item>Comfort</item>
+        <item>Sport</item>
+    </string-array>
+    <string-array name="quick_setting_individual_rab">
+        <item>Normal</item>
+        <item>Sport</item>
+    </string-array>
+    <string-array name="quick_setting_individual_steer">
+        <item>Comfort</item>
+        <item>Normal</item>
+        <item>Sport</item>
+    </string-array>
+    <string-array name="quick_setting_individual_suspension">
+        <item>Off-Road</item>
+        <item>Traction</item>
+        <item>Comfort</item>
+        <item>Sport</item>
+    </string-array>
+    <string-array name="quick_setting_individual_suspension_tip">
+        <item>Maximum driving height</item>
+        <item>Special Terrain(Sand etc)</item>
+        <item>Normal</item>
+        <item>Low and agile</item>
+    </string-array>
+    <string-array name="quick_setting_suspension_height">
+        <item>Very High</item>
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+        <item>Very Low</item>
+    </string-array>
+    <string-array name="safety_and_security">
+        <item>安全</item>
+        <item>维护</item>
+    </string-array>
+    <string-array name="safety_car_locator_type1">
+        <item>鸣笛闪灯</item>
+        <item>闪灯</item>
+    </string-array>
+    <string-array name="safety_resolution">
+        <item>720P</item>
+        <item>1080P</item>
+    </string-array>
+    <string-array name="safety_video_segment_duration">
+        <item>1min</item>
+        <item>3min</item>
+        <item>5min</item>
+    </string-array>
+    <string-array name="seat_optimisation">
+        <item>Driver</item>
+        <item>Rear</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="seat_optimisation_a2">
+        <item>All</item>
+        <item>Driver</item>
+        <item>Rear</item>
+    </string-array>
+    <string-array name="seat_optimisation_cs1e">
+        <item>All</item>
+        <item>Driver</item>
+        <item>passenger</item>
+        <item>rear left</item>
+        <item>rear right</item>
+    </string-array>
+    <string-array name="side">
+        <item>Vehicle</item>
+        <item>Lighting</item>
+        <item>Driving</item>
+        <item>ZEEKR AD</item>
+        <item>ZEEKR AI Lab</item>
+        <item>Safety&amp;Maintenance</item>
+        <item>能量管理</item>
+        <item>Connectivity</item>
+        <item>Sound</item>
+        <item>Display</item>
+        <item>General</item>
+    </string-array>
+    <string-array name="side121">
+        <item>Vehicle</item>
+        <item>Lighting</item>
+        <item>Driving</item>
+        <item>ZEEKR AD</item>
+        <item>Safety&amp;Maintenance</item>
+        <item>Energy management</item>
+        <item>Connectivity</item>
+        <item>Sound</item>
+        <item>Display</item>
+        <item>General</item>
+    </string-array>
+    <string-array name="side_a2">
+        <item>QuickSetting</item>
+        <item>Vehicle</item>
+        <item>Lighting</item>
+        <item>Driving</item>
+        <item>ZEEKR AD</item>
+        <item>ZEEKR AI Lab</item>
+        <item>Safety&amp;Maintenance</item>
+        <item>能量管理</item>
+        <item>Connectivity</item>
+        <item>Sound</item>
+        <item>Display</item>
+        <item>General</item>
+    </string-array>
+    <string-array name="sky_curtain_groups">
+        <item>全关</item>
+        <item>1挡</item>
+        <item>2挡</item>
+        <item>3挡</item>
+        <item>全开</item>
+    </string-array>
+    <string-array name="sky_window_groups">
+        <item>自定义</item>
+        <item>天幕样式</item>
+        <item>遮阳帘模式</item>
+    </string-array>
+    <string-array name="speed_array_level">
+        <item>Standard</item>
+        <item>Off</item>
+        <item>drift</item>
+    </string-array>
+    <string-array name="steering_assist_level">
+        <item>Portable</item>
+        <item>Standard</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="stop_mode">
+        <item>Slow down</item>
+        <item>Hold</item>
+    </string-array>
+    <string-array name="tab_hud">
+        <item>高度</item>
+        <item>亮度</item>
+        <item>角度</item>
+    </string-array>
+    <string-array name="tab_mirror">
+        <item>左后视镜</item>
+        <item>右后视镜</item>
+    </string-array>
+    <string-array name="tab_mirror_ailab">
+        <item>左后视镜</item>
+        <item>右后视镜</item>
+        <item>随视线朝向</item>
+    </string-array>
+    <string-array name="tab_seat">
+        <item>Seat massage</item>
+        <item>Seat adjustment</item>
+    </string-array>
+    <string-array name="tab_seat_adjust_main">
+        <item>Driver</item>
+        <item>Passenger</item>
+        <item>Rear left</item>
+        <item>Rear right</item>
+    </string-array>
+    <string-array name="tab_seat_adjust_part">
+        <item>Seat</item>
+        <item>Wing</item>
+        <item>Lumbar</item>
+        <item>Cushion</item>
+    </string-array>
+    <string-array name="tab_seat_adjust_rear">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    <string-array name="tab_seat_adjust_turefollow">
+        <item>OFF</item>
+        <item>Low</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="tab_seat_massage_main">
+        <item>Driver</item>
+        <item>Passenger</item>
+    </string-array>
+    <string-array name="tab_seat_massage_program">
+        <item>Waves</item>
+        <item>Relaxing</item>
+        <item>Refresh</item>
+        <item>Energetic</item>
+    </string-array>
+    <string-array name="tab_seat_massage_strength">
+        <item>OFF</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="tab_seat_onlyadjust">
+        <item>Seat adjustment</item>
+    </string-array>
+    <string-array name="tank_turn_around_list">
+        <item>持续</item>
+        <item>90°</item>
+        <item>180°</item>
+        <item>360°</item>
+    </string-array>
+    <string-array name="zeekrad_offset_unit">
+        <item>km/h</item>
+        <item>%</item>
+    </string-array>
+</resources>

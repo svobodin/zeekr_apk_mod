@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/page_dialog" android:tag="layout/dialog_mixture_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.geely.pma.settings.seat.view.ComplexDrvrView android:id="@id/v_complex_drvr" android:visibility="gone" android:layout_width="712.0dip" android:layout_height="866.0dip" android:layout_marginTop="614.0dip" android:layout_marginStart="50.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.geely.pma.settings.seat.view.ComplexPassView android:id="@id/v_complex_pass" android:visibility="gone" android:layout_width="712.0dip" android:layout_height="866.0dip" android:layout_marginTop="614.0dip" android:layout_marginEnd="50.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.geely.pma.settings.seat.view.HabitDrvrView android:id="@id/v_habit_drvr" android:visibility="gone" android:layout_width="712.0dip" android:layout_height="wrap_content" android:layout_marginTop="114.0dip" android:layout_marginStart="50.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

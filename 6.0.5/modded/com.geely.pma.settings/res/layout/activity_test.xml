@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/show_car_data_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="show_car_data" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <Button android:id="@id/send_car_data_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="send_car_data" app:layout_constraintLeft_toRightOf="@id/show_car_data_btn" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

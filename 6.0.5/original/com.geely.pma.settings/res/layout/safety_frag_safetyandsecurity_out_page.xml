@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/safety_frag_safetyandsecurity_out_page_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="51.0dip" android:src="@drawable/safety_bg_safe_and_maintain" android:scaleType="center" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zeekr.component.tab.ZeekrTabLayout android:id="@id/tl_da_right_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CommonTabLayoutStyle.CS" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/vp_da_right_content" android:layout_width="1044.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tl_da_right_title" style="@style/CommonScaffoldVp8295" />
+</androidx.constraintlayout.widget.ConstraintLayout>

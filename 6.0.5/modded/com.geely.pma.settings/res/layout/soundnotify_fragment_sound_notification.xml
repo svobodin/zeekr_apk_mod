@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/soundnotify_fragment_sound_notification_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.component.tab.ZeekrTabLayout android:id="@id/tab_sound_notification" android:layout_marginTop="@dimen/common_content_first_tab_top" android:layout_marginStart="@dimen/common_menu_content_gap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CommonTabLayoutStyle" />
+    <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/tip2_dp_153" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

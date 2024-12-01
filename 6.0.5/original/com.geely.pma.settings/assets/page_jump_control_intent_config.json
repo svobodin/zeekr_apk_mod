@@ -1,0 +1,140 @@
+[
+  {
+    "pageIndex": -1,
+    "page": "quickSetting",
+    "tag": "QuickSettingFragment",
+    "subPageList": null
+  },
+  {
+    "pageIndex": 0,
+    "page": "vehicle",
+    "tag": "VehicleFragment",
+    "subPageList": [
+      {
+        "pageIndex": 0,
+        "page": "baseControl",
+        "subPageList": null
+      },
+      {
+        "pageIndex": 1,
+        "page": "doorWindow",
+        "subPageList": null
+      }
+    ]
+  },
+  {
+    "pageIndex": 1,
+    "page": "light",
+    "tag": "LightingFragment",
+    "subPageList": [
+      {
+        "pageIndex": 0,
+        "page": "interiorLight",
+        "subPageList": null
+      },
+      {
+        "pageIndex": 1,
+        "page": "outsideLight",
+        "subPageList": null
+      }
+    ]
+  },
+  {
+    "pageIndex": 2,
+    "page": "drive",
+    "tag": "DrivingFragment",
+    "subPageList": null
+  },
+  {
+    "pageIndex": 3,
+    "page": "zeekrAD",
+    "tag": "TrafficAndSafetyFragment",
+    "subPageList": null
+  },
+  {
+    "pageIndex": 4,
+    "page": "aiLab",
+    "tag": "LabFragment",
+    "subPageList": null
+  },
+  {
+    "pageIndex": 5,
+    "page": "securityMaintenance",
+    "tag": "SafetyAndSecurityFragment",
+    "subPageList": [
+      {
+        "pageIndex": 0,
+        "page": "security",
+        "subPageList": null
+      },
+      {
+        "pageIndex": 1,
+        "page": "maintenance",
+        "subPageList": null
+      }
+    ]
+  },
+  {
+    "pageIndex": 6,
+    "page": "energy",
+    "tag": "EnergyDiffFragment",
+    "subPageList": [
+      {
+        "pageIndex": 0,
+        "page": "vehicleCharging",
+        "subPageList": null
+      },
+      {
+        "pageIndex": 1,
+        "page": "externalPowerSupply",
+        "subPageList": null
+      }
+    ]
+  },
+  {
+    "pageIndex": 7,
+    "page": "connection",
+    "tag": "ConnFragment",
+    "subPageList": null
+  },
+  {
+    "pageIndex": 8,
+    "page": "sound",
+    "tag": "SoundNotificationFragment",
+    "subPageList": [
+      {
+        "pageIndex": 0,
+        "page": "interiorSound",
+        "subPageList": null
+      },
+      {
+        "pageIndex": 1,
+        "page": "systemSound",
+        "subPageList": null
+      }
+    ]
+  },
+  {
+    "pageIndex": 9,
+    "page": "display",
+    "tag": "DisplayFragment",
+    "subPageList": null
+  },
+  {
+    "pageIndex": 10,
+    "page": "general",
+    "tag": "OtaFragment",
+    "subPageList": [
+      {
+        "pageIndex": 0,
+        "page": "system",
+        "subPageList": null
+      },
+      {
+        "pageIndex": 1,
+        "page": "zeekrLab",
+        "subPageList": null
+      }
+    ]
+  }
+]

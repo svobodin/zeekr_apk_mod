@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cl_search_result" android:background="@color/common_background" android:paddingBottom="@dimen/common_dp_52" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/common_qs_middle_left_view_width" android:layout_height="fill_parent" android:layout_marginTop="185.0dip" android:paddingStart="@dimen/common_dp_20" android:layout_marginEnd="@dimen/common_dp_20"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/common_sp_21" android:textColor="@color/common_search_result_text_color" android:id="@id/tv_result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/common_search_result" android:layout_marginStart="@dimen/common_dp_20" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_search_result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_8" android:layout_marginBottom="@dimen/common_dp_190" />
+</LinearLayout>

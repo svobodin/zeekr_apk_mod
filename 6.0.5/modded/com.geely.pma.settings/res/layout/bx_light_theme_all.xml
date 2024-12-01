@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/bx_lightall" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bx_light_all1" android:background="@drawable/bx_light_the1" android:layout_width="209.0dip" android:layout_height="84.0dip" android:layout_marginLeft="11.0dip" android:layout_marginTop="11.0dip" />
+    <ImageView android:id="@id/bx_light_all2" android:background="@drawable/bx_light_the2" android:layout_width="209.0dip" android:layout_height="84.0dip" android:layout_marginLeft="28.0dip" android:layout_marginTop="11.0dip" />
+    <ImageView android:id="@id/bx_light_all3" android:background="@drawable/bx_light_the3" android:layout_width="209.0dip" android:layout_height="84.0dip" android:layout_marginLeft="28.0dip" android:layout_marginTop="11.0dip" />
+    <ImageView android:id="@id/bx_light_all4" android:background="@drawable/bx_light_the4" android:layout_width="209.0dip" android:layout_height="84.0dip" android:layout_marginLeft="28.0dip" android:layout_marginTop="11.0dip" />
+    <ImageView android:id="@id/bx_light_all5" android:background="@drawable/bx_light_the5" android:layout_width="209.0dip" android:layout_height="84.0dip" android:layout_marginLeft="28.0dip" android:layout_marginTop="11.0dip" />
+    <ImageView android:id="@id/bx_light_all6" android:background="@drawable/bx_light_the6" android:layout_width="209.0dip" android:layout_height="84.0dip" android:layout_marginLeft="28.0dip" android:layout_marginTop="11.0dip" />
+    <ImageView android:id="@id/bx_light_all7" android:background="@drawable/bx_light_the7" android:layout_width="209.0dip" android:layout_height="84.0dip" android:layout_marginLeft="28.0dip" android:layout_marginTop="11.0dip" />
+</LinearLayout>

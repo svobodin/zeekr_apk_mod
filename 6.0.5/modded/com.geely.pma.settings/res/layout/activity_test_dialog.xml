@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_test_dialog_0" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.component.button.ZeekrButton android:textSize="32.0sp" android:id="@id/zbt_return" android:layout_width="240.0dip" android:layout_height="86.0dip" android:layout_marginRight="550.0dip" android:text="展示弹窗1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.ZeekrButton.Primary.CusAlpha" />
+    <com.zeekr.component.button.ZeekrButton android:textSize="32.0sp" android:id="@id/zbt_return2" android:layout_width="240.0dip" android:layout_height="86.0dip" android:text="展示弹窗2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.ZeekrButton.Primary.CusAlpha" />
+</androidx.constraintlayout.widget.ConstraintLayout>

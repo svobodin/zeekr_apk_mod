@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/iv_item_drive_mode_root_view" android:paddingBottom="@dimen/tip2_dp_28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/tip2_dp_28"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.component.button.ZeekrToggleButton android:textAppearance="?textAppearanceLabelMedium" android:id="@id/toggle_item_drive_mode" android:layout_width="@dimen/tip2_dp_288" android:layout_height="@dimen/tip2_dp_86" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.ZeekrButton.Toggle" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_item_drive_mode_edit" android:visibility="gone" android:layout_width="@dimen/tip2_dp_288" android:layout_height="@dimen/tip2_dp_86" android:src="@drawable/ic_drive_mode_edit" android:scaleType="fitStart" android:paddingVertical="@dimen/tip2_dp_24" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

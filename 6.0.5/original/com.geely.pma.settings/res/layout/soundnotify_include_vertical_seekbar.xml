@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/common_sp_32" android:textColor="@color/color_primary_app" android:id="@id/eq_high_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="低音" />
+    <com.zeekr.component.slider.ZeekrVerticalSlider android:id="@id/vsb_equalizer" android:layout_width="wrap_content" android:layout_height="@dimen/tip2_dp_640" android:layout_marginLeft="@dimen/common_dp_20" app:zeekrSliderSidePadding="@dimen/common_dp_40" app:zeekrSliderThumbRadius="@dimen/common_dp_20" app:zeekrSliderTrackThickness="@dimen/common_dp_6" app:zeekrSliderValueFrom="-10" app:zeekrSliderValueTo="10" />
+    <com.geely.pma.settings.soundnotification.ui.widget.EqualizerSideInfoView android:paddingTop="@dimen/common_dp_20" android:paddingBottom="@dimen/common_dp_20" android:layout_width="wrap_content" android:layout_height="@dimen/common_dp_598" android:layout_marginStart="@dimen/common_dp_32" app:common_gseekbar_max="10.0" app:common_gseekbar_min="-10.0" />
+</LinearLayout>

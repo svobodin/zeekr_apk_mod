@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/adas_entrance_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.geely.pma.settings.zeekrad.ui.customview.PAGViewWithOverLay android:id="@id/pag_view_adas" android:layout_width="1072.0dip" android:layout_height="1358.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/iv_adas" android:layout_width="1072.0dip" android:layout_height="1358.0dip" android:src="@drawable/adas_ic_default_function" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zeekr.component.tab.ZeekrTabLayout android:id="@id/tl_right_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CommonTabLayoutStyle.CS" />
+    <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/vp_right_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_50" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tl_right_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

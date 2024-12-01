@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/display_ic_slider_icon" android:contentDescription="@null" />
+    <com.zeekr.component.slider.ZeekrHorizontalSlider android:id="@id/slider" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/common_dp_8" app:zeekrSliderSidePadding="@dimen/common_dp_16" app:zeekrSliderThumbRadius="@dimen/common_dp_20" app:zeekrSliderTrackThickness="@dimen/common_dp_6" />
+    <TextView android:textAppearance="?textAppearanceDisplayMedium" android:textSize="@dimen/common_sp_32" android:textColor="@color/color_primary_app" android:gravity="end|center" android:id="@id/tv_progress" android:layout_width="@dimen/common_dp_90" android:layout_height="wrap_content" />
+</LinearLayout>

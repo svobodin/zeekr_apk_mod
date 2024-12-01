@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/energy_travel_time_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.geely.pma.settings.commons.ui.widget.VcZeekrSwitch android:id="@id/zs_repeat" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:switchEnabled="true" app:zeekrSwitchText="@string/energy_repeat" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rc_weeks" android:layout_width="fill_parent" android:layout_height="256.0dip" android:layout_marginTop="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/zs_repeat" />
+    <com.zeekr.component.timer.ZeekrTimerGroup android:id="@id/ztg_time" android:layout_width="440.0dip" android:layout_height="400.0dip" android:layout_marginTop="34.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rc_weeks" />
+</androidx.constraintlayout.widget.ConstraintLayout>

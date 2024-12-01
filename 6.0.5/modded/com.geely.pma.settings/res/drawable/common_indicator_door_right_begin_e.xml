@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/common_dp_86" android:width="@dimen/common_dp_86" android:viewportWidth="86.0" android:viewportHeight="86.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/common_car_setting_white_color" android:pathData="M 19 6 L 67 6 Q 75 6 75 14 L 75 62 Q 75 70 67 70 L 19 70 Q 11 70 11 62 L 11 14 Q 11 6 19 6 Z" />
+    <path android:fillColor="@color/common_text_color_one" android:pathData="M39.0626 51.0814C38.4768 51.6672 37.5271 51.6672 36.9413 51.0814L36.411 50.5511C35.8252 49.9653 35.8252 49.0156 36.411 48.4298L46.8404 38.0004L36.4101 27.5701C35.8243 26.9843 35.8243 26.0346 36.4101 25.4488L36.9404 24.9185C37.5262 24.3327 38.476 24.3327 39.0617 24.9185L50.5221 36.3788C50.5325 36.3887 50.5429 36.3987 50.5531 36.409L51.0834 36.9393C51.6692 37.5251 51.6692 38.4748 51.0834 39.0606L39.0626 51.0814Z" android:fillAlpha="0.6" android:fillType="evenOdd" />
+</vector>

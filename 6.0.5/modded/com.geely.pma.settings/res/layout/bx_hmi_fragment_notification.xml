@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/bx_hmi_fragment_notification_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_gravity="end|center|top" android:background="@drawable/notification_main_right_bg" android:visibility="gone" android:layout_width="@dimen/tip2_dp_738" android:layout_height="@dimen/tip2_dp_856" android:layout_marginTop="-160.0dip" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CommonScrollUiStyle">
+        <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/common_dp_160" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="@dimen/common_dp_60">
+            <View android:id="@id/switch_allow_bg" android:background="@drawable/bg_notification_list" android:layout_width="@dimen/tip2_dp_640" android:layout_height="@dimen/common_dp_108" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.zeekr.component.selection.ZeekrSwitch android:id="@id/switch_allow" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_24" android:layout_marginStart="@dimen/common_dp_24" app:hasInfoIcon="false" app:layout_constraintStart_toStartOf="@id/switch_allow_bg" app:layout_constraintTop_toTopOf="@id/switch_allow_bg" app:switchEnabled="true" app:zeekrChecked="false" app:zeekrSwitchText="@string/common_notification_allow" />
+            <TextView android:textSize="@dimen/common_sp_24" android:textColor="@color/primary_60_app" android:id="@id/tv_app_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_40" android:text="@string/common_notification_appList" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/switch_allow_bg" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/view_recycler" android:fadingEdgeLength="@dimen/common_dp_90" android:layout_width="@dimen/tip2_dp_640" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_dp_16" android:overScrollMode="never" android:layerType="hardware" android:requiresFadingEdge="vertical" android:nestedScrollingEnabled="false" app:layout_constraintStart_toStartOf="@id/tv_app_message" app:layout_constraintTop_toBottomOf="@id/tv_app_message" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="60.0dip" android:width="60.0dip" android:viewportWidth="60.0" android:viewportHeight="60.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/energy_icon_charge_discharging" android:pathData="M30.001,30m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
+    <path android:fillColor="@color/energy_charge_icon" android:pathData="M33.215,26.988V10.5L18.002,34.933L27.329,34.932V51L42.562,26.99L33.215,26.988Z" />
+</vector>

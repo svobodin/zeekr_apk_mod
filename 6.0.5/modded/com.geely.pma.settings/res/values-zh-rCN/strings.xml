@@ -1,0 +1,2256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a2_super_power_saving_content">"　　超级省电模式开启后将关闭部分舒享功能、调整动力性能，以提升车辆续航里程。 开启超级省电模式之前，请关注以下事项：
+ 　　（1）动力性能将减弱，部分驾驶设置功能不可选择。
+ 　　（2）空调和手机无线充电功能关闭。
+ 　　（3）车载冰箱（若有）、座椅舒享、抬头显示，方向盘加热、氛围灯、多媒体音量调节等功能不可使用。
+ 　　（4）在车辆锁车或者进行充电后，超级省电模式会自动退出，您也可以手动点击开关退出该模式。
+"</string>
+    <string name="a_light_auto">自动阅读灯</string>
+    <string name="a_light_auto_text">车辆解锁或车门打开时阅读灯自动开启</string>
+    <string name="abc_action_bar_home_description">转到首页</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 键</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 键</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">空格键</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享对象</string>
+    <string name="abc_shareactionprovider_share_with_application">与%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="acceleration_level_label">加速能力</string>
+    <string name="adas_Lane_departure_assist">车道偏离辅助</string>
+    <string name="adas_adas_function_description">功能描述：</string>
+    <string name="adas_aided_driving_open">进入指定路段，系统会自动变道超车，及控制前车距离</string>
+    <string name="adas_alert_car_from_behind">后向横穿预警及辅助</string>
+    <string name="adas_assistance_system">泊车辅助系统</string>
+    <string name="adas_auto_lane_change_assist_describe">开启后，LCC运行过程中用户激活转向灯，系统会辅助用户变道，关闭后，LCC运行过程中用户激活转向灯，LCC将降级至ACC</string>
+    <string name="adas_auto_lane_change_assist_name">拨杆变道辅助</string>
+    <string name="adas_auto_lane_change_assist_tips">关闭后，将不能使用NZP智能领航及NZP自主领航功能，是否确认关闭？</string>
+    <string name="adas_auto_lane_change_assist_title">车道居中辅助</string>
+    <string name="adas_auto_limit_speed">大数据车速</string>
+    <string name="adas_auto_limit_speed_content">限速数值取自对当前道路大数据融合后的结果</string>
+    <string name="adas_automatic_activation_dc">自动激活</string>
+    <string name="adas_automatic_activation_describe">当条件满足时，切换档位会自动激活对应的泊入泊出功能</string>
+    <string name="adas_automatic_activation_describe_dc">档位挂入D档或R档时，开启APA功能</string>
+    <string name="adas_automatic_lane_change_reminder">自动变道提醒</string>
+    <string name="adas_automatic_parking_assist">自动泊车辅助</string>
+    <string name="adas_automatically_give_up_the_lane_in_nzp">进入指定路段按用户设定的导航路线实现智能辅助驾驶</string>
+    <string name="adas_automatically_give_up_the_lane_open_nzp">"开启后，系统进行自动变道时，则会提醒用
+ 户即将变道，并需要用户通过拨动转向灯杆
+ 的方式以确认变道"</string>
+    <string name="adas_autonomous_emergency_braking_close_notice">"禁用前向碰撞滅缓后，当车辆驶靠近前向碰撞物时，系统将无法自动减缓碰撞。
+您是否确定禁用此项功能？"</string>
+    <string name="adas_blind_spot_assist">侧后视盲点辅助</string>
+    <string name="adas_blind_spot_assistance_summary">车辆在D挡下开启转向灯时，中控屏弹出对应侧盲点视野，提升驾驶的安全性和便利性</string>
+    <string name="adas_blind_spot_assistance_summary_1">车辆在D挡下开启转向灯时，中控屏弹出对应侧盲点视野，提升驾驶的安全性和便利性；副驾座椅旋转180°后自动开启此开关</string>
+    <string name="adas_blind_zone_warning">盲区预警</string>
+    <string name="adas_brake">预防性制动</string>
+    <string name="adas_cancel">取消</string>
+    <string name="adas_change_lanes_confirm">变道确认</string>
+    <string name="adas_close">关闭</string>
+    <string name="adas_collision_mitigation">碰撞减缓辅助</string>
+    <string name="adas_confirm_ten_seconds">确认（10s）</string>
+    <string name="adas_copilot_brake">预防性制动</string>
+    <string name="adas_copilot_red">红灯制动辅助</string>
+    <string name="adas_cruise">巡航辅助</string>
+    <string name="adas_data_share">"为完善智能驾驶辅助体验，我们开发了车辆数据分享功能，以通过分享的车外摄像头数据实现车道线、道路标志和交通信号灯位置的增强学习与识别。诚邀您开启数据分享、共创驾驶体验。
+ 您所分享的数据将会受到严格的技术保护，在上传的过程中不与您或您的车辆相关联。同时，您可以随时开启或关闭数据分享功能。详情请参考《车联网个人信息保护政策》和《用户手册》中的相关部分。"</string>
+    <string name="adas_data_sharing">数据分享</string>
+    <string name="adas_dialog_statement">声明</string>
+    <string name="adas_door_open_warn">开门预警</string>
+    <string name="adas_door_open_warn_info">开门时碰撞风险预警</string>
+    <string name="adas_engineering_mode">智驾工程模式</string>
+    <string name="adas_fatigue">驾驶员疲劳状态提醒</string>
+    <string name="adas_forward_collision_mitigation_close_notice">禁⽤前向碰撞减缓功能后，当⻋辆识别到潜在的碰撞⻛险时，系统将⽆法提供⾃动紧急制动。若关闭，该功能会在⻋辆重启时重新打开。</string>
+    <string name="adas_forward_collision_mitigation_warning_close_notice">禁⽤前向碰撞预警功能后，当⻋辆识别到潜在的碰撞⻛险时，系统将⽆法提供碰撞预警功能。若关闭，该功能会在⻋辆重启时重新打开。</string>
+    <string name="adas_forward_collision_warn_close_notice">"禁用前向碰撞预警后，当车辆驶靠近前碰撞物时，系统将无法提供报警。
+您是否确定禁用此项功能？"</string>
+    <string name="adas_front_coll_option">前向碰撞减缓</string>
+    <string name="adas_front_warn_option">前向碰撞预警</string>
+    <string name="adas_function_cm_description_blind_spot_assist">车辆在D挡下开启转向灯时，中控屏幕弹出对应侧盲点视野，提升驾驶的安全性和便利性。副驾座椅旋转180度后自动开启此开关。</string>
+    <string name="adas_function_description_alert_car_from_behind">"车辆在倒车时会主动监测侧后方碰撞风险，并通过仪表画面和声音提示驾驶员，必要时通过主动刹车来避免或减缓碰撞的冲击。
+
+后向横穿预警及辅助功能仅对自车倒车时侧后方穿行的车辆起到提醒及制动减缓的作用。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_function_description_auto_lane_change_assist">"车道居中辅助功能运行时，拨杆变道辅助开关开启，驾驶员向一侧拨动转向灯拨杆后，系统检测到车辆状态及道路环境满足变道要求时，车辆将自主变换到相应侧车道。
+
+拨杆变道辅助功能主要适用于快速路、高速、高架等中高速封闭路段，需满足当前车道和目标车道光线良好、车道线清晰、有换道空间等条件，在城市街道上请勿使用此功能。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_function_description_blind_spot_assist">车辆在D挡下开启转向灯时，中控屏幕弹出对应侧盲点视野，提升驾驶的安全性和便利性。</string>
+    <string name="adas_function_description_blind_zone_warning">"此功能可实时监控驾驶员视野的侧后方盲区，如有其他车辆进入盲区时，将通过外后视镜预警灯、仪表画面及可选声音的方式提醒驾驶员。
+
+盲区预警仅为提示功能，且并非在所有情况下始终有效，驾驶员在换道时仍需时刻关注道路交通环境。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_function_description_door_open_warn">"当车辆处于停车状态且驾驶员或乘客即将打开车门时，若检测到侧后方有其他车辆接近，此功能将通过外后视镜预警灯、仪表画面及声音提示有风险，驾驶员或乘客需要确认打开车门是否安全。
+
+开门预警仅为提示功能，且并非在所有情况下始终有效，驾驶员及乘客仍需时刻关注车辆周围环境。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_function_description_forward_collision_mitigation">"当车辆前方或侧前方存在不可避免的碰撞时，此功能将主动刹车来避免或减缓碰撞的冲击。
+前向碰撞减缓功能在车辆重新启动时会自动开启。
+
+前向碰撞减缓无法完全避免所有碰撞风险，驾驶员需系好安全带并时刻关注前方路况，车速低于4 km/h或倒车状态时，此功能不会启动。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_function_description_forward_collision_warning">"当车辆前方或侧前方存在高风险碰撞情况时，此功能会通过仪表画面、声音或轻点刹车提醒驾驶员注意前方路况。
+前向碰撞预警功能在车辆重新启动时会自动开启。
+
+前向碰撞预警功能无法应对所有路况，驾驶员需要时刻关注路况且及时控制车辆，车速低于30 km/h或倒车状态时，此功能不会启动。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_function_description_lane_keeping_assistance">"系统在检测到车辆有非自主偏离本车道的趋势时，此功能会通过仪表画面及声音提醒驾驶员，或以纠偏的形式主动控制方向盘以辅助驾驶员将车辆控制回本车道内行驶。
+
+车道偏离预警及辅助仅为驾驶辅助功能，并非在所有情况下始终有效，驾驶员需始终保持对车辆的控制。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_function_description_navigation_on_zeekr_pilot">"NZP高速自主领航辅助功能适用于支持此功能的高速公路和部分封闭的城市快速路（以功能实际支持路段为准），可向下连续两次将怀挡拨杆按压到底以开启此功能，此功能可辅助车辆沿设定的导航路线行驶，且具备拨杆变道、超车变道及辅助进出匝道等能力。
+
+【变道确认】开启后，车辆会在主动发起变道时发出变道确认请求，驾驶员可通过按下方向盘左侧区域的确认按键或往变道方向拨动转向灯拨杆来确认变道请求。确认变道请求后，车辆将在合适的时机自动变道；若未确认变道请求，车辆将不会自动变道。变道确认功能关闭后，车辆不会发起确认变道请求，将在合适的时机完成自主变道。
+
+【超车变道】功能可辅助驾驶员变道超越慢车：
+选择”关”时，车辆不会自主发起超车变道；
+选择”标准“时，此功能会更低频地发起超车变道；
+选择“敏捷”时，此功能会更频繁地发起超车变道。
+
+NZP高速自主领航辅助作为驾驶辅助功能，无法应对所有的交通和环境状况，且可能在不满足运行条件时退出并要求驾驶员及时接管。驾驶员需要时刻注意交通状况和道路环境且手握方向盘以及时接管车辆。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_function_description_road_speed_limit_deviation">当NZP运⾏时，以及您向下⻓按换挡杆时，将根据地图的道路限速信息以及设置的限速偏移量综合调节巡航⻋速。</string>
+    <string name="adas_function_description_voice_broadcasting_mode">"驾驶员可以选择“标准”和“简洁”两个语音播报模式，语音播报功能仅应用于行车功能及泊车功能。
+
+语音播报功能存在局限性，并非在所有情况下均可及时完整地播报相关提示，请时刻注意实际行车及泊车情况，安全驾驶。"</string>
+    <string name="adas_function_traffic_sign_assistance" formatted="false">"此功能可识别道路限速标志，并在仪表上显示当前道路限速值。当车辆行驶速度超过当前道路限速值及用户设定的偏移值时，此功能将通过仪表限速图标提醒（可选声音提醒）的方式提醒驾驶员注意车速。
+
+【超速提醒偏移】有两种调整方式：
+选择”km/h“时，驾驶员可以在道路限速±20km/h的范围内调整超速提醒偏移值；
+选择“%”时，驾驶员可以在道路限速±20%的范围内调整超速提醒偏移值。
+
+【其他交通标志】功能可识别部分禁令标志和警示标志，并将其显示在仪表中以提醒驾驶员。
+
+此功能仅能识别符合标准且清晰可见的部分交通标志，且并非在所有情况下均可正确识别交通标志，驾驶员需时刻关注道路交通环境。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_go_to_study_nzp">去学习</string>
+    <string name="adas_high_way_autonomous_navigation">NZP高速自主领航辅助</string>
+    <string name="adas_in_energy_saving_mode_function_not_available">超级省电模式开启中该功能不可用，请关闭后尝试”</string>
+    <string name="adas_introduction_" />
+    <string name="adas_introduction_alc">"车道居中辅助功能运行时，拨杆变道开关开启，驾驶员向一侧拨动转向灯拨杆后，系统检测到车辆状态及道路环境满足变道要求时，车辆将自主变换到相应侧车道。
+
+拨杆变道主要适用于快速路、高速、高架等中高速封闭路段，需满足当前车道和目标车道光线良好、车道线清晰、有换道空间等条件，在城市街道上请勿使用此功能。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_automatic_activation">"自动泊车功能未激活时，（1）挡位激活泊入：当系统后台搜索到可用车位，驾驶员刹停车辆后挡位切到R挡，激活泊车功能进入自动泊入界面；（2）挡位激活泊出：上个泊车过程为系统泊入，且泊入完成后车辆未移动，驾驶员当前挡位从P挡切到D挡或者R挡，激活泊车功能进入自动泊出界面。
+
+挡位激活泊车功能仅为便捷打开泊车功能的一种方式，泊车过程中您仍需注意周围环境。"</string>
+    <string name="adas_introduction_automatic_lane_change_reminder">"开启后，系统进行自动变道时，会通过声音提醒用户当前需要变道。
+
+1. NZP仅为辅助驾驶系统，并不能完全实现自动驾驶，驾驶员始终是承担着安全行驶且遵守现行交通法律法规的第一责任人；
+2. NZP功能启用时，驾驶员需要保持专注，始终保持手握方向盘，遵守交通法规，并在必要时迅速接管车辆，以保证驾驶安全；
+3. 请务必仔细阅读、理解并同意《用户手册》中相关部分内容（特别是此功能的警告、说明和局限性信息）后再启用该功能。"</string>
+    <string name="adas_introduction_backward_crossing_warning_and_assistance">"后向横穿预警及辅助功能开启后，系统在车辆倒车时会主动监测侧后方碰撞风险，并通过仪表画面、声音和外后视镜预警灯提示驾驶员，必要时通过主动制动和安全带预紧来避免或减缓碰撞的冲击。
+
+后向横穿预警及辅助功能仅对自车倒车时侧后方穿行的车辆起到提醒及制动减缓的作用。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_big_data_speed">"系统通过算法融合大量用户当前道路实际车速数据，拟合出最优车速，更加贴近真实用户的驾驶习惯。
+
+1. NZP仅为辅助驾驶系统，并不能完全实现自动驾驶，驾驶员始终是承担着安全行驶且遵守现行交通法律法规的第一责任人；
+2. NZP功能启用时，驾驶员需要保持专注，始终保持手握方向盘，遵守交通法规，并在必要时迅速接管车辆，以保证驾驶安全；
+3. 请务必仔细阅读、理解并同意《用户手册》中相关部分内容（特别是此功能的警告、说明和局限性信息）后再启用该功能。"</string>
+    <string name="adas_introduction_blind_zone_warn">"盲区预警功能开启后，系统可实时监控驾驶员视野的侧后方盲区，如有其他车辆进入盲区时，将通过外后视镜预警灯、仪表画面及可选声音的方式提醒驾驶员。
+
+盲区预警仅为主动提示功能，且并非在所有情况下始终有效，驾驶员在换道时仍需时刻关注道路交通环境。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_door_open_warn">"开门预警功能开启后，当车辆处于停车状态且驾驶员或乘客即将打开车门时，若系统检测到侧后方有其他车辆接近，此功能将通过外后视镜预警灯、仪表画面及声音提示有风险，驾驶员或乘客需要确认打开车门是否安全。
+
+开门预警仅为主动提示功能，且并非在所有情况下始终有效，驾驶员及乘客仍需时刻关注车辆周围环境。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_forward_collision_mitigation">"前向碰撞减缓功能开启后，当系统检测到车辆前方或侧前方存在即将发生的碰撞时，此功能将主动刹车来避免或减缓碰撞的冲击。前向碰撞减缓功能在车辆重新启动时会自动开启。
+
+前向碰撞减缓无法完全避免所有碰撞风险，驾驶员需系好安全带并时刻关注前方路况，车速低于4 km/h或倒车状态时，此功能不会启动。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_forward_collision_warning">"前向碰撞预警功能开启后，当系统检测到车辆前方或侧前方存在高风险碰撞情况时，此功能会通过仪表画面、声音、文字或轻点刹车提醒驾驶员注意前方路况。前向碰撞预警功能在车辆重新启动时会自动开启。
+
+前向碰撞预警功能无法应对所有路况，驾驶员需要时刻关注路况且及时控制车辆，车速低于30 km/h或倒车状态时，此功能不会启动。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_lane_change_confirmation">"开启后，系统判断需要变道时，会提醒用户进行拨杆，需要用户通过拨杆以确认变道。
+
+1. NZP仅为辅助驾驶系统，并不能完全实现自动驾驶，驾驶员始终是承担着安全行驶且遵守现行交通法律法规的第一责任人；
+2. NZP功能启用时，驾驶员需要保持专注，始终保持手握方向盘，遵守交通法规，并在必要时迅速接管车辆，以保证驾驶安全；
+3. 请务必仔细阅读、理解并同意《用户手册》中相关部分内容（特别是此功能的警告、说明和局限性信息）后再启用该功能。"</string>
+    <string name="adas_introduction_lane_departure_warning">"车道偏离预警功能开启后，如果驾驶员未开启转向灯或无明显转向意图，但系统检测到车辆偏离当前行驶车道，则此功能将通过振动方向盘或发出声音及视觉信号向驾驶员预警。
+
+车道偏离预警仅为驾驶辅助功能，并非在所有情况下始终有效，驾驶员需始终保持对车辆的控制。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_lane_keeping_assistance">"车道保持辅助功能开启后，如果驾驶员未开启转向灯或无明显转向意图，但系统检测到车辆偏离当前行驶车道，则此功能将通过主动请求转向以辅助纠偏。
+
+车道保持辅助仅为驾驶辅助功能，并非在所有情况下始终有效，驾驶员需始终保持对车辆的控制。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_limit_speed">"限速辅助开关开启后，如果开启自适应巡航或者自动居中辅助功能，系统可根据识别到的限速信息，自动调节巡航时速。
+
+限速辅助只是辅助功能，且并非在所有情况下均可正确识别限速信息，驾驶员需要时刻关注道路限速，避免超速。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_nzp_autonomous_navigation">"进入指定路段并设置导航后，系统可实现随航变道和上下匝道等功能。
+
+1. NZP仅为辅助驾驶系统，并不能完全实现自动驾驶，驾驶员始终是承担着安全行驶且遵守现行交通法律法规的第一责任人；
+2. NZP功能启用时，驾驶员需要保持专注，始终保持手握方向盘，遵守交通法规，并在必要时迅速接管车辆，以保证驾驶安全；
+3. 请务必仔细阅读、理解并同意《用户手册》中相关部分内容（特别是此功能的警告、说明和局限性信息）后再启用该功能。"</string>
+    <string name="adas_introduction_nzp_intelligent_navigation">"进入指定路段，系统可实现智能巡航辅助（融合大数据车速/道路限速）、跟停&amp;跟起、车道居中保持辅助、车道内偏移辅助、拨杆变道和自动变道等功能。
+
+1. NZP仅为辅助驾驶系统，并不能完全实现自动驾驶，驾驶员始终是承担着安全行驶且遵守现行交通法律法规的第一责任人；
+2. NZP功能启用时，驾驶员需要保持专注，始终保持手握方向盘，遵守交通法规，并在必要时迅速接管车辆，以保证驾驶安全；
+3. 请务必仔细阅读、理解并同意《用户手册》中相关部分内容（特别是此功能的警告、说明和局限性信息）后再启用该功能。"</string>
+    <string name="adas_introduction_over_speed_warning">"超速提醒功能开启后，系统可以根据驾驶员选择的提醒方式在仪表车速超过识别到的道路限速时给予警示。
+
+超速提醒只是一项辅助功能，且并非在所有情况下均可正确识别限速信息，驾驶员需时刻关注道路交通环境，安全审慎地驾驶车辆。此功能的警告、说明和局限性详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_overspeed_reminder_offset">"超速提醒偏移选项为驾驶员在道路限速±10km/h的范围内调整超速提醒的触发时机，当仪表车速超过限速值与设置的超速提醒偏移值之和时，才会触发超速提醒。
+
+驾驶员需时刻关注道路交通环境，安全审慎地驾驶车辆。此功能的警告、说明和局限性详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_parking_alarm">"车辆低速行驶时，若系统检测到周围有障碍物，泊车雷达将发出报警音，可通过设置“低、中、高”调整报警音量的大小。
+
+泊车辅助系统仅是一种辅助功能，受传感器限制，部分障碍物因处于检测盲区等原因而存在无法检测到的情况，在使用过程中您仍需注意观察周围环境。"</string>
+    <string name="adas_introduction_parking_voice_reminder">"泊车过程中将文言提示类信息以语音形式进行播放，减少驾驶员注视泊车交互界面的时间，行驶更加安全。
+
+语音播报仅是泊车过程信息的一种呈现形式，根据使用场景（如：当语音播报影响到周边乘客时），驾驶员可以关闭语音播报功能。"</string>
+    <string name="adas_introduction_peb_mode">"低速倒车紧急制动功能开启后，在车辆倒车时，如系统判断车辆行驶区域有碰撞障碍物风险，则车辆会触发紧急制动，避免或减缓与障碍物的碰撞。
+
+低速倒车紧急制动功能仅对自车倒车时后方障碍物制动减缓碰撞或避免碰撞的作用，受传感器限制，部分障碍物因处于检测盲区等原因而存在无法检测到的情况，从而导致该功能无法启动，驾驶员在倒车时仍需时刻关注车辆周边环境。此功能的警告、说明和局限性信息详情请参考《用户手册》中的超声波传感器、360摄像头传感器相关部分描述。"</string>
+    <string name="adas_introduction_preventive_braking">"系统判断存在潜在的前向碰撞风险，将触发APB，并自动以较小的减速度刹车，使车辆有减速、静止的趋势，提高用户安全性和舒适性。
+
+APB会在0~80 km/h车速区间，对前方碰撞风险车辆进行制动减缓，驾驶员的操作会抑制功能的激活。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_rear_collision_warning">"后向碰撞预警功能开启后，当系统检测到车辆后向有碰撞危险时，激活双闪以警示后方来车；当碰撞不可避免，预紧安全带且激活双闪（若自车静止，施加紧急制动以减轻乘员的鞭打伤害）。
+
+后向碰撞预警只是一项辅助功能，驾驶员需时刻关注道路交通环境，安全审慎地驾驶车辆。此功能的警告、说明和局限性信息详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_red_light_brake_assist">"红灯制动辅助功能开启后，当系统检测到车辆有闯红灯风险时，通过声音，图片和点刹的方式提醒驾驶员。提醒时机的早晚可以通过下方的灵敏度等级进行选择。提醒过后，若驾驶员未进行制动或施加的制动力过小，系统会自动辅助刹车以避免驾驶员闯红灯。
+
+红灯制动辅助功能只是一项辅助功能，且并非在所有情况下均可正确识别交通灯，驾驶员需时刻关注交通灯状态，安全审慎地驾驶车辆。此功能的警告、说明和局限性详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_introduction_road_speed_limit_deviation">"对道路限速进行速度偏移设定。
+
+1. NZP仅为辅助驾驶系统，并不能完全实现自动驾驶，驾驶员始终是承担着安全行驶且遵守现行交通法律法规的第一责任人；
+2. NZP功能启用时，驾驶员需要保持专注，始终保持手握方向盘，遵守交通法规，并在必要时迅速接管车辆，以保证驾驶安全；
+3. 请务必仔细阅读、理解并同意《用户手册》中相关部分内容（特别是此功能的警告、说明和局限性信息）后再启用该功能。"</string>
+    <string name="adas_introduction_traffic_light_notice">"交通灯提醒功能默认开启，车辆行驶至交通灯路口时，会在仪表显示当前车道交通灯形式（圆形、箭头、U掉头灯）和颜色（红色、黄色、绿色），变换到红灯或绿灯时通过闪烁和声音等方式提醒驾驶员；无交通灯路口的时候跟停前车，前车驶离时通过声音和仪表画面提醒驾驶员。选择“显示”时，提醒方式不包括声音，选择“蜂鸣”时，提醒方式包括声音。
+
+交通灯提醒功能仅为主动提示功能，且并非在所有情况下均可正确识别交通灯或前车，驾驶员在起步时仍需关注道路交通环境。此功能的警告、说明和局限性详情请参考《用户手册》中的相关部分。"</string>
+    <string name="adas_lane_centering_assist">车道居中辅助</string>
+    <string name="adas_lane_change_style">超车变道</string>
+    <string name="adas_lane_change_warning">变道提醒</string>
+    <string name="adas_lane_departure_warn_close_notice">"禁用车道偏离预警后，当车辆驶出自车车道线时，系统将无法提供报警。
+您是否确定禁用此项功能？"</string>
+    <string name="adas_lane_keep_waring">车道偏离预警</string>
+    <string name="adas_lane_keep_warning">车道偏离预警及辅助</string>
+    <string name="adas_lane_keeping_assist">车道保持辅助</string>
+    <string name="adas_lane_keeping_assist_close_notice">"禁用车道保持辅助后，当车辆驶出自车车道线，路沿，或与邻车道的目标有碰撞风险时，系统将无法提供车道辅助。
+您是否确定禁用此项功能？"</string>
+    <string name="adas_lane_restrict">道路限速偏移</string>
+    <string name="adas_lateral_warning_assist">侧向预警辅助</string>
+    <string name="adas_limit">限速辅助</string>
+    <string name="adas_limit_speed">限速辅助</string>
+    <string name="adas_low_speed_reverse_emergency_braking">低速倒车紧急制动</string>
+    <string name="adas_nzp_aiAssistFusionNavi_protocol_0">"尊敬的客户：
+　　在您使用NZP自主领航及其他相关功能（以下统称“相关功能”）前，请仔细阅读如下内容：
+　　相关功能均为辅助驾驶功能，其目的为提升驾驶便利和舒适性，并不会让车辆实现自动驾驶。使用相关功能时，驾驶员必须时刻保持注意力，确保车辆行驶和环境安全，手握方向盘，以便能够随时接管车辆或采取修正措施，请勿完全依赖相关功能进行驾驶。相关功能主要为高速公路、高架路等特定使用场景而设计，要求行驶道路存在隔离带和清晰的车道线，并满足其他必须的运行条件，倘若有行人或施工场景以及恶劣天气，或其他运行条件未满足的情况下，相关功能将受限，此时驾驶员需要立即接管车辆。相关功能的运行需要车辆摄像头、传感器、定位系统等辅助驾驶相关组件的支持，在开启相关功能前，请确保辅助驾驶相关组件性能和工作正常。 
+　　此使用须知适用于确认开启NZP自主领航后驾驶员使用相关功能的全过程，直至车辆被接管或相关功能被关闭。"</string>
+    <string name="adas_nzp_aiAssistFusionNavi_protocol_1">"使用要求：
+　　在使用相关功能之前，驾驶员需确认知晓NZP自主领航功能的详细信息（详见《用户手册》），掌握如何开启及取消等操作，并同意相关信息和数据收集规则。
+　　"<u>您是否同意以上全部使用须知内容并希望开启NZP自主领航？</u></string>
+    <string name="adas_nzp_aiAssistFusionNavi_title">NZP自主领航使用须知</string>
+    <string name="adas_nzp_aiDriverAssist_protocol_0">"尊敬的客户：
+　　在您使用NZP智能领航及其他相关功能（以下统称“相关功能”）前，请仔细阅读如下内容：
+　　相关功能均为辅助驾驶功能，其目的为提升驾驶便利和舒适性，并不会让车辆实现自动驾驶。使用相关功能时，驾驶员必须时刻保持注意力，确保车辆行驶和环境安全，手握方向盘，以便能够随时接管车辆或采取修正措施，请勿完全依赖相关功能进行驾驶。相关功能主要为高速公路、高架路等特定使用场景而设计，要求行驶道路存在隔离带和清晰的车道线，并满足其他必须的运行条件，倘若有行人或施工场景以及恶劣天气，或其他运行条件未满足的情况下，相关功能将受限，此时驾驶员需要立即接管车辆。相关功能的运行需要车辆摄像头、传感器、定位系统等辅助驾驶相关组件的支持，在开启相关功能前，请确保辅助驾驶相关组件性能和工作正常。
+　　此使用须知适用于确认开启NZP智能领航后驾驶员使用相关功能的全过程，直至车辆被接管或相关功能被关闭。
+　　开启该功能将同步开启拨杆变道功能。"</string>
+    <string name="adas_nzp_aiDriverAssist_protocol_1">"使用要求：
+　　在使用相关功能之前，驾驶员需确认知晓NZP智能领航功能的详细信息（详见《用户手册》），掌握如何开启及取消等操作，并同意相关信息和数据收集规则。
+　　"<u>您是否同意以上全部使用须知内容并希望开启NZP智能领航？</u></string>
+    <string name="adas_nzp_aiDriverAssist_title">NZP智能领航使用须知</string>
+    <string name="adas_nzp_autonomous_navigation">NZP自主领航</string>
+    <string name="adas_nzp_fusion_speed">融合速度</string>
+    <string name="adas_nzp_loophole_close_notice">已关闭Nzp新手引导Debug后门</string>
+    <string name="adas_nzp_loophole_open_notice">已打开Nzp新手引导Debug后门</string>
+    <string name="adas_nzp_mall_function_has_expired">功能已到期</string>
+    <string name="adas_offset_value">偏移值</string>
+    <string name="adas_over_speed_warning">超速提醒</string>
+    <string name="adas_overspeed_reminder">超速提醒</string>
+    <string name="adas_overspeed_reminder_offset">超速提醒偏移</string>
+    <string name="adas_park_assistance">泊车辅助</string>
+    <string name="adas_park_assistance_long">泊车时显示障碍物预警信息以避免碰撞</string>
+    <string name="adas_park_volume">报警音量</string>
+    <string name="adas_park_volume_alarm">转向回正报警</string>
+    <string name="adas_park_volume_alarm_mode">自动泊车推荐模式</string>
+    <string name="adas_park_volume_alarm_mode_long">系统自动推荐操作以简化泊车流程</string>
+    <string name="adas_park_volume_alarm_stating">车辆起步前转向未回正提醒</string>
+    <string name="adas_parking_alarm">雷达报警音量</string>
+    <string name="adas_parking_apa_describe">挡位挂入D挡或R挡时，开启自动泊车辅助功能</string>
+    <string name="adas_parking_automatic_activation">自动激活</string>
+    <string name="adas_parking_barrier">障碍物从车辆侧后方接近时触发预警</string>
+    <string name="adas_parking_lowgear">低速有碰撞风险时自动实施制动</string>
+    <string name="adas_parking_voice_broadcast_dc">语音播报</string>
+    <string name="adas_parking_voice_broadcast_describe">在泊车过程中，对应处有语音播报</string>
+    <string name="adas_radar_alarm">雷达报警</string>
+    <string name="adas_rear_warn_option">后向碰撞预警</string>
+    <string name="adas_reminder_mode">提醒方式</string>
+    <string name="adas_road_speed_limit_plate_offset">道路限速牌偏移</string>
+    <string name="adas_safety_warning">安全预警辅助</string>
+    <string name="adas_sensitivity">灵敏度</string>
+    <string name="adas_some_ip_nzp_in_use">功能运行中，开关不可用</string>
+    <string name="adas_some_ip_nzp_title">NZP高速自主领航辅助使用须知</string>
+    <string name="adas_someip_nzp_open_protocol">"尊敬的客户：
+　　在您使用NZP高速自主领航辅助及其他驾驶辅助相关功能（以下统称“相关功能”）前，请仔细阅读如下内容：
+　　相关功能均为辅助驾驶功能，其目的为提升驾驶便利和舒适性，并不会让车辆实现自动驾驶。相关功能无法应对所有交通、天气和道路状况，且不能替代您的驾驶。您始终有责任安全审慎地驾驶车辆，时刻关注交通状况及道路环境，并在确保安全的情况下自主决定是否使用相关功能。
+　　使用相关功能时，驾驶员必须时刻保持注意力，确保车辆行驶和环境安全，手握方向盘，以便能够随时接管车辆或采取修正措施，请勿完全依赖相关功能进行驾驶。相关功能主要为在高精度地图覆盖的封闭城市快速路和高速公路（以适用法律法规允许且ZEEKR极氪开通的区域为准）等特定使用场景而设计，要求行驶道路存在隔离带和清晰的车道线，并满足其他必须的运行条件（详见《用户手册》对应章节），倘若有行人或施工场景以及恶劣天气，或其他运行条件未满足的情况下，相关功能将受限，此时驾驶员需要立即接管车辆。
+　　相关功能的运行需要车辆摄像头、传感器、定位系统等辅助驾驶相关组件的支持，在开启相关功能前，请确保辅助驾驶相关组件性能良好且工作正常。
+　　此使用须知适用于您确认开启相关功能后的全过程，直至车辆被接管或相关功能被关闭。
+
+　　使用要求：
+　　在使用相关功能之前，驾驶员需确认知晓NZP高速自主领航辅助功能的详细信息（详见《用户手册》），掌握如何开启及取消等操作，并同意相关信息和数据收集规则。
+
+　　"<u>您是否同意以上全部使用须知内容并希望开启NZP高速自主领航辅助？</u>"
+　　"<u>我已阅读理解并完全同意上述使用须知内容。</u></string>
+    <string name="adas_speed">超速提醒</string>
+    <string name="adas_speed_limit">限速警告</string>
+    <string name="adas_statement">声明</string>
+    <string name="adas_statement_1">声明：</string>
+    <string name="adas_stay_tuned">（敬请期待）</string>
+    <string name="adas_title_lateral_warning_assistance">侧向预警辅助</string>
+    <string name="adas_title_opendoor">开门时碰撞风险预警</string>
+    <string name="adas_trafficSignRec">其他交通标志</string>
+    <string name="adas_traffic_light_attention">交通灯提醒</string>
+    <string name="adas_traffic_light_notice">交通灯提醒</string>
+    <string name="adas_traffic_sign">交通标志辅助</string>
+    <string name="adas_traffic_sign_assistance">交通标识辅助</string>
+    <string name="adas_voice_broadcast">语音播报</string>
+    <string name="adas_voice_broadcast_describe">在泊车过程中，对应处有语音播报</string>
+    <string name="adas_voice_broadcasting_mode">语音播报模式</string>
+    <string name="adas_zeekr_ad_nzp_text2">　　<u>我已阅读理解并完全同意上述使用须知内容。</u></string>
+    <string name="adas_zeekrad_nzp_ai">NZP智能领航</string>
+    <string name="adas_zeer_traffic">交通标志识别</string>
+    <string name="all_door_close">一键关门</string>
+    <string name="app_name">车辆设置</string>
+    <string name="auto_hold">自动驻车</string>
+    <string name="bc_park_comfort_title">驻车舒享</string>
+    <string name="bluetooth_pairing">配对中</string>
+    <string name="bottomsheet_action_collapse">收起底部动作条</string>
+    <string name="bottomsheet_action_expand">展开底部动作条</string>
+    <string name="bottomsheet_action_expand_halfway">展开到一半高度</string>
+    <string name="bottomsheet_drag_handle_clicked">拖动手柄被点按两次</string>
+    <string name="bottomsheet_drag_handle_content_description">拖动手柄</string>
+    <string name="brake_booster_title">制动助力</string>
+    <string name="bright_head">抬头显示</string>
+    <string name="bx_approach_light_option">接近照明</string>
+    <string name="bx_approach_light_option_text">携带有效钥匙接近车辆，自动开启近光灯和位置灯</string>
+    <string name="bx_auto_hold_info">功能激活时，自动使车辆保持静止</string>
+    <string name="bx_bc_csd_adjust">中控屏调节</string>
+    <string name="bx_bc_csd_adjust_far">远</string>
+    <string name="bx_bc_csd_adjust_hvac_warning">空调保障已开启，最大调节范围受限</string>
+    <string name="bx_bc_csd_adjust_left">左</string>
+    <string name="bx_bc_csd_adjust_long_press_to_update">长按可将当前位置更新至记忆</string>
+    <string name="bx_bc_csd_adjust_memory_one">记忆1</string>
+    <string name="bx_bc_csd_adjust_memory_three">记忆3</string>
+    <string name="bx_bc_csd_adjust_memory_two">记忆2</string>
+    <string name="bx_bc_csd_adjust_nearly">近</string>
+    <string name="bx_bc_csd_adjust_right">右</string>
+    <string name="bx_bc_csd_adjust_tips">通过4指滑动，可快捷调整中控屏方向。4指长按可将中控屏调整至居中位置</string>
+    <string name="bx_bc_csd_direction">中控屏</string>
+    <string name="bx_bc_csd_intelligent_orientation_auto_tip">车速首次超过7km/h，仅主驾有人，屏幕朝向主驾；主副驾均有人，屏幕朝向居中位置</string>
+    <string name="bx_bc_csd_intelligent_orientation_drive_tip">主驾上车并踩下制动踏板，屏幕将优先朝向主驾方向</string>
+    <string name="bx_bc_csd_intelligent_orientation_manual_tip">屏幕将优先朝向您设定的位置</string>
+    <string name="bx_bc_csd_intelligent_orientation_manual_tip1">使用方向盘右侧按键调节左侧后视镜</string>
+    <string name="bx_bc_csd_intelligent_orientation_manual_tip2">使用方向盘右侧按键调节右侧后视镜</string>
+    <string name="bx_bc_csd_intelligent_orientation_title">智能朝向</string>
+    <string name="bx_bc_csd_tilt_title">中控屏朝向</string>
+    <string name="bx_bc_dialog_hud_adjust_tips">请使用方向盘右侧按键调节抬头显示</string>
+    <string name="bx_bc_dialog_rear_mirror_adjust">后视镜调节</string>
+    <string name="bx_bc_dialog_rear_mirror_adjust_tips">请使用方向盘右侧按键调节后视镜</string>
+    <string name="bx_bc_dialog_wheel_adjust">方向盘调节</string>
+    <string name="bx_bc_dialog_wheel_adjust_tips">请使用方向盘右侧按键调节方向盘位置</string>
+    <string name="bx_bc_dim_custom_card">自定义卡片</string>
+    <string name="bx_bc_dim_custom_card_content">自定义仪表右侧内容</string>
+    <string name="bx_bc_dim_custom_card_title">仪表卡片</string>
+    <string name="bx_bc_ergonomic_title">人体工学</string>
+    <string name="bx_bc_hud_adjust">调节</string>
+    <string name="bx_bc_hud_display">显示</string>
+    <string name="bx_bc_hud_mode">模式</string>
+    <string name="bx_bc_hud_navigation_info">导航信息</string>
+    <string name="bx_bc_hud_position">位置</string>
+    <string name="bx_bc_hud_self_position_adjust_start">开始调节</string>
+    <string name="bx_bc_hud_self_position_adjust_tips">点击按钮后目视前方，将自动调整抬头显示高度</string>
+    <string name="bx_bc_hud_self_position_adjust_title">自适应高度调节</string>
+    <string name="bx_bc_media_mirror">流媒体后视镜</string>
+    <string name="bx_bc_park_comfort_time">开启时长</string>
+    <string name="bx_bc_rear_mirror_hot">后视镜加热</string>
+    <string name="bx_bc_right_wiper_title">雨刮</string>
+    <string name="bx_bc_wiper_adjust_content">灵敏度越高，启动自动雨刮所需雨量越小；相同雨量下，刮刷频率更快</string>
+    <string name="bx_bc_wiper_adjust_title">自动雨刮灵敏度</string>
+    <string name="bx_conn_wifi_dialog_saved">已保存:</string>
+    <string name="bx_conn_wifi_dialog_security">加密方式:</string>
+    <string name="bx_conn_wifi_dialog_signal">信号强度:</string>
+    <string name="bx_dl_door_lock_title">车锁</string>
+    <string name="bx_dl_trunk_title">尾门</string>
+    <string name="bx_door_leave_option">远离上锁</string>
+    <string name="bx_door_parking_unlock">驻车解锁</string>
+    <string name="bx_headlights_height_adjustment">近光灯高度调节</string>
+    <string name="bx_home_safety_light_info">离车后，大灯将延迟一段时间关闭</string>
+    <string name="bx_home_safety_light_option">伴我回家</string>
+    <string name="bx_light_farewell">欢送氛围灯</string>
+    <string name="bx_light_farewell_Welcome">迎宾灯语</string>
+    <string name="bx_light_sync_option">前后排同步</string>
+    <string name="bx_light_welcoming">迎宾氛围灯</string>
+    <string name="bx_lighting_title">外灯</string>
+    <string name="bx_mode_race">竞速模式</string>
+    <string name="bx_mode_race_dialog_content" formatted="false">"尊敬的用户，请仔细阅读以下说明：
+ 　　注意！
+ 　　您启用竞速模式（“该模式”）即表明您已充分理解并同意接受下述所有条款：
+ 　　（1）竞速模式旨在为驾驶员提供更具科技感、潮流感的座舱声光效果及其他附属功能，提升驾驶乐趣，驾驶员在使用该模式时应严格遵守各项法律法规要求，不得在公共道路和任何其他不符合相应安全标准的场所进行超速、追逐竞驶等危险性驾驶行为，因前述行为导致的任何人身伤亡和财产损失，相关风险和责任均应由驾驶员自身承担。
+ 　　（2）驾驶员有责任全程保持对车辆的控制，并确保车辆行驶和环境安全，请务必在确认安全的条件下谨慎操作。在车辆行驶中请勿手动调整和操作参数配置，且不应过度沉浸于该模式下的各项功能效果中，防止因注意力分散而导致不可预估的后果。
+ 　　（3）竞速模式下，车辆部分功能参数将进行调整，建议在安全驾驶环境下充分熟悉、感受并确认可接受相关功能效果后再进行使用，避免由于对相关功能效果的不熟悉而导致不适感或其他不良后果。
+ 　　（4）竞速模式开启后，将无法使用行车、泊车、ADAS等所有智能驾驶辅助功能；如需使用智能驾驶辅助功能，请退出竞速模式。
+ 
+ 使用要求：
+ 　　激活竞速模式需要保证以下条件：
+ 　　（1）车辆的驱动系统、制动系统、ESC系统、转向辅助系统、胎压均应正常，如果异常将无法进入竞速模式，如当前处于竞速模式，将立即退出
+ 　　（2）整车电量>20%，若电量&lt;20%，将立即退出竞速模式
+ 　　（3）车辆在D挡或P挡
+ 
+ 竞速模式激活后：
+ 　　（1）加速能力调整为最大
+ 　　（2）转向模式调整为运动
+ 　　（3）减震模式调整为运动
+ 　　（4）ESC调整为运动
+ 　　（5）电动安全带收紧（若车辆有该配置）
+ 　　（6）座椅侧翼收紧（若车辆有该配置）
+ 
+ 竞速模式激活后，支持如下车辆功能的联动（联动功能需车辆配置支持）：
+ 　　（1）竞速氛围灯，默认开（可调，调整后将自动保存该设定）
+ 　　（2）模拟声浪，每次激活竞速模式默认开启，用户可主动关闭
+ 　　（3）旋转屏自动转向主驾（可调，调整后将自动保存该设定）
+ 　　（4）主驾侧翼收紧（若车辆有该配置）
+ 　　（5）电动安全带收紧（若车辆有该配置）
+ 　　（6）开启竞速模式APP，并展示专属行车界面动效
+ 　　（7）【ADAS系统】调整为不可用状态
+ 
+ 本人已完全理解并同意上述说明，确认开启竞速模式。 
+ 
+"</string>
+    <string name="bx_mode_race_dialog_title">竞速模式用户须知</string>
+    <string name="bx_mode_race_end">退出竞速模式</string>
+    <string name="bx_mode_race_start">开启竞速模式</string>
+    <string name="bx_mode_race_tips">请确保路况安全后开启，体验更多元素的驾驶乐趣</string>
+    <string name="bx_mode_tank">坦克调头</string>
+    <string name="bx_mode_tank_active">开始调头</string>
+    <string name="bx_mode_tank_active_tag">已激活</string>
+    <string name="bx_mode_tank_angle">调转角度</string>
+    <string name="bx_mode_tank_close">结束</string>
+    <string name="bx_mode_tank_dialog_content">开启坦克模式后，打转向灯，跟随转向灯方向运动，转向灯回正、关闭开关等情况会退出</string>
+    <string name="bx_mode_tank_info">请确保路况安全后开启，体验更多元素的驾驶乐趣</string>
+    <string name="bx_mode_tank_risk_awareness_letter">坦克调头功能告知书</string>
+    <string name="bx_mode_tank_tip">功能开启后，车辆进行原地旋转</string>
+    <string name="bx_mode_tank_tip2">请在空旷无人的平坦地带进行坦克调头，注意周边环境安全</string>
+    <string name="bx_open_media_mirror">打开流媒体</string>
+    <string name="bx_quick_fog">后雾灯</string>
+    <string name="bx_radar_obstacle_avoidance">雷达自主避障</string>
+    <string name="bx_radar_obstacle_avoidance_content">"尊敬的用户，您好！ 
+ 　　 您已选择关掉雷达的避障输入信号判定，由此可能会额外带来如下的风险请您了解并确认。
+ 　　（1）整车将无法依据雷达的避障信号进行判定自动停止此功能，为此用户更加需要时刻关注车辆的周围的安全。
+ 　　（2）因为路面的原因车辆在旋转过程中会有相应位移，请您时刻确保自身和周围的安全并为其安全负责。
+ 　　（3）为保证安全请您确保不要在拥挤、复杂的道路开启此功能，有可能会危害自身和周围的安全；推荐的使用路况为空旷、平坦的开阔泥、土路地带。
+ 　　我已阅读并接受风险告知，并确认。"</string>
+    <string name="bx_radar_obstacle_avoidance_tip">雷达监测到障碍物时将自动停止坦克调头功能</string>
+    <string name="bx_risk_awareness_letter">坦克调头忽略雷达避障告知书</string>
+    <string name="bx_safe_security_car_location_info_upload">行车位置信息上传</string>
+    <string name="bx_safe_security_car_location_info_upload_dialog_content_describe">关闭行车位置信息上传开关后，将同时关闭与车辆定位相关的功能，请确认是否关闭？</string>
+    <string name="bx_super_power_saving_content">"　　超级省电模式开启后将关闭部分舒享功能、调整动力性能，以提升车辆续航里程。 开启超级省电模式之前，请关注以下事项：
+ 　　（1）动力性能将减弱，部分驾驶设置功能不可选择。
+ 　　（2）空调和手机无线充电功能关闭（可手动再次打开）。
+ 　　（3）车载冰箱（若有）、座椅舒享、抬头显示，方向盘加热、氛围灯、多媒体音量调节等功能不可使用。
+ 　　（4）辅助驾驶功能不可使用。
+ 　　（5）在车辆锁车或者进行充电后，超级省电模式会自动退出，您也可以手动点击开关退出该模式。
+ 　　（6）退出超级省电模式后，辅助驾驶功能重启需数分钟，在此期间功能无法使用。"</string>
+    <string name="bx_super_power_saving_switch_info">车辆进入低功耗模式，增加续航里程</string>
+    <string name="bx_super_power_saving_title">超级省电模式</string>
+    <string name="bx_tank_risk_content">"尊敬的用户，您好！
+ 　　欢迎您使用“坦克调头”功能，为了保障您和周围的安全，使用此功能需要注意并遵守如下事项。
+ 　　（1）开启此功能前请将车停放到空旷无人的平坦地带，确保周围没有障碍物。
+ 　　（2）功能开关打开后，请务必按照指示进行操作开启此功能，D档位用来驱动，转向拨杆到底后用来选择转动方向，刹车踏板用来暂停坦克调头。
+ 　　（3）功能开启后，务必保持方向盘回正的状态，不要打方向盘角度。
+ 　　（4）开启后车身雷达会默认识别周围障碍物，但是因为盲区、遮盖、天气等原因，仍然不能完全确保周围完全安全（如路牙、沟坎、减速带、坡、柱子都会影响相关的安全），需要您为功能开启后的安全负责。
+ 　　（5）为保证安全请您确保不要在拥挤、复杂的道路开启此功能，有可能会危害自身和周围的安全。
+ 　　（6）功能开启后，ESC灯亮、仪表盘的车速显示为0，指定角度旋转不可通过油门加速，都属于正常控制所需，功能退出后即可恢复正常。
+ 　　（7）推荐的使用路况为空旷、平坦的开阔地带，但因为路面的不确定性，车辆在旋转过程中可能会有些偏转，请您时刻确保自身和周围的安全。
+ 　　（8）坦克调头为低速大扭矩工况，运行时驱动系统会产热增加，请勿长时运转；建议完成一圈后进行适当时间间隔以确保驱动系统进行充分散热。
+ 　　　我已阅读并接受风险告知，并确认。"</string>
+    <string name="bx_torque_vectoring_control_switch">扭矩矢量控制禁用</string>
+    <string name="bx_tqvectforb_dialog_content">"尊敬的用户，您好！
+ 您已选择关掉四轮的扭矩矢量分配功能，由此可能会额外带来如下的风险请您了解并确认。 整车可能在某种工况下，无法提前根据整车的转向特性等因素提前介入修正整车的姿态，由此可能会对车辆的驾驶带来一定的负面影响，请您提前了解预期并谨慎驾驶。"</string>
+    <string name="bx_tqvectforb_dialog_title">扭矩矢量功能禁用风险提示</string>
+    <string name="bx_tv_wheel_key_name">方向盘按键</string>
+    <string name="bx_upload_log_content">"请保持车机上电并连接网络 
+ 1、点击 “开始抓取” ，启动日志抓取 
+ 2、再操作相关功能直到复现异常情形 
+ 3、问题复现后，回本页面点击 “结束并上传” 停止抓取并上传数据"</string>
+    <string name="bx_user_habit_tv">另存用车习惯</string>
+    <string name="bx_ztb_wheel_key_left">左侧快捷键</string>
+    <string name="bx_ztb_wheel_key_right">右侧快捷键</string>
+    <string name="car_curtain_title">遮阳帘</string>
+    <string name="car_sky_curtain_title">天窗遮阳帘</string>
+    <string name="car_sky_window_set_title">天幕设置</string>
+    <string name="car_sky_window_style_select">样式选择</string>
+    <string name="car_sky_window_style_select_one">样式一</string>
+    <string name="car_sky_window_style_select_three">样式三</string>
+    <string name="car_sky_window_style_select_two">样式二</string>
+    <string name="car_sky_window_style_title">天幕样式</string>
+    <string name="car_sky_window_title">天幕</string>
+    <string name="car_sunscreen_rating_auto_title">自动</string>
+    <string name="car_sunscreen_rating_title">防晒等级</string>
+    <string name="car_sunshade_mode_tips">"点击切换对应玻璃区域透明度；
+向右滑动可将对应玻璃区域变透明，向左滑动变为不透明"</string>
+    <string name="car_sunshade_mode_title">遮阳帘模式</string>
+    <string name="car_sunshade_position_custom">自定义</string>
+    <string name="car_sunshade_tips">拖动调节天窗遮阳帘</string>
+    <string name="car_sunshade_title">天窗遮阳帘</string>
+    <string name="car_window_alpha_title">车窗透明度</string>
+    <string name="car_window_title">车窗</string>
+    <string name="carwindow_drive_door">主驾门开启上限</string>
+    <string name="carwindow_front_door">前车门开启上限</string>
+    <string name="carwindow_rear_door">后车门开启上限</string>
+    <string name="carwindow_trunk">尾门开启上限</string>
+    <string name="character_counter_content_description">输入了 %1$d 个字符（上限为 %2$d 个）</string>
+    <string name="character_counter_overflowed_content_description">超出字符数限制（共 %1$d 个，上限为 %2$d 个）</string>
+    <string name="charging_speed_range_unit_mile">mph</string>
+    <string name="charging_speed_unit_km">km/h</string>
+    <string name="charging_speed_unit_percent">%</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="cm_auto_hold_tips">主驾系好安全带、关闭车门并深踩刹车即可激活；停止模式设置为保持时，自动驻车不可关闭</string>
+    <string name="commom_door_electric_mode">请先将电动门设为电动模式</string>
+    <string name="commom_driving_mode_individualization_set">个性化设置</string>
+    <string name="common_access_point_mode">车载热点</string>
+    <string name="common_accor_pop_matching_bluetooth_text">配对码已发送，等待“%1$s”确认</string>
+    <string name="common_adjust_rear_mirror_tip1">请使用方向盘右侧触控板调节后视镜</string>
+    <string name="common_adjust_rear_mirror_tip2">使用方向盘右按键调整对应方向后视镜的位置。</string>
+    <string name="common_adjust_wheel_steer">方向盘调节</string>
+    <string name="common_adjust_wheel_steer_tip3">请使用方向盘右侧触控板调节方向盘</string>
+    <string name="common_agree">同意</string>
+    <string name="common_agree_confirm">我已阅读并确认</string>
+    <string name="common_agree_in">同意并进入</string>
+    <string name="common_aidrive">AI辅助驾驶</string>
+    <string name="common_aidrive_info">进入指定路段，系统将会自动变道超车，及控制前车距离</string>
+    <string name="common_all_door_close">一键关门</string>
+    <string name="common_alpha_info">极氪001，初版首发，以零为始，打破边界。感谢广大Z客的信任与支持，我们将持续努力，为大家带来智能纯电出行的新体验。</string>
+    <string name="common_ambient_light_colours">氛围灯颜色</string>
+    <string name="common_ap_password_edit_error_tip">8–12个字符，不支持空格</string>
+    <string name="common_approach_light_info">接近车辆时激活引导照明</string>
+    <string name="common_approach_light_option">接近照明</string>
+    <string name="common_artificial_sound">模拟声音</string>
+    <string name="common_audio_recording">记录声音</string>
+    <string name="common_audio_warn">蜂鸣报警</string>
+    <string name="common_auto_change_lane">自动变道提醒</string>
+    <string name="common_auto_hold">Auto hold</string>
+    <string name="common_auto_hold_info">One-pedal激活时，Auto hold无法被停用</string>
+    <string name="common_auto_lane_change_option">自动变道辅助</string>
+    <string name="common_auto_limit_speed">大数据车速</string>
+    <string name="common_auto_limit_speed_head">融合速度</string>
+    <string name="common_auto_limit_speed_info">道路限速数值取自对道路的大数据车速限制</string>
+    <string name="common_auto_open_aidrive">上电默认开启</string>
+    <string name="common_auto_open_aidrive_info">车辆每次上电后，会自动打开AI辅助驾驶功能</string>
+    <string name="common_automatic_lane_change_assist">自动变道辅助</string>
+    <string name="common_available">可选音源</string>
+    <string name="common_available_networks">可用列表</string>
+    <string name="common_avp">Avp</string>
+    <string name="common_belt_comfort">安全带舒适功能</string>
+    <string name="common_belt_comfort_info">安全带自动收紧到舒适位置</string>
+    <string name="common_bending_light_info">转弯时的增强照明</string>
+    <string name="common_bending_light_option">弯道照明</string>
+    <string name="common_biometric_identification">身份识别</string>
+    <string name="common_bluetooth_ask">蓝牙配对码</string>
+    <string name="common_bluetooth_ask_send">配对请求已发送到%1$s</string>
+    <string name="common_bluetooth_busy">设备正忙，请稍后再试</string>
+    <string name="common_bluetooth_cancel_action">取消</string>
+    <string name="common_bluetooth_match_action">配对</string>
+    <string name="common_bluetooth_pairing">配对中</string>
+    <string name="common_bond_bluetooth_result_fail">配对失败，请重试</string>
+    <string name="common_bond_bluetooth_result_reject">已拒绝配对</string>
+    <string name="common_bond_bluetooth_result_timeout">配对超时，请重试</string>
+    <string name="common_bright_csd_adjust">屏幕亮度</string>
+    <string name="common_bright_csd_auto">自动</string>
+    <string name="common_bright_display_option">显示和内饰背光</string>
+    <string name="common_bright_head">抬头显示</string>
+    <string name="common_bright_link_option">联动</string>
+    <string name="common_bright_snow_option">雪地模式</string>
+    <string name="common_bt_connect_operate">请匹配设备</string>
+    <string name="common_bt_dialog_body_connect_operate">请确认是否要连接该设备</string>
+    <string name="common_bt_dialog_body_connect_operate_bx">是否要连接该设备</string>
+    <string name="common_bt_dialog_body_connect_remove_operate">请选择取消连接设备还是忽略设备</string>
+    <string name="common_bt_dialog_body_disconnect_operate">请确认是否断开设备连接</string>
+    <string name="common_bt_edit">输入设备名称</string>
+    <string name="common_bt_edit_error_tip">1–11个字符，不支持空格</string>
+    <string name="common_bt_edit_name">编辑</string>
+    <string name="common_bt_name">设备名称</string>
+    <string name="common_btn_adjust_HUD_brightness">抬头显示调节</string>
+    <string name="common_btn_bright">浅色</string>
+    <string name="common_btn_colors">颜色</string>
+    <string name="common_btn_dark">深色</string>
+    <string name="common_btn_disconnect_today">断开连接</string>
+    <string name="common_btn_forget_network">忽略</string>
+    <string name="common_btn_forget_network_edit">是否忽略 “%1$s” ？</string>
+    <string name="common_btn_forget_network_new">忘记网络</string>
+    <string name="common_btn_lights_off">阅读灯全关</string>
+    <string name="common_btn_lights_on">阅读灯全开</string>
+    <string name="common_btn_more_devices">查看更多设备</string>
+    <string name="common_btn_more_networks">查看更多网络</string>
+    <string name="common_btn_power_external">对外设备供电</string>
+    <string name="common_btn_power_other">对外车辆供电</string>
+    <string name="common_btn_send_code">发送验证码</string>
+    <string name="common_btn_start_charging">开始充电</string>
+    <string name="common_btn_stop_charging">停止充电</string>
+    <string name="common_btn_stop_discharging">停止供电</string>
+    <string name="common_btn_verify_by_phone">通过手机APP验证</string>
+    <string name="common_business_class">商务舱</string>
+    <string name="common_bx_damping_title">减振</string>
+    <string name="common_bx_suspension_title">悬架高度</string>
+    <string name="common_cable_status_connect_ac">已插枪（交流）</string>
+    <string name="common_cable_status_connect_dc">已插枪（直流）</string>
+    <string name="common_cable_status_connect_fault">连接故障</string>
+    <string name="common_cable_status_no_double">请勿同时插入交流枪和直流枪</string>
+    <string name="common_calibrate">校准</string>
+    <string name="common_can_be_discoverd_device">已经找到的移动设备</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_cant_connect">连接失败，请重试</string>
+    <string name="common_cant_connect_enter">无法加入网络，请稍后再试</string>
+    <string name="common_car_door_lock">车门锁</string>
+    <string name="common_car_jack">千斤顶模式</string>
+    <string name="common_car_jack_info">车辆举升时，临时禁止悬架高度调节</string>
+    <string name="common_car_language">语言</string>
+    <string name="common_car_lock">车锁</string>
+    <string name="common_car_updated">你的车更新了最新版本!</string>
+    <string name="common_car_updated_already">您的汽车已更新为最新版本！</string>
+    <string name="common_car_updated_release">系统有最新的软件版本更新</string>
+    <string name="common_car_updated_schedule_today_am">已经预约今天%1$s进行升级</string>
+    <string name="common_car_updated_schedule_today_pm">您的汽车将于今天%1$s更新</string>
+    <string name="common_car_updated_schedule_tomorrow_am">已经预约明天%1$s进行升级</string>
+    <string name="common_car_updated_schedule_tomorrow_pm">您的汽车将于明天%1$s更新</string>
+    <string name="common_car_window_close_all">全关</string>
+    <string name="common_car_window_control">车窗控制</string>
+    <string name="common_car_window_left">左侧</string>
+    <string name="common_car_window_open_all">全开</string>
+    <string name="common_car_window_right">右侧</string>
+    <string name="common_car_window_ventilation">透气</string>
+    <string name="common_cardoors_alldoor">所有门</string>
+    <string name="common_cardoors_driver_door">主驾车门</string>
+    <string name="common_cardoors_driver_door1">主驾门</string>
+    <string name="common_cardoors_single_door">单门</string>
+    <string name="common_change_lane">变道确认</string>
+    <string name="common_change_lane_info">开启后，系统进行自动变道时，则会提醒用户即将变道，并需要用户通过拨动转向灯杆的方式以确认变道</string>
+    <string name="common_charge_battery_temp_little_low_tips">当前电池温度略低，充电速率轻微下降</string>
+    <string name="common_charge_battery_temp_low_tips">当前电池温度低，充电速率下降</string>
+    <string name="common_charge_battery_temp_very_low_tips">当前电池温度过低，充电速率明显下降</string>
+    <string name="common_charge_charge_speed">充电速度</string>
+    <string name="common_charge_current">电流</string>
+    <string name="common_charge_daily">每天</string>
+    <string name="common_charge_friday">周五</string>
+    <string name="common_charge_monday">周一</string>
+    <string name="common_charge_per_week">每周</string>
+    <string name="common_charge_please_set">请设置</string>
+    <string name="common_charge_power">放电电量统计</string>
+    <string name="common_charge_saturday">周六</string>
+    <string name="common_charge_status_battery_fault">动力电池故障</string>
+    <string name="common_charge_status_booking">预约中</string>
+    <string name="common_charge_status_charging">充电中</string>
+    <string name="common_charge_status_charging_done">充电停止</string>
+    <string name="common_charge_status_charging_fault">充电故障</string>
+    <string name="common_charge_status_close_to_fully_charged">即将充满</string>
+    <string name="common_charge_status_discharging">对外放电中</string>
+    <string name="common_charge_status_discharging_done">放电结束</string>
+    <string name="common_charge_status_discharging_fault">放电故障</string>
+    <string name="common_charge_status_fast_charging">快充中</string>
+    <string name="common_charge_status_preheating">电池温度调节中</string>
+    <string name="common_charge_status_schedule_charging">预约充电中</string>
+    <string name="common_charge_status_super_fast_charging">极充中</string>
+    <string name="common_charge_sunday">周日</string>
+    <string name="common_charge_three_voltage">电压（三相）</string>
+    <string name="common_charge_thursday">周四</string>
+    <string name="common_charge_time_fail">预约充电失败</string>
+    <string name="common_charge_time_normal">剩余时间</string>
+    <string name="common_charge_today">今日</string>
+    <string name="common_charge_tomorrow">明日</string>
+    <string name="common_charge_tuesday">周二</string>
+    <string name="common_charge_voltage">电压</string>
+    <string name="common_charge_wednesday">周三</string>
+    <string name="common_charge_week">周</string>
+    <string name="common_charging_current_max">64</string>
+    <string name="common_charging_current_min">5</string>
+    <string name="common_charging_current_range_unit_km">km</string>
+    <string name="common_charging_current_range_unit_mile">mile</string>
+    <string name="common_charging_current_unit">A</string>
+    <string name="common_charging_default_estimate">剩余 --h</string>
+    <string name="common_charging_estimate_10">剩余时间：&lt;b>&lt;font color=#FFFFFF> >10&lt;/font>&lt;/b> h</string>
+    <string name="common_charging_estimate_10_day">剩余时间：&lt;b>&lt;font color=#000000> >10&lt;/font>&lt;/b> h</string>
+    <string name="common_charging_estimate_24">剩余时间：&lt;b>&lt;font color=#FFFFFF> >24&lt;/font>&lt;/b> h</string>
+    <string name="common_charging_estimate_24_day">剩余时间：&lt;b>&lt;font color=#000000> >24&lt;/font>&lt;/b> h</string>
+    <string name="common_charging_estimate_schedule">定时充电：&lt;b>&lt;font color=#FFFFFF>%1$s: %2$s-%3$s: %4$s&lt;/font>&lt;/b></string>
+    <string name="common_charging_estimate_schedule_day">定时充电：&lt;b>&lt;font color=#000000>%1$s: %2$s-%3$s: %4$s&lt;/font>&lt;/b></string>
+    <string name="common_charging_estimate_schedule_not_stop">定时充电：&lt;b>&lt;font color=#FFFFFF>%1$s: %2$s&lt;/font>&lt;/b></string>
+    <string name="common_charging_estimate_schedule_not_stop_day">定时充电：&lt;b>&lt;font color=#000000>%1$s: %2$s&lt;/font>&lt;/b></string>
+    <string name="common_charging_hour_unit">h</string>
+    <string name="common_charging_level_unit">%</string>
+    <string name="common_charging_minute_unit">min</string>
+    <string name="common_charging_null">--</string>
+    <string name="common_charging_reservation_content1">无效设置，开始时间应距当前时间不小于15分钟</string>
+    <string name="common_charging_reservation_content2">无效设置，结束时间应距开始时间不小于15分钟</string>
+    <string name="common_charging_schedule">预约充电中</string>
+    <string name="common_charging_speed_range_unit_kw">kWh</string>
+    <string name="common_charging_speed_range_unit_mile">mph</string>
+    <string name="common_charging_speed_unit">km/h</string>
+    <string name="common_charging_speed_unit_km">km/h</string>
+    <string name="common_charging_speed_unit_percent">%</string>
+    <string name="common_charging_time_normal_left">剩余时间：&lt;b>&lt;font color=#FFFFFF>%1$s&lt;/font>&lt;/b> h &lt;b>&lt;font color=#FFFFFF>%2$s&lt;/font>&lt;/b> min</string>
+    <string name="common_charging_time_normal_left_day">剩余时间：&lt;b>&lt;font color=#000000>%1$s&lt;/font>&lt;/b> h &lt;b>&lt;font color=#000000>%2$s&lt;/font>&lt;/b> min</string>
+    <string name="common_charging_voltage_unit">V</string>
+    <string name="common_check_network_name">无法连接，请检查网络名称</string>
+    <string name="common_checkbox_tip">30天内不再提示</string>
+    <string name="common_child_lock">儿童锁</string>
+    <string name="common_child_lock_desc">开启后，车辆后排门窗无法从内部打开</string>
+    <string name="common_chime">报警提示音量</string>
+    <string name="common_chime_bx">报警提示音量</string>
+    <string name="common_chime_info">安全带未系提醒、车门未关提醒等场景的提示音量</string>
+    <string name="common_choose_one_type">至少选择一种模式</string>
+    <string name="common_clearance">高间隙</string>
+    <string name="common_clearance_high">高</string>
+    <string name="common_clearance_low">低</string>
+    <string name="common_clearance_normal">标准</string>
+    <string name="common_clearance_very_high">很高</string>
+    <string name="common_clearance_very_low">很低</string>
+    <string name="common_climate_mode">空调</string>
+    <string name="common_close">关闭</string>
+    <string name="common_closed">关闭</string>
+    <string name="common_coll_warn">碰撞减缓辅助</string>
+    <string name="common_confirm">确认</string>
+    <string name="common_confirm_pin_same">请确认蓝牙匹配码是否相同</string>
+    <string name="common_conn">连接</string>
+    <string name="common_conn_access_info">为外部设备提供网络</string>
+    <string name="common_conn_access_option">网络接入</string>
+    <string name="common_conn_ap_cellular">蜂窝网络</string>
+    <string name="common_conn_ap_cellular_recon">重连蜂窝网络</string>
+    <string name="common_conn_ap_cellular_recon_content">重连蜂窝网络需要2-4分钟。期间，蜂窝网络、WLAN、车载热点不可用，请确认是否继续？</string>
+    <string name="common_conn_ap_cellular_recon_tip">蜂窝网络信号弱时，可选择重启网络</string>
+    <string name="common_conn_bluetooth">蓝牙</string>
+    <string name="common_conn_bluetooth_con_fail">连接失败</string>
+    <string name="common_conn_bluetooth_con_ok">蓝牙已连接</string>
+    <string name="common_conn_bluetooth_device_headline">蓝牙名称</string>
+    <string name="common_conn_bluetooth_device_hint">请操作配对设备</string>
+    <string name="common_conn_bluetooth_dis">可被附近蓝牙设备发现</string>
+    <string name="common_conn_bluetooth_dis_ok">蓝牙已断开</string>
+    <string name="common_conn_bluetooth_disconncect_first">请断开当前连接的设备后再操作!</string>
+    <string name="common_conn_bluetooth_found">可用列表</string>
+    <string name="common_conn_bluetooth_found_device">可用设备</string>
+    <string name="common_conn_bluetooth_headphones">耳机适用于带有耳机图标的应用</string>
+    <string name="common_conn_bluetooth_hicar">HiCar连接中，暂不可用。</string>
+    <string name="common_conn_bluetooth_max_two">您可以连接最多2部手机</string>
+    <string name="common_conn_bluetooth_new_name_not_empty">蓝牙名称不能为空!</string>
+    <string name="common_conn_bluetooth_new_name_too_long">蓝牙名称太长!</string>
+    <string name="common_conn_bluetooth_result_fail">连接失败</string>
+    <string name="common_conn_bluetooth_result_fail_bx">连接失败，请重试</string>
+    <string name="common_conn_bluetooth_result_ok">连接成功</string>
+    <string name="common_conn_bluetooth_switch_source_to_bluetooth_music">请将媒体音源切换到蓝牙音乐</string>
+    <string name="common_conn_bt_all_connected">已连接（通话和媒体）</string>
+    <string name="common_conn_bt_connected">已连接</string>
+    <string name="common_conn_bt_connecting">连接中</string>
+    <string name="common_conn_bt_disconnected">未连接</string>
+    <string name="common_conn_bt_disconnecting">断开中</string>
+    <string name="common_conn_bt_music_connected">已连接 （仅媒体）</string>
+    <string name="common_conn_bt_phone_connected">已连接 （仅通话）</string>
+    <string name="common_conn_cur_wifi">当前网络</string>
+    <string name="common_conn_hotspot_device">已连接设备</string>
+    <string name="common_conn_location">定位服务</string>
+    <string name="common_conn_locator_info">使用智能设备定位车辆</string>
+    <string name="common_conn_locator_option">车辆定位</string>
+    <string name="common_conn_music_bt_message">打开蓝牙音乐时自动开启</string>
+    <string name="common_conn_point">车载热点</string>
+    <string name="common_conn_point_conn">已配对</string>
+    <string name="common_conn_point_conn_device">已配对设备</string>
+    <string name="common_conn_point_mode">AP模式</string>
+    <string name="common_conn_point_mode_new">热点模式</string>
+    <string name="common_conn_point_mode_new_bx">热点模式</string>
+    <string name="common_conn_point_name">车载热点名称</string>
+    <string name="common_conn_point_name_bx">热点名称:</string>
+    <string name="common_conn_point_password_bx">热点密码:</string>
+    <string name="common_conn_point_tip">打开车载热点，这可能要求您支付额外的流量费用</string>
+    <string name="common_conn_smart_device">智能设备操作</string>
+    <string name="common_conn_wi_fi">WLAN</string>
+    <string name="common_conn_wifi">Wifi</string>
+    <string name="common_conn_wifi_SSID">添加网络</string>
+    <string name="common_conn_wifi_cur">已连接</string>
+    <string name="common_conn_wifi_dialog_saved">已保存: %1$s</string>
+    <string name="common_conn_wifi_dialog_security">加密方式: %1$s</string>
+    <string name="common_conn_wifi_dialog_signal">信号强度: %1$s</string>
+    <string name="common_conn_wifi_found">可用网络</string>
+    <string name="common_conn_wifi_info">能够使用车载WLAN功能</string>
+    <string name="common_conn_wifi_name">网络名称</string>
+    <string name="common_conn_wifi_name_empty">名称不能为空</string>
+    <string name="common_conn_wifi_password">网络密码</string>
+    <string name="common_conn_wifi_password_connect">连接</string>
+    <string name="common_conn_wifi_password_correct">密码正确</string>
+    <string name="common_conn_wifi_password_empty">密码不能为空</string>
+    <string name="common_conn_wifi_password_enter">请输入密码</string>
+    <string name="common_conn_wifi_password_headline">连接WLAN</string>
+    <string name="common_conn_wifi_password_option">显示密码</string>
+    <string name="common_conn_wifi_password_title">输入WLAN密码</string>
+    <string name="common_conn_wifi_password_wrong">密码错误</string>
+    <string name="common_conn_wifi_previous">已保存的网络</string>
+    <string name="common_conn_wifi_previous_bx">已保存网络</string>
+    <string name="common_conn_wifi_saved">查看保存网络</string>
+    <string name="common_conn_wifi_ssid_enter">请输入网络名称</string>
+    <string name="common_conn_wifi_ssid_wrong">无法连接，请检查网络名称</string>
+    <string name="common_conn_wireless_info">更新二维码</string>
+    <string name="common_conn_wireless_option">手机无线充电</string>
+    <string name="common_conn_wpc_info">注意：充电时，请勿在手机和充电板之间放置任何金属类物品，以免被烫伤。</string>
+    <string name="common_connect_edit_pwd">车载热点密码</string>
+    <string name="common_connect_edit_pwd_bx">热点密码</string>
+    <string name="common_connect_edit_ssid">车载热点名称</string>
+    <string name="common_connect_name_max_length">名称最大长度为12位</string>
+    <string name="common_connect_no_wifi">暂无可用网络</string>
+    <string name="common_connect_pwd">热点密码</string>
+    <string name="common_connect_pwd_is_invalid">密码必须要包含大小写字母和数字</string>
+    <string name="common_connect_pwd_max_length">密码最大长度为64位</string>
+    <string name="common_connect_pwd_min_length">密码最小长度为8位</string>
+    <string name="common_connect_to_bluetooth">蓝牙连接</string>
+    <string name="common_connect_to_wifi">连接WLAN</string>
+    <string name="common_convenient_ingress_and_egress">方便进出</string>
+    <string name="common_convenient_ingress_info">停车时自动降低车辆方便进出</string>
+    <string name="common_convenient_ingress_option">方便进出</string>
+    <string name="common_csd_calibrate">中控屏校准</string>
+    <string name="common_csd_calibrate_fail">中控屏校准失败</string>
+    <string name="common_current">当前音源</string>
+    <string name="common_current_range">续航里程</string>
+    <string name="common_custom_shortcuts">自定义快捷键</string>
+    <string name="common_custom_shortcuts_hint">通过点击或拖拽来增加删除快捷图标</string>
+    <string name="common_custom_wheel_item_eight">低速行驶警示音</string>
+    <string name="common_custom_wheel_item_eleven">竞速模式</string>
+    <string name="common_custom_wheel_item_five">行车记录仪</string>
+    <string name="common_custom_wheel_item_four">自动泊车</string>
+    <string name="common_custom_wheel_item_nine">加速能力</string>
+    <string name="common_custom_wheel_item_one">切换音源</string>
+    <string name="common_custom_wheel_item_severn">扩音器 (对车外喊话)</string>
+    <string name="common_custom_wheel_item_six">中控屏方向</string>
+    <string name="common_custom_wheel_item_ten">唤起语音</string>
+    <string name="common_custom_wheel_item_three">全景影像</string>
+    <string name="common_custom_wheel_item_twelve">紧急录像</string>
+    <string name="common_custom_wheel_item_two">全局静音</string>
+    <string name="common_dc_door_front_angle">前车门开启上限</string>
+    <string name="common_dc_door_front_open">手动开前门</string>
+    <string name="common_dc_door_rear_angle">后车门开启上限</string>
+    <string name="common_dc_door_rear_open">手动开后门</string>
+    <string name="common_dc_door_trunk_angle">尾门开启上限</string>
+    <string name="common_dialog_notity_title">温馨提示</string>
+    <string name="common_digital_video_recording">行车记录仪</string>
+    <string name="common_dim_wheel_item_five">主驾空调</string>
+    <string name="common_dim_wheel_item_four">地图</string>
+    <string name="common_dim_wheel_item_one">多媒体</string>
+    <string name="common_dim_wheel_item_six">胎压监测</string>
+    <string name="common_dim_wheel_item_three">行程2</string>
+    <string name="common_dim_wheel_item_two">行程1</string>
+    <string name="common_disagree">拒绝</string>
+    <string name="common_distance_control">驻车距离控制</string>
+    <string name="common_dm_unknow">未知</string>
+    <string name="common_done">完成</string>
+    <string name="common_door_approach_info">携带钥匙靠近解锁，远离自动上锁</string>
+    <string name="common_door_approach_open_door">接近开门</string>
+    <string name="common_door_approach_open_door_tip">携带钥匙接近车门，车门自动开启</string>
+    <string name="common_door_approach_option">接近解锁</string>
+    <string name="common_door_control">车门控制</string>
+    <string name="common_door_control_pop">车门快捷控制</string>
+    <string name="common_door_control_pop_tip">非P挡下开门或切到P挡时，弹出快捷窗口，方便控制车门等操作</string>
+    <string name="common_door_front_open">前门手动模式</string>
+    <string name="common_door_key_unlock_help">钥匙解锁</string>
+    <string name="common_door_key_unlock_help_tip_all">使用钥匙解锁后，解锁所有车门</string>
+    <string name="common_door_key_unlock_help_tip_driver">使用钥匙解锁后，仅解锁主驾车门</string>
+    <string name="common_door_lock">儿童锁</string>
+    <string name="common_door_lock_setting">门锁设置</string>
+    <string name="common_door_lock_tip">开启后，车辆后排无法打开车门</string>
+    <string name="common_door_locking_auto_window">锁车自动关窗</string>
+    <string name="common_door_locking_feedback_sound">解闭锁音效</string>
+    <string name="common_door_locking_window">锁车关窗</string>
+    <string name="common_door_manual_help">手动开合力度</string>
+    <string name="common_door_mode">电动门模式</string>
+    <string name="common_door_mode_tip">"关闭：上/下车均需手动打开车门
+上下车：上/下车时均电动开门"</string>
+    <string name="common_door_open_warn">开门预警</string>
+    <string name="common_door_open_warn_info">开门时碰撞风险预警</string>
+    <string name="common_door_rear_open">后门手动模式</string>
+    <string name="common_door_touch_option">触摸门把手解锁</string>
+    <string name="common_door_touch_option_bx">触摸门把手解锁</string>
+    <string name="common_door_touch_tip">触摸门把手后，解锁所有车门</string>
+    <string name="common_door_touch_tip2">触摸门把手后，解锁当前车门</string>
+    <string name="common_door_trunk_open">后备箱开启</string>
+    <string name="common_door_two_step_info">首次钥匙解锁时，仅解锁主驾车门和充电口盖，再次解锁时，解锁所有车门</string>
+    <string name="common_door_two_step_option">钥匙两步解锁</string>
+    <string name="common_door_unlock_sound">闭锁音效</string>
+    <string name="common_door_window">门窗</string>
+    <string name="common_doors">车门</string>
+    <string name="common_down_panle_battery_charging">电池与充电</string>
+    <string name="common_down_panle_open_charging">充电</string>
+    <string name="common_dr_att_monitor">驾驶员疲劳状态提醒</string>
+    <string name="common_drive_mode_comfort">舒适</string>
+    <string name="common_drive_mode_comfort_info">日常驾驶时的标准模式，为您提供最舒适的驾乘体验</string>
+    <string name="common_drive_mode_comfort_tip">日常驾驶时的标准模式，为您提供最舒适的驾乘体验</string>
+    <string name="common_drive_mode_eco">经济</string>
+    <string name="common_drive_mode_eco_info">节能且具备环保意识的驾乘体验</string>
+    <string name="common_drive_mode_eco_tip">节能且具备环保意识的驾乘体验</string>
+    <string name="common_drive_mode_individual">个性化</string>
+    <string name="common_drive_mode_individual_info">根据个人偏好设置驾驶模式，提供个性化驾乘体验</string>
+    <string name="common_drive_mode_individual_tip">根据个人偏好设置驾驶模式，提供个性化驾乘体验</string>
+    <string name="common_drive_mode_off_road">越野</string>
+    <string name="common_drive_mode_off_road_tip">可在恶劣地形和艰难路况行驶时提供优良的车辆牵引力，为您提供更好的驾乘体验</string>
+    <string name="common_drive_mode_sand">沙地</string>
+    <string name="common_drive_mode_sand_info">可在沙地路面，为您提供更好的驾乘体验</string>
+    <string name="common_drive_mode_sand_tip">可在沙地路面，为您提供更好的驾乘体验</string>
+    <string name="common_drive_mode_snow">雪地</string>
+    <string name="common_drive_mode_snow_info">可在浅雪或者冰雪路面，为您提供更好的驾乘体验</string>
+    <string name="common_drive_mode_snow_tip">可在浅雪或者冰雪路面，为您提供更好的驾乘体验</string>
+    <string name="common_drive_mode_sport">运动</string>
+    <string name="common_drive_mode_sport_info">拥有更好的运动特性，加速响应更快，为您提供高性能的驾乘体验</string>
+    <string name="common_drive_mode_sport_tip">拥有更好的运动特性，加速响应更快，为您提供高性能的驾乘体验</string>
+    <string name="common_drive_mode_terrain_info">可在恶劣地形和艰难路况行驶时提供优良的车辆牵引力</string>
+    <string name="common_drive_mode_track">赛道</string>
+    <string name="common_drive_mode_track_tip">车况、道路等需要满足条件才可以进入赛车模式</string>
+    <string name="common_drive_mode_track_tip0" formatted="false">"尊敬的用户，请仔细阅读此使用说明：
+ 　　警告：
+ 　　（1）赛道模式仅供在符合国家安全标准的封闭赛车场或专业场地内应用，不得在公共道路和任何其他不符合相应安全标准的场所使用，使用赛道模式导致的任何人身伤亡和财产损失，相关风险和责任均由驾驶员承担。
+ 　　（2）赛道模式需由具有专业驾驶技能和丰富经验的驾驶员操作，驾驶员应至少拥有3年以上的驾龄。
+ 请确认是否需要求其他条件
+ 　　（3）驾驶员有责任全程保持对车辆的控制，并确保使用赛道模式时的车辆行驶和环境安全，请务必在确认安全的条件下谨慎操作。在车辆行驶中请勿手动调整和操作参数配置，以免注意力分散导致不可预估的后果。
+ 　　（4）赛道模式下，屏幕将显示与赛道模式相关的额外数据和信息，此类数据和信息仅供参考，驾驶员在操作时不应依赖所显示的数据和信息，并应在必要时自行确认车辆运行状态的稳定性和安全性。
+ 　　（5）因使用赛道模式而导致的车辆或零部件损坏及故障，应由驾驶员负责，不属于车辆的质保范围内。
+ 
+ 使用要求：
+ 　　（1）切换赛道模式需要保证整车电量>20%SOC以上。整车电量在SOC40%以上且电池温度在适合的范围内（20~30℃）才能发挥最佳的性能。
+ 　　（2）且整车动力系统，热管理系统，制动系统，全部正常下才能激活，如有异常则自动退出。
+ 　　（3）退出赛道模式后尽快离开赛道场景，等整车状态恢复后才能再次进入赛道模式。
+ 　　（4）使用赛道模式时，为确保安全建议使用专业的赛道套装配件。
+ 
+ 赛道模式激活后：
+ 　　（1）动力模式Sport+ 
+ 　　（2）E-pedal和AutoHold默认关闭
+ 　　（3）四驱动力，默认50%，可调
+ 　　（4）转向手力默认10级或强，可调
+ 　　（5）ESC默认0档（off）
+ 　　（6）能量回收等级默认为100%(高)
+ 　　（7）空气悬架（如有）降至最低
+ 
+ 个人信息收集使用部分说明：
+ 　 1. 赛道模式审核:
+ 　　　 为了向您提供赛道模式服务，我们需要在车端本地处理DVR拍摄的车外影像，以判断您驾驶的车辆是否在赛道内。
+ 　 2. 赛道模式车辆调教自定义:
+ 　　　 为了向您提供赛道模式车辆调教自定义服务，我们需要收集您的车身稳定、扭矩分配、能量回收、转向挡位设置信息，并上传至云端。
+ 　 3. 赛道模式本次最佳/记录最佳的成绩展示:
+ 　　　 为了向您提供赛道模式本次最佳/记录最佳的成绩展示服务，我们需要收集您的单圈时间、当前圈数、最高车速、单圈偏差、赛道名称、记录日期、记录时间、全部里程、全程时长，并上传至云端。
+ 　 4. 赛道模式视频回看:
+ 　　　 为了向您提供赛道模式视频回看服务，我们需要收集您的账号ID、账号头像、账号昵称、DVR拍摄的车外影像，并上传到云端。
+ 　 5. 车友成绩排名:
+ 　 　　 为了向您提供车友成绩排名服务，我们需要收集您的账号ID、账号头像、账号昵称、账号段位、赛道名称、车型、单圈时间、最大车速、视频上传时间，并上传至云端。
+ 　 6. 漂移模式成绩展示:
+ 　　　 为了向您提供漂移模式成绩展示服务，我们需要收集您使用漂移模式的全程时间、最大方向盘转角、最大车辆转角、最大横向/纵向加速、漂移公里，并上传至云端。
+ 
+ 本人已完全理解并同意上述说明，确认开启赛道模式。"</string>
+    <string name="common_drive_mode_track_title">赛道模式用户须知</string>
+    <string name="common_drive_mode_trak_tip1">不能切换赛道模式电量低，充电后再尝试切换赛道模式</string>
+    <string name="common_drive_mode_trak_tip2">不能切换赛道模式车辆需在P挡，请调整后重试</string>
+    <string name="common_drive_mode_trak_tip3">不能切换赛道模式，请确保驱动系统、ESC系统、转向系统、胎压系热管理系统正常，再尝试切换赛道模式</string>
+    <string name="common_drive_modes">驾驶模式</string>
+    <string name="common_driver_easy_entry">主驾便利进出</string>
+    <string name="common_driver_massage">主驾按摩</string>
+    <string name="common_driver_massage_intensity">强度</string>
+    <string name="common_driver_massage_program">模式</string>
+    <string name="common_driver_rest">主驾一键休憩</string>
+    <string name="common_driver_seat">主驾</string>
+    <string name="common_drivin_loading_into_driving_position">正在加载至当前用车习惯位置</string>
+    <string name="common_driving_drivemode_not_select_tip">当前模式下无法切换加速能力</string>
+    <string name="common_driving_drivemode_trace_tip">无法激活竞速模式，请确保车辆无异常状态后重试</string>
+    <string name="common_driving_position">主驾位置</string>
+    <string name="common_dynamic_explain">低间隙&amp;灵活</string>
+    <string name="common_e_pedal">One-pedal</string>
+    <string name="common_e_pedal_info">车辆的加速/减速由加速踏板控制</string>
+    <string name="common_electric_door">电动门</string>
+    <string name="common_electric_door_dc">车门</string>
+    <string name="common_electric_door_desc_all">上/下车时均电动开门</string>
+    <string name="common_electric_door_desc_close">上/下车均需手动打开车门</string>
+    <string name="common_electric_door_desc_up">仅上车时电动开门，下车需手动开门</string>
+    <string name="common_electric_door_max_tips">开关电动门时，请注意观察车辆周围；必要时请手动干预</string>
+    <string name="common_electric_door_open">最大开启幅度</string>
+    <string name="common_electric_door_open_left">主驾驶电动门开启</string>
+    <string name="common_electric_door_open_right">副驾驶电动门开启</string>
+    <string name="common_electric_door_open_tips">开关电动门时，请注意观察车辆周围环境；必要时请手动干预</string>
+    <string name="common_electric_open_door">电动开门</string>
+    <string name="common_energ_saving_mode_open_tip">超级省电模式开启中该功能不可用，请关闭后尝试</string>
+    <string name="common_enter_wifi_name">请输入名称</string>
+    <string name="common_enter_wifi_network_name">输入网络名称</string>
+    <string name="common_enter_wifi_network_password">请输入网络密码</string>
+    <string name="common_enter_wifi_password">请输入密码</string>
+    <string name="common_equalizer">均衡器</string>
+    <string name="common_equalizer_adjust">均衡器调节</string>
+    <string name="common_equalizer_bass">低音</string>
+    <string name="common_equalizer_middle">中音</string>
+    <string name="common_equalizer_treble">高音</string>
+    <string name="common_ex_sound">低速行驶车外警示音</string>
+    <string name="common_ex_sound_info">车辆低速时，提示行人注意的声音</string>
+    <string name="common_exit">退出</string>
+    <string name="common_ext_light_func">外灯功能</string>
+    <string name="common_exterior_lights">操控&amp;视野</string>
+    <string name="common_facial_recog_option">人脸识别</string>
+    <string name="common_fild_mirror">倒车自动翻转后视镜</string>
+    <string name="common_flashing_light">闪灯</string>
+    <string name="common_fold_mirror">折叠后视镜</string>
+    <string name="common_format">格式化</string>
+    <string name="common_format_card">储存卡格式化</string>
+    <string name="common_front_charge_lid">前充电口</string>
+    <string name="common_front_coll_option">前向碰撞减缓</string>
+    <string name="common_front_warn_option">前向碰撞预警</string>
+    <string name="common_g5_net">5G</string>
+    <string name="common_g5_net_introduce">开启后，自动切换5G/4G/3G；关闭后，自动切换4G/3G</string>
+    <string name="common_g5_net_title">5G</string>
+    <string name="common_general_auto">自动</string>
+    <string name="common_general_recording">一般录制</string>
+    <string name="common_general_recording_info">周期性录制行车记录影像并保存在存储卡</string>
+    <string name="common_general_restore">恢复</string>
+    <string name="common_general_unlock">解锁</string>
+    <string name="common_general_update_release_info">请查阅您车辆的更新日志</string>
+    <string name="common_general_update_release_title">更新日志</string>
+    <string name="common_general_user_profile_info">请链接到ZEEKR会员中心</string>
+    <string name="common_general_user_profile_title">用户信息</string>
+    <string name="common_general_video_display">视频播放</string>
+    <string name="common_general_video_prohibition">行车娱乐限制</string>
+    <string name="common_general_video_prohibition_info">开启后，在驾驶中限制使用视频、娱乐互动类应用</string>
+    <string name="common_get_vin_failed">获取 VIN 失败</string>
+    <string name="common_give_lane">自动让出超车道</string>
+    <string name="common_give_lane_info">在指定路段上变道超车后，若条件允许，可再次进行自动变道以让出超车道</string>
+    <string name="common_glove">手套箱</string>
+    <string name="common_glove_option">手套箱密码保护</string>
+    <string name="common_google_play_services_enable_button">启用</string>
+    <string name="common_google_play_services_enable_text">您必须先启用 Google Play 服务，然后才能运行%1$s。</string>
+    <string name="common_google_play_services_enable_title">启用 Google Play 服务</string>
+    <string name="common_google_play_services_install_button">安装</string>
+    <string name="common_google_play_services_install_text">您的设备没有安装 Google Play 服务，因此无法运行%1$s。</string>
+    <string name="common_google_play_services_install_title">获取 Google Play 服务</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 服务的适用范围</string>
+    <string name="common_google_play_services_notification_ticker">Google Play服务出错</string>
+    <string name="common_google_play_services_unknown_issue">%1$s无法访问 Google Play 服务，请重试。</string>
+    <string name="common_google_play_services_unsupported_text">您的设备不支持 Google Play 服务，因此无法运行%1$s。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_google_play_services_update_text">您必须先更新 Google Play 服务，然后才能运行%1$s。</string>
+    <string name="common_google_play_services_update_title">更新 Google Play 服务</string>
+    <string name="common_google_play_services_updating_text">Google Play 服务当前正在更新，因此您无法运行%1$s。</string>
+    <string name="common_google_play_services_wear_update_text">必须使用新版 Google Play 服务。该服务很快就会自行更新。</string>
+    <string name="common_heading_sound_effect">声效</string>
+    <string name="common_heading_sound_effect_bx1">音效</string>
+    <string name="common_heading_sound_effect_bx2">音效增强</string>
+    <string name="common_heading_system_vol_levels">系统音量</string>
+    <string name="common_help_change_lane">手动辅助自动变道</string>
+    <string name="common_help_change_lane_info">进入指定路段，可通过拨动转向灯杆的方式实现自动变道</string>
+    <string name="common_high_voltage_battery">高压电池</string>
+    <string name="common_high_voltage_battery_tips">关闭高压电池，屏幕仍能工作但空调和娱乐信息功能将被关闭。您可以休息一下，踩下刹车踏板即可恢复正常使用。</string>
+    <string name="common_home_safety_light_info">设置锁定车辆后灯光延迟关闭时间</string>
+    <string name="common_home_safety_light_option">伴我回家</string>
+    <string name="common_hud_ar_mode">AR导航</string>
+    <string name="common_hud_dialog_tip2">请使用方向盘右侧触控板调节抬头显示</string>
+    <string name="common_hud_dialog_title2">抬头显示调节</string>
+    <string name="common_hud_dialog_title2_bx">抬头显示调节</string>
+    <string name="common_hud_info">请使用方向盘右侧触控板调节抬头显示位置</string>
+    <string name="common_hud_info_angle">请使用方向盘右侧触控板调节抬头显示角度</string>
+    <string name="common_hud_info_brightness">请使用方向盘右侧触控板调节抬头显示亮度</string>
+    <string name="common_hud_position">抬头显示</string>
+    <string name="common_hud_sensitization">自动感光</string>
+    <string name="common_hud_snow_mode">雪地模式</string>
+    <string name="common_hud_sr_mode">SR模式</string>
+    <string name="common_hud_switch">HUD开关</string>
+    <string name="common_ignore">忽略</string>
+    <string name="common_in_car_communication">车内通话</string>
+    <string name="common_in_car_communication_tip">点击按钮开启与后排实时通话，再次点击结束通话</string>
+    <string name="common_in_sound">车内模拟声浪</string>
+    <string name="common_in_sound_info">车内模拟声浪</string>
+    <string name="common_incoming_call_music_1">默认</string>
+    <string name="common_incoming_call_ringtone">来电铃声</string>
+    <string name="common_incoming_call_ringtone_info">有5种来电铃声可供选择，每种铃声持续3s</string>
+    <string name="common_individual_edit">个性化设置</string>
+    <string name="common_input_conn_name">连接WLAN</string>
+    <string name="common_key_tone">触屏音效</string>
+    <string name="common_key_tone_info">触摸显示屏时会有相应的提示音</string>
+    <string name="common_key_unlock_tip">使用钥匙解锁后，仅解锁主驾车门</string>
+    <string name="common_key_unlock_tip2">使用钥匙解锁后，即解锁所有车门</string>
+    <string name="common_key_unlock_title">钥匙解锁</string>
+    <string name="common_know">知道了</string>
+    <string name="common_lane_change_warn_option">盲区监测系统</string>
+    <string name="common_lane_dep_warn_option">车道偏离报警</string>
+    <string name="common_lane_keep_assist_option">车道保持辅助</string>
+    <string name="common_left_child_lock">左儿童锁</string>
+    <string name="common_left_child_lock2">左边儿童锁</string>
+    <string name="common_left_child_lock3">左侧车门锁</string>
+    <string name="common_left_mirror">左后视镜</string>
+    <string name="common_left_window_lock">左车窗锁</string>
+    <string name="common_light_eco">ECO</string>
+    <string name="common_light_follow">氛围灯</string>
+    <string name="common_light_phone_info">来电时伴随灯光提示</string>
+    <string name="common_light_phone_option">来电提醒</string>
+    <string name="common_light_save_colour">保存颜色</string>
+    <string name="common_light_sync_info">整车氛围灯与前排同步</string>
+    <string name="common_light_sync_option">同步</string>
+    <string name="common_limit_speed">在道路限速牌上增加/减少</string>
+    <string name="common_limit_speed_sign">道路限速牌</string>
+    <string name="common_list_btn_close_all_windows">车窗全关</string>
+    <string name="common_list_btn_lock_close_all_windows">锁车关窗</string>
+    <string name="common_list_btn_open_all_windows">车窗全开</string>
+    <string name="common_list_btn_vent">透气模式</string>
+    <string name="common_list_info_h_child_mode">锁定后排显示器</string>
+    <string name="common_list_item_h_hxt">HXT™</string>
+    <string name="common_list_item_h_hxt_bx">音质还原</string>
+    <string name="common_list_item_i_hxt">HXT™ 将低品质音源还原为高品质音源</string>
+    <string name="common_list_item_i_hxt_bx">将低品质音源还原为高品质音源</string>
+    <string name="common_list_option_h_auto_door">解锁开门迎宾</string>
+    <string name="common_list_option_h_auto_park_rec">自动泊车推荐模式</string>
+    <string name="common_list_option_h_child_mode">儿童模式</string>
+    <string name="common_list_option_h_front_brightness">前排亮度</string>
+    <string name="common_list_option_h_hue">色调</string>
+    <string name="common_list_option_h_lane_keep_system">车道辅助系统</string>
+    <string name="common_list_option_h_lock_sound">锁车声音</string>
+    <string name="common_list_option_h_max_current">设置最大允许充电电流</string>
+    <string name="common_list_option_h_my_colours">我的收藏</string>
+    <string name="common_list_option_h_parking_assist_sys">泊车辅助系统</string>
+    <string name="common_list_option_h_rear_brightness">后排亮度</string>
+    <string name="common_list_option_h_rear_seat_dsp">后排显示器</string>
+    <string name="common_list_option_h_saturation">饱和度</string>
+    <string name="common_list_option_h_schedule_charging">预约充电</string>
+    <string name="common_list_option_h_seat_opt">声场优化</string>
+    <string name="common_list_option_h_seat_opt_bx">声场优化</string>
+    <string name="common_list_option_h_support_assist">限速辅助</string>
+    <string name="common_list_option_h_temp_maintan">动力电池温度管理</string>
+    <string name="common_list_option_h_theme_sel">显示主题</string>
+    <string name="common_list_option_h_warning_volume">报警音量</string>
+    <string name="common_list_option_h_white_hues">色温</string>
+    <string name="common_list_option_i_auto_park_rec">系统自动推荐操作以简化泊车流程</string>
+    <string name="common_list_option_i_max_current">限制最大允许充电电流</string>
+    <string name="common_list_option_i_no_space">没有可用空间保存新的颜色，点击“保存”将替换最早存储的颜色</string>
+    <string name="common_list_option_i_remote_parking">在车外通过手机遥控方式泊车</string>
+    <string name="common_list_option_i_scheduled_charging">设置预约充电开始/结束时间</string>
+    <string name="common_list_option_i_seat_opt">选择指定的位置进行声场优化</string>
+    <string name="common_list_option_i_seat_opt_bx">选择指定的位置进行声场优化</string>
+    <string name="common_list_option_i_temp_maintan">驻车状态电池热管理：建议外界最高(或最低)温度高于40℃（或低于0℃）时开启。</string>
+    <string name="common_loading">加载中</string>
+    <string name="common_lock_feelback">锁车声音</string>
+    <string name="common_lock_fold_mirror">锁车自动折叠后视镜</string>
+    <string name="common_look_up_show">抬头显示</string>
+    <string name="common_massage">按摩</string>
+    <string name="common_measure">距离</string>
+    <string name="common_megaphone">扩音器</string>
+    <string name="common_mirror_adjust_by_sight_tip">看向左侧或右侧，自动识别您想调节的后视镜</string>
+    <string name="common_mirror_adjust_tip">使用方向盘右侧按键调节左侧后视镜</string>
+    <string name="common_mirror_left_info">请使用方向盘右侧触控板调节左侧外后视镜</string>
+    <string name="common_mirror_position">外后视镜位置</string>
+    <string name="common_mirror_right_info">请使用方向盘右侧触控板调节右侧外后视镜</string>
+    <string name="common_mode_mirror_posiion">后视镜调节</string>
+    <string name="common_mode_mirror_posiion_dialog_content">"选择“左后视镜”或“右后视镜”，您可以通过方向盘右侧四向按键来调节对应后视镜角度。
+
+选择“随视线朝向”，当您看向左/右侧后视镜时，将根据您的头姿朝向及眼球注视位置自动切换至所需调节的后视镜，随后可通过方向盘右侧四向按键调节后视镜角度。"</string>
+    <string name="common_mode_out_mirror">后视镜</string>
+    <string name="common_module_charging">充放电</string>
+    <string name="common_module_connectivity">连接</string>
+    <string name="common_module_copliot">ZEEKR AD</string>
+    <string name="common_module_display">显示</string>
+    <string name="common_module_doors_and_windows">门窗</string>
+    <string name="common_module_driving">驾驶</string>
+    <string name="common_module_general">通用</string>
+    <string name="common_module_in_car_experience">车内体验</string>
+    <string name="common_module_light">灯光</string>
+    <string name="common_module_more">更多</string>
+    <string name="common_module_ota">OTA</string>
+    <string name="common_module_quick_controls">快捷设置</string>
+    <string name="common_module_safety_security">安全&amp;保障</string>
+    <string name="common_module_seat">座椅</string>
+    <string name="common_module_sound">声音</string>
+    <string name="common_module_sound_notify">声音&amp;通知</string>
+    <string name="common_module_system">系统</string>
+    <string name="common_module_vehicle">车辆</string>
+    <string name="common_module_zeekerlab">Zeekr实验室</string>
+    <string name="common_moment">稍后</string>
+    <string name="common_multimedia_sound_effect">雅马哈　S3D™声场效果</string>
+    <string name="common_mute_control">静音控制</string>
+    <string name="common_native_name">本机名称</string>
+    <string name="common_native_name_edit">本机名称：%1$s</string>
+    <string name="common_nav_suppressor_media">导航抑制媒体音</string>
+    <string name="common_nav_suppressor_media_tip">开启后，导航声音压低媒体音量</string>
+    <string name="common_nav_sync_voice">语音导航音量同步</string>
+    <string name="common_nav_sync_voice_tip">开启后，导航声音与语音音量同步调节</string>
+    <string name="common_need_open_1">请先开启“手动辅助自动变道”选项</string>
+    <string name="common_need_open_2">请先开启“AI辅助驾驶”选项</string>
+    <string name="common_need_open_3">请先开启“手动辅助自动变道”和“AI辅助驾驶”选项</string>
+    <string name="common_net_bad">差</string>
+    <string name="common_net_good">很好</string>
+    <string name="common_net_open">开放</string>
+    <string name="common_net_ord">一般</string>
+    <string name="common_net_saved_no">否</string>
+    <string name="common_net_saved_yes">是</string>
+    <string name="common_net_well">较好</string>
+    <string name="common_net_wep">WEP</string>
+    <string name="common_net_wpa2PSK_wpa3">WPA2PSK_WPA3</string>
+    <string name="common_net_wpa_2psk">WPA_2_PSK</string>
+    <string name="common_net_wpa_psk">WPA_PSK</string>
+    <string name="common_net_wpa_wpa3">WPA_WPA3</string>
+    <string name="common_network_send_request">发送中...</string>
+    <string name="common_night_auto_upgrade">夜间自动升级</string>
+    <string name="common_night_auto_upgrade_tip">当系统有新版本时，自动在夜间02:00完成升级</string>
+    <string name="common_no_space_title">无可用空间</string>
+    <string name="common_normal">日常</string>
+    <string name="common_not_allow_connect">无法连接，请检查网络名称</string>
+    <string name="common_notification_allow">允许通知</string>
+    <string name="common_notification_appList">App消息</string>
+    <string name="common_notification_hide">隐藏消息内容</string>
+    <string name="common_notification_speech">声音播报</string>
+    <string name="common_nzp_drive">NZP自主领航</string>
+    <string name="common_nzp_drive_info">进入指定路段，按用户设定的导航路线实现智能辅助驾驶</string>
+    <string name="common_off">解锁</string>
+    <string name="common_ok">确认</string>
+    <string name="common_on">闭锁</string>
+    <string name="common_open">开启</string>
+    <string name="common_open_door_suppressor">开门降低媒体音</string>
+    <string name="common_open_door_suppressor_tip">开启后，任意门开媒体音量自动降低；所有车门关闭，音量恢复</string>
+    <string name="common_open_mirror">展开后视镜</string>
+    <string name="common_open_on_phone">在手机上打开</string>
+    <string name="common_other_road_info">显示其他信息，如前方学校、道路施工等信息</string>
+    <string name="common_other_road_option">其他交通信息</string>
+    <string name="common_out_option_door">车外电动开关门</string>
+    <string name="common_overtake">自动超车策略</string>
+    <string name="common_p_gear_unlock">P挡解锁</string>
+    <string name="common_park_save_bt">保存并激活</string>
+    <string name="common_parking_EPB">驻车制动</string>
+    <string name="common_parking_EPB_apply">激活驻车制动</string>
+    <string name="common_parking_EPB_release">解除驻车制动</string>
+    <string name="common_parking_EPB_tip">解除驻车制动需踩下制动踏板</string>
+    <string name="common_parking_Low_speed_brake_option">泊车自动紧急制动</string>
+    <string name="common_parking_PDC_info">泊车时显示障碍物预警信息以避免碰撞</string>
+    <string name="common_parking_PDC_option">泊车辅助</string>
+    <string name="common_parking_PEB_info">低速有碰撞风险时自动实施制动</string>
+    <string name="common_parking_RCTA_info">障碍物从车辆侧后方接近时触发预警</string>
+    <string name="common_parking_RCTA_option">后方横向来车预警</string>
+    <string name="common_parking_auto">自动泊车</string>
+    <string name="common_parking_comfort">驻车舒享</string>
+    <string name="common_parking_comfort_content">驻车舒享未关闭，是否关闭？</string>
+    <string name="common_parking_comfort_info">停车后一段时间内持续为空调和信息娱乐系统供电</string>
+    <string name="common_parking_comfort_mode_info">驻车舒适功能会持续耗电，高压电量低至20%自动关闭</string>
+    <string name="common_parking_comfort_mode_title">驻车舒享</string>
+    <string name="common_parking_rotated_wheels_info">车辆起步前转向未回正提醒</string>
+    <string name="common_parking_rotated_wheels_option">转向回正报警</string>
+    <string name="common_parking_wheel_position">转向位置</string>
+    <string name="common_passenger_massage">副驾按摩</string>
+    <string name="common_passenger_middle">中间</string>
+    <string name="common_passenger_position">副驾位置</string>
+    <string name="common_passenger_rest">副驾一键休憩</string>
+    <string name="common_passenger_seat">副驾</string>
+    <string name="common_pay_toast">此功能即将开通，敬请期待</string>
+    <string name="common_pedestrian_advance_warning_tone">行人先行提醒音</string>
+    <string name="common_pop_matching_bluetooth_text">要与“%1$s”配对吗？</string>
+    <string name="common_position_adjustments">车辆动态</string>
+    <string name="common_position_fold">折叠后视镜</string>
+    <string name="common_position_main_info">将风挡雨刮器升高至竖直位置</string>
+    <string name="common_position_mirror">外后视镜</string>
+    <string name="common_position_mirror_fold">锁车自动折叠后视镜</string>
+    <string name="common_position_mirror_tilt">倒车时自动翻转后视镜</string>
+    <string name="common_position_unfold">展开后视镜</string>
+    <string name="common_pressure">胎压</string>
+    <string name="common_privacy_level">车窗隐私等级</string>
+    <string name="common_propulsion">驱动</string>
+    <string name="common_qucik_on">ON</string>
+    <string name="common_qucik_open">ON</string>
+    <string name="common_qucik_open_dc">常开</string>
+    <string name="common_qucik_open_park_toast">请打开驻车舒享开关</string>
+    <string name="common_quick_apa">自动泊车</string>
+    <string name="common_quick_auto">自动</string>
+    <string name="common_quick_avp">AVP</string>
+    <string name="common_quick_bluetooth">蓝牙</string>
+    <string name="common_quick_car_controls">车辆控制</string>
+    <string name="common_quick_drive_mode">驾驶模式</string>
+    <string name="common_quick_edit">编辑</string>
+    <string name="common_quick_esc">ESC OFF</string>
+    <string name="common_quick_fog">后雾灯</string>
+    <string name="common_quick_hdc">陡坡缓降</string>
+    <string name="common_quick_hud">抬头显示</string>
+    <string name="common_quick_mirror_left">外后视镜</string>
+    <string name="common_quick_pac">全景影像</string>
+    <string name="common_quick_park_duration">驻车舒享时长</string>
+    <string name="common_quick_park_duration_bx">驻车舒享时长</string>
+    <string name="common_quick_parking_apps">车辆视野</string>
+    <string name="common_quick_parking_auto">自动泊车</string>
+    <string name="common_quick_ride_height">悬架高度</string>
+    <string name="common_quick_screen_brightness">屏幕亮度</string>
+    <string name="common_quick_select_park_duration">停车后一段时间内持续为空调和信息娱乐系统供电</string>
+    <string name="common_quick_select_park_duration_bx">请选择自动驻车后的舒适模式时长</string>
+    <string name="common_quick_setting_driving_mode_location_drive">驾驶位置</string>
+    <string name="common_quick_setting_driving_mode_location_drive_bx">主驾位置</string>
+    <string name="common_quick_shortcut">快捷键</string>
+    <string name="common_quick_stream">流媒体</string>
+    <string name="common_quick_weather">全气候灯</string>
+    <string name="common_quick_wifi">WIFI</string>
+    <string name="common_ready_brake">制动</string>
+    <string name="common_rear_charge_lid">后充电口</string>
+    <string name="common_rear_seat">后排</string>
+    <string name="common_rear_warn_option">后向碰撞预警</string>
+    <string name="common_recording_resolution">视频分辨率</string>
+    <string name="common_recreate_loading">正在加载···</string>
+    <string name="common_recreate_loading_dark">正在设置深色主题</string>
+    <string name="common_recreate_loading_language">Setting language</string>
+    <string name="common_recreate_loading_light">正在设置浅色主题</string>
+    <string name="common_regen_level">能量回收等级</string>
+    <string name="common_release_parking_brake">解除驻车制动</string>
+    <string name="common_remote_park">遥控泊车</string>
+    <string name="common_remote_parking">遥控泊车</string>
+    <string name="common_remove_bonded">取消保存</string>
+    <string name="common_request_pair_bluetooth">连接蓝牙</string>
+    <string name="common_reset">复位</string>
+    <string name="common_rest_location_toast">休息模式座椅位置已更新</string>
+    <string name="common_rest_mode">一键休憩</string>
+    <string name="common_rest_mode_cancelled">休憩模式功能退出</string>
+    <string name="common_rest_mode_cancelled_toast">休息模式退出</string>
+    <string name="common_rest_mode_info">自动调节座椅、空调等</string>
+    <string name="common_rest_mode_popup">车辆行驶状态下使用休息模式存在风险，是否继续开启?</string>
+    <string name="common_rest_mode_saved">休憩位置已更新并保存</string>
+    <string name="common_rest_mode_started">一键休憩</string>
+    <string name="common_rest_mode_started_conent">车窗将关闭，请勿长时间在车内休憩</string>
+    <string name="common_rest_mode_toast">所有车窗将会关闭，请勿在车内睡觉</string>
+    <string name="common_rest_mode_warning_content">休息模式在行车时使用存在风险，是否继续使用？</string>
+    <string name="common_reverse_mirror">倒车自动翻转后视镜</string>
+    <string name="common_reverse_suppressor">倒车降低媒体音</string>
+    <string name="common_reverse_suppressor_tip">R挡时媒体音量自动降低</string>
+    <string name="common_right_child_lock">右儿童锁</string>
+    <string name="common_right_child_lock2">右边儿童锁</string>
+    <string name="common_right_child_lock3">右侧车门锁</string>
+    <string name="common_right_mirror">右后视镜</string>
+    <string name="common_right_window_lock">右车窗锁</string>
+    <string name="common_road_signs">交通标识</string>
+    <string name="common_roof_glass_transparency">天幕透明度调节</string>
+    <string name="common_safety_car_location">车辆位置</string>
+    <string name="common_safety_location">位置服务</string>
+    <string name="common_save">保存</string>
+    <string name="common_save_activete">保存并激活</string>
+    <string name="common_search_result">搜索结果</string>
+    <string name="common_search_settings">搜索设置...</string>
+    <string name="common_send_new_code">发生新的验证码</string>
+    <string name="common_server_connect_fail">连接服务器失败</string>
+    <string name="common_service">服务</string>
+    <string name="common_service_book_distance">预约保养时间快到了。距离下次保养还有%1$skm</string>
+    <string name="common_service_book_now">保养时间已到，请尽快预约保养</string>
+    <string name="common_service_book_time">保养时间快到了。距离下次保养还有%1$skm</string>
+    <string name="common_service_remainder">服务提醒</string>
+    <string name="common_services">保养</string>
+    <string name="common_services_tow_info">长按危险警告开关（＞7s）并将挡位挂入N挡以进入拖车模式</string>
+    <string name="common_services_tow_title">拖车模式</string>
+    <string name="common_services_tow_warning">警告，模式激活后，驻车制动将被释放！</string>
+    <string name="common_services_update">升级</string>
+    <string name="common_services_update_version">ZEEKR OS %1$s</string>
+    <string name="common_services_windscreen_wiper_maintain">风挡雨刮器</string>
+    <string name="common_services_windscreen_wiper_maintain_info">保养维修位置</string>
+    <string name="common_set_charge_limit">限值</string>
+    <string name="common_settime_start">开始时间</string>
+    <string name="common_settime_stop">结束时间</string>
+    <string name="common_shortcut_bluetooth">蓝牙</string>
+    <string name="common_shortcut_wifi">WLAN</string>
+    <string name="common_signin_button_text">登录</string>
+    <string name="common_signin_button_text_long">使用 Google 帐号登录</string>
+    <string name="common_siren_and_flashing">闪灯鸣笛</string>
+    <string name="common_slider_h_bt_headset_volume_bx">蓝牙耳机</string>
+    <string name="common_slider_h_media_volume">多媒体音量</string>
+    <string name="common_slider_h_media_volume_bx">多媒体</string>
+    <string name="common_slider_h_navi_beeb_volume">导航提示音</string>
+    <string name="common_slider_h_navi_beeb_volume_bx">导航声音</string>
+    <string name="common_slider_h_navi_volume">导航播报</string>
+    <string name="common_slider_h_phonecall_volume">通话声音</string>
+    <string name="common_slider_h_phonecall_volume_bx">通话声音</string>
+    <string name="common_slider_h_ringtone_volume">电话铃声</string>
+    <string name="common_slider_h_vr_tts_volume">语音识别</string>
+    <string name="common_slider_h_vr_tts_volume_bx">语音播报</string>
+    <string name="common_sms_tip">车速大于15km/h，不能打开流媒体</string>
+    <string name="common_sound_balance">平衡与衰减</string>
+    <string name="common_sound_source">音源</string>
+    <string name="common_source_switching">音源切换</string>
+    <string name="common_special_traction">特殊地形(沙地等)</string>
+    <string name="common_speed_limit_offset_option">限速偏移</string>
+    <string name="common_speed_limit_sign_option">交通标志识别</string>
+    <string name="common_speed_limit_warn_option">超速提醒</string>
+    <string name="common_speed_warning_mode_info">设置提醒车速</string>
+    <string name="common_speed_warning_mode_option">限速提醒</string>
+    <string name="common_sport">运动</string>
+    <string name="common_standard">标准</string>
+    <string name="common_start_the_sound_outside_the_vehicle">启动车外声音App</string>
+    <string name="common_steam_media">流媒体</string>
+    <string name="common_steer_feel">转向</string>
+    <string name="common_steer_info">请使用方向盘右侧触控板调节方向盘位置</string>
+    <string name="common_steer_position">方向盘调节</string>
+    <string name="common_stop">停止</string>
+    <string name="common_sunscreen_rating">防晒等级</string>
+    <string name="common_suspension">悬架</string>
+    <string name="common_suspension_height">悬架高度</string>
+    <string name="common_system_update">整车系统版本</string>
+    <string name="common_system_update2">ZEEKR OS %1$s</string>
+    <string name="common_take_photos_with_tachograph">行车记录仪拍照</string>
+    <string name="common_tem">温度</string>
+    <string name="common_term_service">您可以阅读服务条款</string>
+    <string name="common_term_service2">要使用此软件，您必须接受更新时附带的服务条款</string>
+    <string name="common_textID_ap_password">热点密码：</string>
+    <string name="common_textID_ap_password_bx">热点密码</string>
+    <string name="common_textID_btn_tow_mode_tutorial">拖车模式教程</string>
+    <string name="common_textID_custom_adjust_position">位置调节</string>
+    <string name="common_textID_custom_shortcut_steering_wheel_position">方向盘</string>
+    <string name="common_textID_descent_info">不踩制动的情况下，车辆以安全的速度通过下坡路段</string>
+    <string name="common_textID_enter_ssid_wifi">输入WLAN网络名称</string>
+    <string name="common_textID_h_user">用户协议</string>
+    <string name="common_textID_i_user">ZEEKR实验室，将配置一些创新和实验的功能，其中一些不排除某些风险和缺陷。使用时请仔细阅读“ZEEKR实验室功能服务条款”（Usage agreement）</string>
+    <string name="common_textID_light_brightness">亮度</string>
+    <string name="common_textID_list_high_voltage_info">关闭高压电时，所有功能与屏幕将被关闭</string>
+    <string name="common_textID_list_option_h_copilot">高速自主领航</string>
+    <string name="common_textID_list_option_i_auto_door">车外解锁后主驾车门自动开启</string>
+    <string name="common_textID_pop_enter_step1">第一步：请确保钥匙在车内，NFC钥匙需放置在钥匙感应区</string>
+    <string name="common_textID_pop_enter_step2">第二步：请开关一次主驾车门</string>
+    <string name="common_textID_pop_enter_step3">第三步：长按危险警告开关7s以上，直到仪表的报警灯自检一次</string>
+    <string name="common_textID_pop_enter_step4">第四步：挂入N挡，释放驻车制动</string>
+    <string name="common_textID_pop_enter_tow_mode">进入拖车模式</string>
+    <string name="common_textID_pop_enter_tow_mode_info">进入拖车模式，请按照以下四个步骤操作</string>
+    <string name="common_textID_pop_exit_tow_mode">退出拖车模式</string>
+    <string name="common_textID_pop_exit_tow_mode_info">退出拖车模式，以下任一条件满足即可</string>
+    <string name="common_textID_pop_exit_tow_mode_tutorial_1">条件一：挂入P挡，从外部锁车</string>
+    <string name="common_textID_pop_exit_tow_mode_tutorial_2">条件二：挂入D挡或R挡，进入新的驾驶行程</string>
+    <string name="common_textID_pop_exit_tutorial">"满足以下任一条件，即可退出拖车模式：
+ 
+1. 挂入P挡，从外部锁车；2. 挂入D挡或R挡，开始新的驾驶行程"</string>
+    <string name="common_textID_rest_mode_risky_toast">休息模式下关闭空调存在风险</string>
+    <string name="common_textID_scan_connect">建议使用浏览器扫描二维码</string>
+    <string name="common_textID_share_wlan">分享车载热点</string>
+    <string name="common_textId_general_ok">确认</string>
+    <string name="common_text_auto">自动</string>
+    <string name="common_text_left">左</string>
+    <string name="common_text_right">右</string>
+    <string name="common_text_sync">左右同步</string>
+    <string name="common_theater_mode">影院模式</string>
+    <string name="common_theater_mode_info">自动调节座椅、空调、灯光等功能，营造舒适的观影环境</string>
+    <string name="common_theater_mode_saved">影院位置已更新并保存</string>
+    <string name="common_time">时间</string>
+    <string name="common_time_format">时间格式</string>
+    <string name="common_toast_matching_bluetooth_text">配对请求已发送到%1$s</string>
+    <string name="common_tra_light">交通灯提醒</string>
+    <string name="common_track_mode_dialog_content">尊敬的用户，赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容</string>
+    <string name="common_track_mode_dialog_title">《赛道模式用户须知》</string>
+    <string name="common_traction">牵引</string>
+    <string name="common_trunk">后备箱</string>
+    <string name="common_trunk_title">尾门</string>
+    <string name="common_type_of_car_locator">寻车提醒</string>
+    <string name="common_units">单位</string>
+    <string name="common_veh_com">车速音量补偿</string>
+    <string name="common_veh_com_info">可选择车速补偿的音量等级</string>
+    <string name="common_veh_com_info_bx">选择补偿等级，降低噪音影响，使音量保持恒定</string>
+    <string name="common_vehicle_power_off_dialog_content_describe">高压电池即将关闭，车辆用电系统将停止工作。若需重新上高压请踩刹车</string>
+    <string name="common_video_play_pop_content">行车中观看视频有风险，不建议关闭此功能</string>
+    <string name="common_video_play_pop_title">媒体播放风险</string>
+    <string name="common_view_more_networks">查看更多网络</string>
+    <string name="common_wheel_position">转向位置</string>
+    <string name="common_wheel_steer">方向盘</string>
+    <string name="common_wifi_SSID">WLAN详情</string>
+    <string name="common_wifi_ap_cannot_open_together">WLAN和热点不能同时开启</string>
+    <string name="common_wifi_ap_close_fail">关闭失败，请稍后重试</string>
+    <string name="common_wifi_ap_open_fail">开启失败，请稍后重试</string>
+    <string name="common_wifi_connect_error_auth_fail">密码错误</string>
+    <string name="common_wifi_connect_error_code">连接异常，错误码</string>
+    <string name="common_wifi_connect_error_conn_refuse">连接失败</string>
+    <string name="common_wifi_connect_error_ip_fail">IP 获取失败</string>
+    <string name="common_wifi_connect_error_pwd_low">安全等级不满足，无法加入此网络</string>
+    <string name="common_wifi_connect_error_unknow">未知错误</string>
+    <string name="common_wifi_connect_fail">连接失败</string>
+    <string name="common_wifi_connect_success">连接成功</string>
+    <string name="common_wifi_mode">WLAN模式</string>
+    <string name="common_wifi_mode_detail">建议优先选用5GHz。信号强度弱时，再尝试切换2.4GHz</string>
+    <string name="common_wifi_name_long">网络名称过长</string>
+    <string name="common_wifi_name_long_tip">请确保网络名称长度不超过32个字符</string>
+    <string name="common_window_format_info">是否确认格式化储存卡？</string>
+    <string name="common_window_glove_box_disable">手套箱解锁</string>
+    <string name="common_window_glove_four_digits">四位数</string>
+    <string name="common_window_glove_lock">手套箱上锁</string>
+    <string name="common_window_glove_lock_info">设置密码，锁止手套箱</string>
+    <string name="common_window_glove_pin_open">输入密码解锁手套箱</string>
+    <string name="common_window_list_option_h_retry">尝试次数太多</string>
+    <string name="common_window_list_option_i_glove_wrong_pswd">密码错误，还有%1$d次机会</string>
+    <string name="common_window_list_option_i_retry">请%1$s分钟之后重试，您也可以通过验证码停用手套箱密码保护（验证码将发送至您已绑定的手机）</string>
+    <string name="common_window_lock">车窗锁</string>
+    <string name="common_window_lock_tip">开启后，车辆后排无法升降车窗</string>
+    <string name="common_window_verify_code_has_send">验证码发送成功</string>
+    <string name="common_window_verify_code_incorrect">验证码错误，请重新输入</string>
+    <string name="common_window_verify_title">输入手机验证码</string>
+    <string name="common_wrong_pin">验证码错误，请重新输入</string>
+    <string name="common_yes">确定</string>
+    <string name="complex_menu_massage_power_saving_mode">超级省电模式开启中该功能不可用，请关闭后尝试</string>
+    <string name="complex_menu_name_cushion">坐垫</string>
+    <string name="complex_menu_name_flank">侧翼</string>
+    <string name="complex_menu_name_lumbar">腰托</string>
+    <string name="complex_menu_name_massage">按摩</string>
+    <string name="complex_menu_tips_cushion">左右：  坐垫延展</string>
+    <string name="complex_menu_tips_flank">上下：坐垫侧翼      左右：靠背侧翼</string>
+    <string name="complex_menu_tips_lumbar">上下：腰托上下      左右：腰托前后</string>
+    <string name="complex_menu_tips_massage">上：开关      下：强度      左右：模式</string>
+    <string name="complex_title_drvr">主驾位置</string>
+    <string name="complex_title_pass">副驾位置</string>
+    <string name="conn_ap_mode">热点模式</string>
+    <string name="conn_ap_not_open">车载热点未开启</string>
+    <string name="conn_bonded_device">已配对设备</string>
+    <string name="conn_bt_name">蓝牙名称</string>
+    <string name="conn_bt_not_open">蓝牙未开启</string>
+    <string name="conn_cancel_incoming_ringtone">取消来电铃声</string>
+    <string name="conn_connected_devices">已连接设备</string>
+    <string name="conn_description_close">关闭这个页面|关闭|关闭页面</string>
+    <string name="conn_device_name_zeekr">设备名称：ZEEKR车载蓝牙</string>
+    <string name="conn_found_device">可用设备</string>
+    <string name="conn_hide_call_logs">隐藏通话记录</string>
+    <string name="conn_hide_incomming_window">隐藏来电提示窗</string>
+    <string name="conn_incomming_voice_off">关闭来电语音播报</string>
+    <string name="conn_network_assurance">网络保障</string>
+    <string name="conn_network_auto_switch">WLAN网络信号弱时自动切换到蜂窝网络</string>
+    <string name="conn_network_avalible">可用网络</string>
+    <string name="conn_network_current">当前网络</string>
+    <string name="conn_wlan_not_open">WLAN未开启</string>
+    <string name="connect_bluetooth_common_device_set">常用设备设置</string>
+    <string name="connect_bluetooth_connect_first">请选择优先连接的设备</string>
+    <string name="connect_bluetooth_not_common_device">不设置常用设备</string>
+    <string name="connect_bluetooth_phone_privacy">电话隐私设置</string>
+    <string name="connect_btn_forget_network_edit">是否忽略 “%1$s” ？</string>
+    <string name="connect_btn_ignore_device">忽略设备</string>
+    <string name="connect_conn_point_name">热点名称：%1$s</string>
+    <string name="connect_sure">确认</string>
+    <string name="convenient_suspension_dialog_content_describe">驻车前，请您务必注意车辆四周低矮障碍物，避免底盘下降过程中发生磕碰</string>
+    <string name="convenient_suspension_title">悬架便利进出</string>
+    <string name="cs_door_parking_unlock_tip">挂入P挡后，自动解锁车辆</string>
+    <string name="cs_look_forward">目视前方</string>
+    <string name="cs_switch_comfort_breaking">舒适制动</string>
+    <string name="cs_switch_comfort_breaking_tip">减速停车时，维持车辆平稳减速</string>
+    <string name="cs_upload_log_content">"请保持车机上电并连接网络 
+ 1、点击 “开始抓取” ，启动日志抓取 
+ 2、再操作相关功能直到复现异常情形 
+ 3、问题复现后，回本页面点击“结束并上传”停止抓取并上传数据"</string>
+    <string name="dc_auto_hold_tips">主驾系好安全带、关闭车门并深踩刹车即可激活；One-pedal激活时，自动驻车不可关闭</string>
+    <string name="dc_door_close_all_window">关闭所有车窗</string>
+    <string name="dc_door_open_all_window">开启所有车窗</string>
+    <string name="dc_park_dicription_text">停车后保持空调、音视频等功能持续可用，直到设定时长结束或电量低于20%</string>
+    <string name="dc_seat_easy_driver">主驾便利进出</string>
+    <string name="dc_seat_easy_passener">副驾便利进出</string>
+    <string name="dc_seat_habits">另存用车习惯</string>
+    <string name="dc_seat_habits_tip">选择您需要的用⻋习惯，保存人体工学位置(座椅、后视镜等)</string>
+    <string name="dc_seat_massage_program_drvr">主驾按摩模式</string>
+    <string name="dc_seat_massage_program_pass">副驾按摩模式</string>
+    <string name="dc_seat_massage_strength_drvr">主驾按摩强度</string>
+    <string name="dc_seat_massage_strength_pass">副驾按摩强度</string>
+    <string name="dc_seat_rest_driver">主驾一键休憩</string>
+    <string name="dc_seat_rest_passener">副驾一键休憩</string>
+    <string name="dc_seat_restore">恢复</string>
+    <string name="dc_seat_save">保存</string>
+    <string name="dc_seat_stop">停止</string>
+    <string name="dc_seat_wing_driver">主驾侧翼转向支撑</string>
+    <string name="dc_seat_wing_passenger">副驾侧翼转向支撑</string>
+    <string name="dc_upload_log_content">"请保持车机上电并连接网络 
+ 1、点击 “开始抓取” ，启动日志抓取 
+ 2、再操作相关功能直到复现异常情形 
+ 3、问题复现后，回本页面点击 “结束并上传” 停止抓取并上传数据"</string>
+    <string name="display_date_12_hours">12小时</string>
+    <string name="display_date_24_hours">24小时</string>
+    <string name="display_language">Language</string>
+    <string name="display_text_backlight_brightness">按键背光亮度</string>
+    <string name="display_text_backlight_brightness_hint">光线明亮时亮度不可调节，仅光线昏暗时才可调节</string>
+    <string name="display_text_backlight_title">按键背光</string>
+    <string name="display_text_brightness_screen_saver">仪表屏幕保护</string>
+    <string name="display_text_color_temperature_auto">自动色温</string>
+    <string name="display_text_csd_brightness_auto">自动亮度</string>
+    <string name="display_text_csd_brightness_screen">屏幕亮度</string>
+    <string name="display_text_csd_screen_title">中控屏幕</string>
+    <string name="display_text_custom_theme_time">设置时间</string>
+    <string name="display_text_custom_theme_time_select_hint">结束时间不能等于开始时间</string>
+    <string name="display_text_dim_brightness_auto">自动亮度</string>
+    <string name="display_text_dim_brightness_screen">屏幕亮度</string>
+    <string name="display_text_dim_display">数字仪表盘</string>
+    <string name="display_text_dim_display_lyrics_display">数字仪表盘歌词</string>
+    <string name="display_text_dim_display_lyrics_display_hint">数字仪表盘展示的非驾驶相关信息（包括媒体播放内容和歌词等信息）仅为用户便利目的，用户应在驾驶过程中时刻保持注意力，并仅在确保安全驾驶的情况下查看此类信息。</string>
+    <string name="display_text_dim_display_lyrics_display_know">知道了</string>
+    <string name="display_text_dim_display_lyrics_display_know_countdown">知道了（%ds）</string>
+    <string name="display_text_dim_screen_saver_hint">驻车时，达到设定时间后，仪表进入屏幕保护状态；休憩等模式激活时，将直接进入屏保。</string>
+    <string name="display_text_dim_screen_saver_hint_know">知道了</string>
+    <string name="display_text_dim_screen_saver_title">仪表屏幕保护</string>
+    <string name="display_text_dim_screen_title">仪表屏幕</string>
+    <string name="display_text_home_weather_effect">主页天气背景</string>
+    <string name="display_text_home_weather_effect_sub_hint">选择“动态”，显示效果将同步天气卡片数据，可能延迟，仅供参考</string>
+    <string name="display_text_home_weather_effect_sub_title">主页天气背景</string>
+    <string name="display_text_lock_backrest_screen">锁定靠背屏</string>
+    <string name="display_text_lock_rear_screen">锁定后排屏</string>
+    <string name="display_text_lock_screen">锁定屏幕</string>
+    <string name="display_text_lyrics_display">歌词显示</string>
+    <string name="display_text_lyrics_display_hint">开启后，数字仪表盘支持显示部分媒体资源的歌词</string>
+    <string name="display_text_night_theme_end_time">深色主题结束时间</string>
+    <string name="display_text_night_theme_start_time">深色主题开始时间</string>
+    <string name="display_text_screen_saver">屏幕保护</string>
+    <string name="display_text_theme_auto_method_custom_time">自定义时段</string>
+    <string name="display_text_theme_auto_method_sensor">随环境明暗</string>
+    <string name="display_text_theme_auto_method_sunrise_sunset">随日出日落</string>
+    <string name="display_text_theme_selector">显示主题</string>
+    <string name="display_text_theme_selector_auto">自动</string>
+    <string name="display_text_theme_selector_day">浅色</string>
+    <string name="display_text_theme_selector_night">深色</string>
+    <string name="display_text_time_format_sub_title">时间格式</string>
+    <string name="display_text_time_format_title">时间格式</string>
+    <string name="door_approach_option">接近解锁</string>
+    <string name="door_control_pop_info_new">非P挡下开车门或切换到P挡时，弹出快捷窗口，方便车门等控制</string>
+    <string name="door_control_pop_new">车门快捷控制</string>
+    <string name="door_drive_open">手动开主驾门</string>
+    <string name="door_front_open">手动开前门</string>
+    <string name="door_rear_open">手动开后门</string>
+    <string name="doorwindow_electric_door_max_tips">开关电动门时，请注意观察车辆周围；必要时请手动干预</string>
+    <string name="doorwindow_text_left">左</string>
+    <string name="doorwindow_text_right">右</string>
+    <string name="dricing_esc">ESC</string>
+    <string name="dricing_select_close">继续关闭</string>
+    <string name="dricing_select_open">保持开启</string>
+    <string name="drive_mode_bz_one">标准</string>
+    <string name="drive_mode_jj_one">经济</string>
+    <string name="drive_mode_jji_one">经济</string>
+    <string name="drive_mode_qy_one">牵引</string>
+    <string name="drive_mode_ss_one">舒适</string>
+    <string name="drive_mode_yd_one">运动</string>
+    <string name="drive_mode_yy_one">越野</string>
+    <string name="drivin_drvsetdamprctrl">初级魔毯</string>
+    <string name="drivin_drvsetdamprctrl_tip">根据不同路面工况，自动调节悬架软硬</string>
+    <string name="drivin_suspension_for_easy_access">悬架便利进出</string>
+    <string name="drivin_suspension_for_easy_access_tip">该功能打开，驻车并且解开主驾安全带后，悬架高度自动降低，方便您和乘客的进出</string>
+    <string name="driving_brake_booster_tip">为保障驾驶安全，请在车辆静止时调节制动助力等级</string>
+    <string name="driving_close_esc_dialog_tip">关闭车身稳定系统可能会影响驾驶安全，建议保持开启</string>
+    <string name="driving_dialog_bt_tip">驾驶辅助线调节</string>
+    <string name="driving_esc_tip">车身稳定系统可提升驾驶安全性，请谨慎选择运动和关闭</string>
+    <string name="driving_fold_rear_mirror_close">折叠后视镜</string>
+    <string name="driving_fold_rear_mirror_open">展开后视镜</string>
+    <string name="driving_one_pedal_dialog_tip">"以下情况出现时，将无法激活One-pedal
+ 已开启智能辅助驾驶或自动泊车辅助
+ 挡位切换至非前进挡（D挡）
+ 开启陡坡缓降功能（HDC）
+ 使用雪地、沙地和越野特殊驾驶模式
+ 解开主驾安全带或打开主驾车门"</string>
+    <string name="driving_p_back_launcher">挡位联动</string>
+    <string name="driving_p_back_launcher_tip">挂P挡自动回到桌面，挂D挡自动切到导航</string>
+    <string name="driving_quick_leak">漏气</string>
+    <string name="driving_sensor_low">传感器电量低</string>
+    <string name="driving_suspension_for_easy_access">悬架方便进出</string>
+    <string name="driving_system_fail">系统故障</string>
+    <string name="driving_tank_getting_ready">准备中</string>
+    <string name="driving_tank_mode_how_to_use">如何使用</string>
+    <string name="driving_tank_mode_how_to_use_content">"按如下步骤依次操作即可激活坦克调头：
+ 　- 设置「调转角度」
+ 　- 踩下刹车踏板并保持不松开
+ 　- 挂入D挡
+ 　- 将转向拨杆按希望转动的方向拨到底
+ 　- 点击页面中「开始调头」按钮
+ 　- 松开刹车踏板，等待几秒后即开始调头
+ 
+ 坦克调头运行过程中请紧握方向盘不要转动，如遇紧急情况可随时踩下刹车踏板进行暂停（再次抬起刹车踏板后仍将继续调头）"</string>
+    <string name="driving_tank_mode_out_brake">松开刹车</string>
+    <string name="driving_tank_mode_to_brake">踩下刹车</string>
+    <string name="driving_tank_mode_to_gear_d">挂入D挡</string>
+    <string name="driving_tank_mode_to_start">点击开始</string>
+    <string name="driving_tank_mode_to_turn_signal">拨转向灯</string>
+    <string name="driving_tank_ready">就绪中</string>
+    <string name="driving_tank_scan_warning_tip1">请关闭车门</string>
+    <string name="driving_tank_scan_warning_tip2">请关闭前备箱</string>
+    <string name="driving_tank_scan_warning_tip3">请关闭后备箱</string>
+    <string name="driving_tank_scan_warning_tip4">请系好安全带</string>
+    <string name="e_pedal">One-pedal</string>
+    <string name="e_pedal_info">车辆的加速/减速由加速踏板控制</string>
+    <string name="energy_air_conditioning">座舱舒适</string>
+    <string name="energy_air_conditioning_intro">出行前 15 分钟自动调节座舱温度</string>
+    <string name="energy_appoint_one_day">请至少预约一天</string>
+    <string name="energy_appoint_time_diff">开始时间不能与结束时间相同</string>
+    <string name="energy_battery_heat">插枪维温</string>
+    <string name="energy_battery_heat_intro">充电结束后24小时内利用电网能量给电池维温，以获得更好驾驶体验</string>
+    <string name="energy_battery_life">续航电量</string>
+    <string name="energy_battery_preheat">电池维温</string>
+    <string name="energy_battery_preheat_intro">出行前使用电网电能调节电池温度以获得更优续航，可能增加额外费用；环境温度低于 0°C或高于 40°C建议开启</string>
+    <string name="energy_btn_power_external">对外设备供电</string>
+    <string name="energy_btn_power_other">对外车辆供电</string>
+    <string name="energy_btn_start_charging">开始充电</string>
+    <string name="energy_btn_stop_charging">停止充电</string>
+    <string name="energy_cable_status_connect_ac">已插枪(交流)</string>
+    <string name="energy_cable_status_connect_dc">已插枪(直流)</string>
+    <string name="energy_cable_status_connect_fault">连接故障</string>
+    <string name="energy_cable_status_no_double">请勿同时插入交流枪和直流枪</string>
+    <string name="energy_cap_ac">交流充电口盖</string>
+    <string name="energy_cap_dc">直流充电口盖</string>
+    <string name="energy_charge_appoint">预约充电</string>
+    <string name="energy_charge_appoint_cancel_fail">预约充电取消失败</string>
+    <string name="energy_charge_appoint_cancel_success">预约充电取消成功</string>
+    <string name="energy_charge_appoint_set_fail">预约充电设置失败</string>
+    <string name="energy_charge_appoint_set_success">预约充电设置成功</string>
+    <string name="energy_charge_battery_heat">电池保温</string>
+    <string name="energy_charge_battery_heat_intro">充至目标电量24h内将利用电网能量继续保温电池，建议温度高于40℃或低于0℃时开启</string>
+    <string name="energy_charge_battery_temp_little_low_tips">当前电池温度略低，充电速率轻微下降</string>
+    <string name="energy_charge_battery_temp_low_tips">当前电池温度低，充电速率下降</string>
+    <string name="energy_charge_battery_temp_very_low_tips">当前电池温度过低，充电速率明显下降</string>
+    <string name="energy_charge_cap">充电口盖</string>
+    <string name="energy_charge_charging_limit">充至限值</string>
+    <string name="energy_charge_default_va">--</string>
+    <string name="energy_charge_friday">周五</string>
+    <string name="energy_charge_full">即将充满</string>
+    <string name="energy_charge_limit">充电限值</string>
+    <string name="energy_charge_monday">周一</string>
+    <string name="energy_charge_more_settings">更多设置</string>
+    <string name="energy_charge_next_day">次日</string>
+    <string name="energy_charge_per_week">每周</string>
+    <string name="energy_charge_pre_heating_button_name">电池温度调节</string>
+    <string name="energy_charge_pre_heating_button_tips">开启后，车辆立即为电池进行温度调节，以提高充电功率，开启后需要消耗一定电量，开启时间越长，消耗电量越多。建议在去快充站时开启该功能</string>
+    <string name="energy_charge_pre_heating_switch_name">智能调节电池温度</string>
+    <string name="energy_charge_pre_heating_switch_tips">开启后，导航去充电站的途中，系统会在充电前智能调节电池温度以提高充电效率，会有额外电量消耗</string>
+    <string name="energy_charge_saturday">周六</string>
+    <string name="energy_charge_soc_tips_intro">设置当前限值，将停止充电</string>
+    <string name="energy_charge_status_booking">预约中</string>
+    <string name="energy_charge_status_charging">充电中</string>
+    <string name="energy_charge_status_charging_done">充电停止</string>
+    <string name="energy_charge_status_charging_fault">充电故障</string>
+    <string name="energy_charge_status_preheating">电池温度调节中</string>
+    <string name="energy_charge_status_super_fast_charging">极充中</string>
+    <string name="energy_charge_sunday">周日</string>
+    <string name="energy_charge_temp_best">电池已到最佳充电温度</string>
+    <string name="energy_charge_three_voltage">电压（三相）</string>
+    <string name="energy_charge_thursday">周四</string>
+    <string name="energy_charge_tips">提示</string>
+    <string name="energy_charge_today">今日</string>
+    <string name="energy_charge_tomorrow">明日</string>
+    <string name="energy_charge_tuesday">周二</string>
+    <string name="energy_charge_wednesday">周三</string>
+    <string name="energy_charge_week">周</string>
+    <string name="energy_charging_current_max">64</string>
+    <string name="energy_charging_current_min">5</string>
+    <string name="energy_charging_current_range_unit_km">km</string>
+    <string name="energy_charging_current_range_unit_mile">mile</string>
+    <string name="energy_charging_current_unit">A</string>
+    <string name="energy_charging_hour_unit">h</string>
+    <string name="energy_charging_level_unit">%</string>
+    <string name="energy_charging_minute_unit">min</string>
+    <string name="energy_charging_speed_range_unit_kw">kWh</string>
+    <string name="energy_charging_speed_range_unit_mile">mph</string>
+    <string name="energy_charging_speed_unit">km/h</string>
+    <string name="energy_charging_speed_unit_km">km/h</string>
+    <string name="energy_charging_speed_unit_percent">%</string>
+    <string name="energy_charging_voltage_unit">V</string>
+    <string name="energy_current">电流</string>
+    <string name="energy_daily">每天</string>
+    <string name="energy_date_selection">日期选择</string>
+    <string name="energy_dialog_close">关闭</string>
+    <string name="energy_dialog_two_button_close">关闭</string>
+    <string name="energy_dis_limit">供电限值</string>
+    <string name="energy_dis_statistics">供电电量统计</string>
+    <string name="energy_end_time">结束时间</string>
+    <string name="energy_estimate_mileage">预估里程</string>
+    <string name="energy_first_charge_full">优先充满</string>
+    <string name="energy_first_charge_full_intro">到达结束时间，尚未满电，将继续充电</string>
+    <string name="energy_first_charge_limit">优先充至充电限值</string>
+    <string name="energy_first_charge_limit_intro">到达结束时间，未充至充电限值，将继续充电</string>
+    <string name="energy_long_distance">长途</string>
+    <string name="energy_more_than_24">>24</string>
+    <string name="energy_no_function_tips">敬请期待</string>
+    <string name="energy_please_set">请设置</string>
+    <string name="energy_pre_travel">预约出行</string>
+    <string name="energy_pre_travel_cancel_fail">预约出行取消失败</string>
+    <string name="energy_pre_travel_cancel_success">预约出行取消成功</string>
+    <string name="energy_pre_travel_set_fail">预约出行设置失败</string>
+    <string name="energy_pre_travel_set_success">预约出行设置成功</string>
+    <string name="energy_range">续航里程</string>
+    <string name="energy_range_switch_intro">标准续航为按照国家标准工况驾驶显示的续航里程；动态续航为根据近期驾驶风格显示的续航里程</string>
+    <string name="energy_range_switch_title">标准续航/动态续航</string>
+    <string name="energy_repeat">重复</string>
+    <string name="energy_speed">充电速度</string>
+    <string name="energy_start_dis">开始供电</string>
+    <string name="energy_start_time">开始时间</string>
+    <string name="energy_status_battery_fault">动力电池故障</string>
+    <string name="energy_status_discharging">对外供电中</string>
+    <string name="energy_status_discharging_done">供电结束</string>
+    <string name="energy_status_discharging_fault">供电故障</string>
+    <string name="energy_stop_dis">停止供电</string>
+    <string name="energy_text_charge_limit">充电限值%d%%</string>
+    <string name="energy_text_discharge_limit">供电限值%d%%</string>
+    <string name="energy_travel_time">出行时间</string>
+    <string name="energy_usual">日常</string>
+    <string name="energy_voltage">电压</string>
+    <string name="energy_work_power">充电功率</string>
+    <string name="error_icon_content_description">错误</string>
+    <string name="esc_mode_desc">ESC OFF</string>
+    <string name="esc_mode_desc_tip">开启时，将防滑系统关闭</string>
+    <string name="exposed_dropdown_menu_content_description">显示下拉菜单</string>
+    <string name="general_rvdc_close_failed">关闭远程诊断失败</string>
+    <string name="general_rvdc_open_failed">开启远程诊断失败</string>
+    <string name="habit_cancel">取消</string>
+    <string name="habit_drvr_restore_toast">主驾位置即将恢复到%1$s</string>
+    <string name="habit_restore">恢复</string>
+    <string name="habit_save">保存</string>
+    <string name="habit_save_other">另存用车习惯</string>
+    <string name="habit_save_succes_toast">主驾位置已保存到</string>
+    <string name="habit_save_switch_tips">主驾位置已保存并切换到</string>
+    <string name="habit_stop">停止</string>
+    <string name="habit_sub_title">选择您需要的用车习惯，保存人体工学位置（座椅、后视镜等）</string>
+    <string name="habit_tag_driver_position">驾驶位置</string>
+    <string name="habit_wheel_notify">请使用方向盘右侧按键进行调节</string>
+    <string name="hbx_desc_tip">车辆下陡坡时自动控制车速缓慢匀速行驶</string>
+    <string name="hdc_desc">陡坡缓降</string>
+    <string name="height_content">高度</string>
+    <string name="hmi_add_network"><u>添加网络</u></string>
+    <string name="i_common_know">知道了</string>
+    <string name="icon_content_description">对话框图标</string>
+    <string name="in_rear_mirror_content">内后视镜</string>
+    <string name="item_view_role_description">标签页</string>
+    <string name="lab_ailab_more_ai_features_stay_tuned">更多AI功能，敬请期待</string>
+    <string name="lab_ailab_title">"ZEEKR
+AI.LAB"</string>
+    <string name="lab_ailab_title_tip">"EXPERIMENTAL
+FUNCTIONS"</string>
+    <string name="lab_theater_mode_info">自动调节座椅、空调、灯光等功能，营造舒适的观影环境</string>
+    <string name="lab_visible_gaze_sensing_mirror_adjust">注视感应调节后视镜</string>
+    <string name="lab_visible_gaze_sensing_mirror_adjust_tip">开启后，点击“车辆-后视镜调节”调起弹窗，将根据视线朝向识别所需调节的后视镜</string>
+    <string name="lab_visible_kr_gpt">极氪智能对话</string>
+    <string name="lab_visible_kr_gpt_tip">开启后，唤醒EVA说“我要聊聊天”进入智能对话模式，即享自由畅聊</string>
+    <string name="lab_visible_said">主驾凝视可见即可说</string>
+    <string name="lab_visible_said_tip">开启后，主驾注视中控屏，可免唤醒直接语音控制屏幕上的功能</string>
+    <string name="light_afs">AFS自适应大灯</string>
+    <string name="light_afs_text">根据道路类型，自动变换近光灯光形</string>
+    <string name="light_charge">充电灯语</string>
+    <string name="light_charge_text">开始充电时播放灯语，持续2分钟后自动停止</string>
+    <string name="light_corners_text">转向时，自动调整近光灯，以获得最佳照明效果</string>
+    <string name="light_farewell_Welcome_text">功能开启后，解锁时触发迎宾灯效，闭锁时触发欢送灯效</string>
+    <string name="light_lighting_text">组合大灯</string>
+    <string name="light_location">辅助位置灯</string>
+    <string name="light_location_text">开启后，在前位置灯点亮时，前LED灯带跟随点亮</string>
+    <string name="light_mode">灯光场景</string>
+    <string name="light_phone_option">来电提醒</string>
+    <string name="light_running">辅助日行灯</string>
+    <string name="light_running_text">开启后，在日行灯点亮时，前LED灯带跟随点亮</string>
+    <string name="light_screen">息屏</string>
+    <string name="light_screen_title">隐形模式已开启，请确认是否息屏</string>
+    <string name="light_settings_text">设置</string>
+    <string name="light_taillight">日间行车尾灯</string>
+    <string name="light_taillight_text">开启后，后位置灯随日间行车灯点亮</string>
+    <string name="light_wait">等候灯语</string>
+    <string name="light_wait_text">驻车时，自动开启灯语</string>
+    <string name="lighting_low_quan">低电量提醒</string>
+    <string name="lighting_voice">语音联动</string>
+    <string name="lighting_voice_text">开启后，与EVA对话将联动氛围灯</string>
+    <string name="lights_bend_lighting">弯道照明</string>
+    <string name="lock_close_door">锁车关门</string>
+    <string name="lock_close_door_tip">主动锁车时，将自动关闭电动门及后备箱再进行上锁</string>
+    <string name="main_safe_preson_info_protect_policy">极氪汽车个人信息保护政策</string>
+    <string name="main_safe_security_user_service_agreement">极氪汽车用户服务协议</string>
+    <string name="main_safe_security_zeekr_personal_information_protection_policy">极氪汽车车联网个人信息保护政策</string>
+    <string name="main_safe_user_security">用户服务协议</string>
+    <string name="material_clock_toggle_content_description">选择上午或下午</string>
+    <string name="material_hour_24h_suffix">%1$s 小时</string>
+    <string name="material_hour_selection">选择小时</string>
+    <string name="material_hour_suffix">%1$s 点</string>
+    <string name="material_minute_selection">选择分钟</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">上午</string>
+    <string name="material_timepicker_clock_mode_description">切换到时钟模式来输入时间。</string>
+    <string name="material_timepicker_hour">小时</string>
+    <string name="material_timepicker_minute">分钟</string>
+    <string name="material_timepicker_pm">下午</string>
+    <string name="material_timepicker_select_time">选择时间</string>
+    <string name="material_timepicker_text_input_mode_description">切换到文字输入模式来输入时间。</string>
+    <string name="mirror_brightness">亮度</string>
+    <string name="mirror_show">显示</string>
+    <string name="module_driving_title">驾驶偏好</string>
+    <string name="more_cancel">取消</string>
+    <string name="more_custom_dim_title">仪表自定义</string>
+    <string name="more_custom_wheel_key_title">方向盘自定义按键</string>
+    <string name="more_dialog_hud_adjust">抬头显示调节</string>
+    <string name="more_habit_tag_driver_position">驾驶位置</string>
+    <string name="more_rear_mirror_setting_adjust">后视镜设置</string>
+    <string name="more_save">保存</string>
+    <string name="more_wheel_tip">短按旋转中控屏，长按复位至中间位置</string>
+    <string name="more_wireless_charging">充电时，请勿在手机和充电面板之间放置任何金属类物品</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除%1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">有 %1$d 条以上的新通知</string>
+    <string name="mtrl_picker_a11y_next_month">转到下个月</string>
+    <string name="mtrl_picker_a11y_prev_month">转到上个月</string>
+    <string name="mtrl_picker_announce_current_selection">当前的选择是：%1$s</string>
+    <string name="mtrl_picker_cancel">取消</string>
+    <string name="mtrl_picker_confirm">确定</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">请选择日期</string>
+    <string name="mtrl_picker_date_header_unselected">选定的日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">表示周几的列：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式无效。</string>
+    <string name="mtrl_picker_invalid_format_example">示例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">范围无效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">转到 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">不在允许的范围内：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">开始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 结束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">请选择范围</string>
+    <string name="mtrl_picker_range_header_unselected">开始日期 - 结束日期</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">结束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">开始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切换到日历输入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">点按即可切换到选择某天</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切换到文本字段输入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">点按即可切换到选择某年</string>
+    <string name="mtrl_timepicker_cancel">取消</string>
+    <string name="mtrl_timepicker_confirm">确定</string>
+    <string name="nfc_open_door">NFC一键开门</string>
+    <string name="night_auto_cancel">取消</string>
+    <string name="night_auto_open">开启</string>
+    <string name="ota_close">关闭</string>
+    <string name="ota_close_night_auto_content">关闭“夜间自动升级”，不会取消已预约的升级任务，您可前往系统设置进行取消。</string>
+    <string name="ota_close_night_auto_title">是否关闭夜间自动升级</string>
+    <string name="ota_content_data_service">关闭数据服务开关后，相关智能场景卡片、推荐服务功能等将无法继续使用，请确认是否关闭？</string>
+    <string name="ota_content_dialog_restore_default">将清空用户数据，确认恢复？</string>
+    <string name="ota_content_dialog_restore_factory">将恢复出厂整车数据，确认恢复？</string>
+    <string name="ota_content_experience_improvement">关闭用户体验改善计划开关后，将无法为您提供功能的优化与改进服务，请确认是否关闭？</string>
+    <string name="ota_dialog_restore_default">恢复默认设置</string>
+    <string name="ota_dialog_restore_default_content">将恢复系统中各配置项至默认状态，请勿在恢复进程中对车辆挡位进行切换</string>
+    <string name="ota_dialog_restore_factory">恢复出厂设置</string>
+    <string name="ota_dialog_restore_factory_content">将恢复各设置项至初始状态，并还原车辆至待激活状态，请勿在恢复进程中对车辆挡位进行切换</string>
+    <string name="ota_dialog_restore_network">恢复网络设置</string>
+    <string name="ota_dialog_restore_network_content">将清除个人改动项，恢复到初始网络设置，确认恢复？</string>
+    <string name="ota_dialog_service_terms">服务条款</string>
+    <string name="ota_general_dialog_rvdc_content">关闭远程诊断后，我们将无法为您提供车辆远程诊断功能，请确认是否关闭？</string>
+    <string name="ota_general_restore_failed">恢复失败</string>
+    <string name="ota_general_restore_success">恢复成功</string>
+    <string name="ota_general_rvdc_title">远程诊断</string>
+    <string name="ota_hmi_current_system_version">当前版本号为：</string>
+    <string name="ota_info_congestion_prediction">挖掘常行驶路径的道路突发拥堵等状况，用于相关场景服务</string>
+    <string name="ota_info_data_service">通过历史使用数据进行智能服务建议，以优化用车体验</string>
+    <string name="ota_info_diagnosis">通过自动发送诊断码和车辆数据实现车辆远程诊断，保障车辆健康运行</string>
+    <string name="ota_info_electricity_prediction">智能预测到达目的地时的剩余电量</string>
+    <string name="ota_info_experience_improvement">收集车辆使用数据进行功能分析与优化，以改善用户体验</string>
+    <string name="ota_info_position_upload">通过上传车辆位置信息，以便远程查看车辆定位情况</string>
+    <string name="ota_info_recovery_default">清除个人改动项，恢复系统中的各项配置至默认状态</string>
+    <string name="ota_info_recovery_factory">恢复至出厂时状态并清空用户数据直到重新启动</string>
+    <string name="ota_info_recovery_network">清除个人改动项，恢复到初始网络设置</string>
+    <string name="ota_item_scene_service">智能场景服务管理</string>
+    <string name="ota_more_gesture_recognition">手势识别</string>
+    <string name="ota_more_gesture_recognition_text">在摄像头识别范围内，可通过特定手势控制音视频资源，进行静音、上下曲切换、音乐收藏操作</string>
+    <string name="ota_my_car_licence_plate">车牌</string>
+    <string name="ota_my_car_licence_plate_default">请前往极氪APP填写</string>
+    <string name="ota_my_car_vehicle_type">车型</string>
+    <string name="ota_my_car_vin">VIN</string>
+    <string name="ota_night_auto_upgrade_tip3">有新版本时，将在凌晨02:00为您自动升级。升级过程中将无法驾驶车辆、使用触摸屏或给车辆充电。如因条件不满足未能升级，将在次日同一时间再次升级。</string>
+    <string name="ota_night_auto_upgrade_tip4">您已预约%1$s小时%2$s分钟升级，开关开启后将把升级时间调整为今晚02:00，且后续有新版本时将在凌晨02:00为您自动升级。</string>
+    <string name="ota_night_text">当系统有新版本时，自动在夜间02:00完成升级</string>
+    <string name="ota_night_up">夜间自动升级</string>
+    <string name="ota_notification_title">应用通知管理</string>
+    <string name="ota_only_owner_account_can_be_restored">仅车主账号可以进行恢复操作</string>
+    <string name="ota_open_night_auto_title">是否开启夜间自动升级</string>
+    <string name="ota_perform_restore_operation_in_p_block">请在P挡下进行恢复操作</string>
+    <string name="ota_personal_information_protection_policy">极氪汽车车联网个人信息保护政策</string>
+    <string name="ota_power_flow_total_distance">总里程</string>
+    <string name="ota_privacy">隐私</string>
+    <string name="ota_privacy_switch">隐私开关</string>
+    <string name="ota_restore">恢复</string>
+    <string name="ota_smart_service_policy">智能服务隐私政策</string>
+    <string name="ota_system_version">系统版本</string>
+    <string name="ota_terms_service">《服务条款》</string>
+    <string name="ota_tips_read">您可以阅读</string>
+    <string name="ota_tips_read_agree">请阅读并同意</string>
+    <string name="ota_tips_version_new">系统有最新的软件版本升级</string>
+    <string name="ota_tips_version_status">系统已是最新的软件版本</string>
+    <string name="ota_title_congestion_prediction">异常拥堵预测</string>
+    <string name="ota_title_data_service">数据服务</string>
+    <string name="ota_title_electricity_prediction">剩余电量预测</string>
+    <string name="ota_title_experience_improvement">用户体验改善计划</string>
+    <string name="ota_title_notification">通知设置</string>
+    <string name="ota_title_position_upload">行车位置信息上传</string>
+    <string name="ota_title_scene_service">智能场景服务</string>
+    <string name="ota_title_switch_notification">允许通知</string>
+    <string name="ota_update_describe_content">尊敬的用户，本车暂无升级记录</string>
+    <string name="ota_update_describe_title">最新升级的新增内容</string>
+    <string name="ota_upgrade_log">查看升级日志</string>
+    <string name="ota_upgrade_manager">升级管理</string>
+    <string name="parking_EPB">驻车制动</string>
+    <string name="parking_EPB_apply">激活驻车制动</string>
+    <string name="parking_EPB_release">解除驻车制动</string>
+    <string name="parking_EPB_tip">解除驻车制动需踩下制动踏板</string>
+    <string name="parking_EPB_title">驻车制动</string>
+    <string name="parking_comfort">驻车舒享</string>
+    <string name="password_toggle_content_description">显示密码</string>
+    <string name="position_mirror">后视镜</string>
+    <string name="quick_park_duration">开启时长</string>
+    <string name="quick_ride_height">悬架高度调节</string>
+    <string name="quick_setting_agree_confirm">我已阅读并确认</string>
+    <string name="quick_setting_drive_mode_edit_content_description">编辑|个性化编辑|个性化设置</string>
+    <string name="quick_setting_driving_mode">驾驶模式</string>
+    <string name="quick_setting_park_comfort_title">驻车舒享</string>
+    <string name="quick_setting_park_dicription_text">停车后保持空调、音视频等功能持续可用，直到设定时长结束或电量低于20%</string>
+    <string name="quick_setting_park_duration">开启时长</string>
+    <string name="quick_setting_tv_edit">编辑</string>
+    <string name="rear_car_sky_curtain_title">后车窗遮阳帘</string>
+    <string name="regeneration_level_label">能量回收等级</string>
+    <string name="safe_belt_close_door">系安全带关门</string>
+    <string name="safe_driving_text">行车记录仪</string>
+    <string name="safe_head_carSearchReminder_text">寻车方式</string>
+    <string name="safe_head_sdCardFormat_text">格式化将清除储存卡上的所有记录数据</string>
+    <string name="safe_head_sdCardFormat_tip_text">格式化将清除所有数据，格式化前请备份重要数据，您想继续吗？</string>
+    <string name="safety_active_rescue_mode_condition">激活救援模式需要同时满足以下条件：</string>
+    <string name="safety_adcu_calibration">辅助驾驶校准</string>
+    <string name="safety_adcu_calibration_0">传感器校准</string>
+    <string name="safety_adcu_calibration_dialog_button">知道了</string>
+    <string name="safety_adcu_calibration_dialog_content">校准程序已激活，您可以在仪表上查看校准状态与进度</string>
+    <string name="safety_adcu_calibration_dialog_describe_0">将车辆停稳在安全环境下，并挂入P挡</string>
+    <string name="safety_adcu_calibration_dialog_describe_1">"校准程序已激活，建议在三车道及以上城区道路行驶约20km
+您可以在仪表上查看校准状态与进度"</string>
+    <string name="safety_adcu_calibration_notice_content">"阅读本校准须知期间，请您将挡位保持在P挡
+为确保辅助驾驶正常运行，在白天光线充足的环境下按照下方指引完成校准"</string>
+    <string name="safety_adcu_calibration_notice_text">"1、您可在 《用户手册》中随时查阅校准须知相关内容及提示事项
+2、校准期间辅助驾驶功能无法使用，车辆下电会退出校准
+3、校准期间请您务必遵守交通安全法规，您应对车辆行驶过程中的行车安全负责。如有任何疑问，建议您联系
+　 ZEEKR极氪服务（体验）中心"</string>
+    <string name="safety_adcu_calibration_notice_title">校准须知</string>
+    <string name="safety_adcu_calibration_start">同意</string>
+    <string name="safety_adcu_in_calibration">校准中</string>
+    <string name="safety_ai_sleep_climate_adjust_content">识别到人员睡眠后将空调调整到舒适的风速、温度</string>
+    <string name="safety_ai_sleep_climate_adjust_title">智能睡眠空调调节</string>
+    <string name="safety_beta">Beta</string>
+    <string name="safety_blind_spot_assistance">侧后视盲点辅助</string>
+    <string name="safety_blind_spot_assistance_summary">车辆在D挡下开启转向灯时，中控屏弹出对应侧盲点视野，提升驾驶的安全性和便利性</string>
+    <string name="safety_blind_spot_assistance_summary_1">车辆在D挡下开启转向灯时，中控屏弹出对应侧盲点视野，提升驾驶的安全性和便利性；副驾座椅旋转180°后自动开启此开关</string>
+    <string name="safety_call_no_disturb">智能通话降噪</string>
+    <string name="safety_call_no_disturb_info">识别到人员通话时降低车内音量避免干扰通话</string>
+    <string name="safety_car_jack">千斤顶模式</string>
+    <string name="safety_car_jack_info">车辆举升时，临时禁止悬架高度调节</string>
+    <string name="safety_car_maintenance">车辆保养</string>
+    <string name="safety_car_maintenance_content">车建议保养里程为%1$skm</string>
+    <string name="safety_car_maintenance_title">建议保养里程还剩%1$skm</string>
+    <string name="safety_children_dangerous_movement_detection">儿童危险动作检测</string>
+    <string name="safety_children_dangerous_movement_detection_info">识别到儿童有危险动作时告知驾驶员</string>
+    <string name="safety_common_deactivate">停用</string>
+    <string name="safety_deactivate_glove_box_password_protection">停用手套箱密码保护</string>
+    <string name="safety_digital_video_recording">行车记录仪</string>
+    <string name="safety_direct_life_detection">生命体征监测</string>
+    <string name="safety_direct_life_detection_tip">当车辆落锁后监测到车内有乘客遗留，会及时联系用车人以保护车内生命安全</string>
+    <string name="safety_electric_trailer_hitch">电动拖车钩</string>
+    <string name="safety_electric_trailer_hitch_close">收起电动拖车钩前，请先断开拖车牵引杆或装载架</string>
+    <string name="safety_electric_trailer_hitch_open">开启电动拖车钩前，请确认拖钩后方预留足够空间</string>
+    <string name="safety_electric_trailer_hitch_p">请在P档且断开链接时操作</string>
+    <string name="safety_enable_rescue_mode">激活救援模式</string>
+    <string name="safety_exit_choose_way_rescue_mode">您可以按照以下任意一种方式退出救援模式</string>
+    <string name="safety_exit_rescue_mode">退出救援模式</string>
+    <string name="safety_exit_rescue_mode_title">退出救援模式方式</string>
+    <string name="safety_exit_rescue_phone">救援电话：4000-036-036</string>
+    <string name="safety_fatigue_monitor_describe">识别驾驶员有疲劳和分心时，及时发出提醒，保障驾驶安全</string>
+    <string name="safety_fatigue_monitor_switch">驾驶员状态监测</string>
+    <string name="safety_forgot_password">忘记密码</string>
+    <string name="safety_glove_option">手套箱密码保护</string>
+    <string name="safety_guard_mode">哨兵模式</string>
+    <string name="safety_guard_mode_tasting_version">哨兵模式</string>
+    <string name="safety_how_exit_rescue_mode">如何退出救援模式</string>
+    <string name="safety_in_calculation">计算中</string>
+    <string name="safety_in_car_visual_assistance">车内视觉辅助</string>
+    <string name="safety_inner_digital_video_recording">内置行车记录仪</string>
+    <string name="safety_input_pwd_to_disable_glove_box_pwd_protection">输入密码停用手套箱密码保护</string>
+    <string name="safety_leftover_objects_monitoring">遗留物品监测</string>
+    <string name="safety_leftover_objects_monitoring_info">识别到遗留物品时告知驾驶员</string>
+    <string name="safety_life_detection">生命探测</string>
+    <string name="safety_memory_card">存储设备</string>
+    <string name="safety_memory_card_format">存储卡格式化</string>
+    <string name="safety_memory_card_size">--GB / --GB</string>
+    <string name="safety_memory_card_size_emergent">紧急录像</string>
+    <string name="safety_memory_card_size_normal">一般录像</string>
+    <string name="safety_memory_card_size_null">--GB</string>
+    <string name="safety_memory_card_size_null_2">--GB</string>
+    <string name="safety_memory_card_size_other">其他</string>
+    <string name="safety_memory_card_size_parking">泊车录像</string>
+    <string name="safety_memory_card_size_sentinel">哨兵模式</string>
+    <string name="safety_mode_car_wash">洗车模式</string>
+    <string name="safety_mode_maintenance">维护模式</string>
+    <string name="safety_open_glove_box">打开手套箱</string>
+    <string name="safety_passenger_airbag">副驾安全气囊</string>
+    <string name="safety_passenger_airbag_describe">为保障安全，副驾座椅旋转朝后时，将自动为您关闭副驾安全气囊</string>
+    <string name="safety_passenger_airbag_dialog_content">关闭后在某些场景下可能无法保证副驾乘客的安全，是否停用副驾位安全气囊？</string>
+    <string name="safety_please_input_pwd_again_to_confirm">请再次输入密码进行确认</string>
+    <string name="safety_please_open_sentinel_mode_when_the_vehicle_is_in_p_gear">请在车辆处于P挡状态下开启哨兵模式</string>
+    <string name="safety_please_operate_in_daynight_gear">请在白天时间段进行操作</string>
+    <string name="safety_please_operate_in_nzp_gear">辅助驾驶功能运行中，暂不可校准</string>
+    <string name="safety_please_operate_in_p_gear">请在P挡下操作</string>
+    <string name="safety_please_operate_in_powerSaving_gear">超级省电模式中，暂不可校准</string>
+    <string name="safety_pop_enter_step_four">第四步：挂入N挡，释放驻车制动</string>
+    <string name="safety_pop_enter_step_one">第一步：确保钥匙在车里，NFC钥匙放在读卡器上</string>
+    <string name="safety_pop_enter_step_three">第三步：长按双闪开关7秒以上，直到仪表的报警灯自检一次</string>
+    <string name="safety_pop_enter_step_two">第二步：请打开驾驶员车门并再次关闭</string>
+    <string name="safety_pop_exit_tow_mode_info">"满足以下任一条件，即可退出拖车模式：
+1. 挂入P挡，从外部锁车；2. 挂入D挡或R挡，开始新的驾驶行程"</string>
+    <string name="safety_rescue_content_step_1">"使用平板拖车或类似交通工具进行运输，
+启用救援模式以便进行绞车作业"</string>
+    <string name="safety_rescue_content_step_2">"运输时，切勿让任何车轮接触地面否则将
+导致严重的损坏和过热"</string>
+    <string name="safety_rescue_mode">救援模式</string>
+    <string name="safety_rescue_mode_step_1">1.确保钥匙在车内且感应钥匙有效</string>
+    <string name="safety_rescue_mode_step_2">2.挂入P挡且踩下制动踏板</string>
+    <string name="safety_rescue_mode_warning">警告，模式激活后驻车制动将被释放，请注意规避溜车风险！</string>
+    <string name="safety_residue_available">剩余可用%1$s</string>
+    <string name="safety_restrictions_on_driving_entertainment">行车娱乐限制</string>
+    <string name="safety_restrictions_on_driving_entertainment_title">开启后，在驾驶中限制使用视频、娱乐互动类应用</string>
+    <string name="safety_search_car_notice_type">寻车方式</string>
+    <string name="safety_second_time_password_error_please_re_intput">两次输入的密码不一致，请重新输入</string>
+    <string name="safety_security_refresh">刷新</string>
+    <string name="safety_security_sd_card_format_describe">格式化将清除存储卡上的所有记录数据</string>
+    <string name="safety_security_sentinel_mode_user_agreement">用户协议</string>
+    <string name="safety_security_sentinel_mode_user_agreement_content">"当您开启该功能后，车身周身摄像头将被打开并收集处理信息，请注意所在当地法规，只有在法规允许的情况下才能开启本功能，否则后果由用户自身承担。        "</string>
+    <string name="safety_sentinel_mode_content_1">APP消息通知</string>
+    <string name="safety_sentinel_mode_content_10">"触发报警后哨兵模式会播放⾼声⾳乐，请避免⻋内留置⼈员或动物
+哨兵模式具有视频拍摄功能，请勿在公共区域开启"</string>
+    <string name="safety_sentinel_mode_content_2">为了方便第一时间接收车辆状态信息，请打开极氪app消息通知功能</string>
+    <string name="safety_sentinel_mode_content_3">添加U盘</string>
+    <string name="safety_sentinel_mode_content_4">在车辆可能发生风险时可远程提示您，使用type-C接口以及USB2.0以上规格的U盘，可以录制视频</string>
+    <string name="safety_sentinel_mode_content_5">功能说明</string>
+    <string name="safety_sentinel_mode_content_6">当开启哨兵模式，车辆锁车后功能才会开始运行。运行期间为了保证监控效果，双侧后视镜不做折叠</string>
+    <string name="safety_sentinel_mode_content_7">电池电量</string>
+    <string name="safety_sentinel_mode_content_8">"启⽤哨兵模式期间，会消耗额外的电池电量，低于20%时⾃动退出
+为保护电池电量，开关仅当次有效"</string>
+    <string name="safety_sentinel_mode_content_9">注意</string>
+    <string name="safety_sentinel_mode_tip">"开启哨兵模式后，车辆可监测盗窃或破坏行为，自动录
+像、触发音频警告、推送通知到手机"</string>
+    <string name="safety_smart_smoking_ventilation">智能吸烟通风</string>
+    <string name="safety_smart_smoking_ventilation_info">识别到后排人员吸烟时开启车窗通风和车外循环</string>
+    <string name="safety_submit">确定</string>
+    <string name="safety_textID_pop_enter_tow_mode">进入拖车模式</string>
+    <string name="safety_textID_pop_exit_tow_mode">退出拖车模式</string>
+    <string name="safety_total_available">已使用%1$s|共%2$s</string>
+    <string name="safety_tow_mode_tutorial">拖车模式教程</string>
+    <string name="safety_trailer_mode_info">警告，模式激活后，驻车制动将被释放！</string>
+    <string name="safety_unlock_glove_box">解锁手套箱</string>
+    <string name="safety_usb_device_format">格式化</string>
+    <string name="safety_usb_device_format_content">是否格式化存储卡</string>
+    <string name="safety_vehicle_power_off">车辆下电</string>
+    <string name="safety_vehicle_power_off_dialog_content_describe">高压电池即将关闭，车辆用电系统将被停止工作。若需重新上高压请踩踏刹车。</string>
+    <string name="safety_vehicle_power_off_title">车辆所有功能和屏幕将被关闭，踩下制动踏板将重新上电</string>
+    <string name="safety_video_play_forbid_notice">"尊敬的客户: 
+　　极氪汽车应用平台已为您提供丰富多样的车载娱乐内容，为避免驾驶员在车辆行驶过程中因注意力分散导致安全隐患，我们已将系统默认设置为在车辆行驶过程中严禁使用视频娱乐内容(“行车娱乐限制”)。
+ 　　您在确认知晓并完全同意如下全部条款的前提下，方可选择手动关闭“行车娱乐限制”功能，“行车娱乐限制”功能被关闭后，即便您的车辆处于 D 挡、N 挡或 R 挡位，极氪汽车应用平台的部分视频娱乐内容仍可继续使用，但此时视频娱乐内容的服务对象应仅为乘客：
+ 　　（1）车辆行驶过程中，严禁驾驶员观看视频或进行任何其他妨碍安全驾驶的操作。
+ 　　（2）车辆行驶过程中，若驾驶员认为乘客使用的某些视频娱乐内容影响或可能影响行车安全的，应立即关闭该等视频娱乐内容或直接开启“行车娱乐限制”功能。
+ 　　（3）驾驶员应对车辆行驶过程中的行车安全及其一切行为负责。如因驾驶员或乘客违反前述条款或有其他任何妨碍安全驾驶的操作或行为导致其自身或任何第三方人身伤亡、财产损失的，相关风险及责任（包括但不限于由此发生的所有索赔、损害、损失、费用及行政处罚等），均由驾驶员或车辆所有人自行承担；极氪汽车不承担任何责任。"</string>
+    <string name="safety_video_play_pop_title">行车娱乐功能使用须知</string>
+    <string name="safety_video_resolution">视频分辨率</string>
+    <string name="safety_video_segment_duration">视频分段时长</string>
+    <string name="safety_view_sentinel_video">查看哨兵模式视频</string>
+    <string name="safety_way_one_content">点击退出救援模式按钮</string>
+    <string name="safety_way_one_title">方式一</string>
+    <string name="safety_way_third_content">挂入D挡或R挡，开始新的驾驶行程</string>
+    <string name="safety_way_third_title">方式三</string>
+    <string name="safety_way_two_content">挂入P挡并从外部锁车</string>
+    <string name="safety_way_two_title">方式二</string>
+    <string name="safety_windscreen_wiper">雨刮</string>
+    <string name="safety_zeekr_switch_windscreen_wiper_front_maintain">前雨刮维修位置</string>
+    <string name="safety_zeekr_switch_windscreen_wiper_front_maintain_tip">将前风挡雨刮器升高至竖直位置（雨刮拨杆需在OFF档）</string>
+    <string name="safety_zeekr_switch_windscreen_wiper_maintain">雨刮维修位置</string>
+    <string name="safety_zeekr_switch_windscreen_wiper_maintain_tip">将风挡雨刮器升高至竖直位置（雨刮拨杆需在OFF档）</string>
+    <string name="safety_zeekr_switch_windscreen_wiper_rear_maintain">后雨刮维修位置</string>
+    <string name="safety_zeekr_switch_windscreen_wiper_rear_maintain_tip">将后风挡雨刮器升高至竖直位置（雨刮拨杆需在OFF档）</string>
+    <string name="saveSuccess">保存成功</string>
+    <string name="scale_content">缩放</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="side_door_electric_mode_tip">开启后，可电动打开/关闭侧滑门</string>
+    <string name="side_door_electric_mode_title">侧滑门电动模式</string>
+    <string name="side_door_speed_title">侧滑门随速开关</string>
+    <string name="snow_mode_desc">雪地模式</string>
+    <string name="snow_mode_desc_tip">湿滑路面时防止打滑和速度过快。开启后，为确保安全，加速能力选项将禁用</string>
+    <string name="snow_text_please_epedal_toast">雪地模式开启时，停止模式仅支持缓行</string>
+    <string name="sound_common_equalizer_adjust">均衡器调节</string>
+    <string name="sound_common_headrest">头枕音响模式</string>
+    <string name="sound_common_headrest_tips">"整车共享：头枕配合整车发出多媒体环绕音
+主驾私享：导航音、电话音、媒体音，语音播报从主驾头枕音响发音，其他位置不可使用语音
+沉浸驾享：导航音、电话音从主驾头枕发音，不影响整车播放媒体音"</string>
+    <string name="sound_common_sound_balance">平衡与衰减</string>
+    <string name="special_road_conditions">特殊路况</string>
+    <string name="speed_limit_warning_desc">限速提醒</string>
+    <string name="speed_limit_warning_tip">当达到设置的车速时，进行警示提醒</string>
+    <string name="speed_mode_title">行车辅助</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="steering_assist_level_label">转向模式</string>
+    <string name="stop_mode_label">停止模式</string>
+    <string name="stop_tip_mode">"缓行：释放加速踏板后，车辆将以最低速度继续行驶
+保持：释放加速踏板后，将通过能量回收降低车速为
+ 0，不踩加速踏板时，车辆仍保持制动状态
+ 
+ 雪地模式打开时，将自动切换为缓行，并不可调节"</string>
+    <string name="stop_tip_mode_cm2">"缓行：释放加速踏板后，车辆将以最低速度继续行驶
+保持：释放加速踏板后，将通过能量回收降低车速为
+ 0，不踩加速踏板时，车辆仍保持制动状态"</string>
+    <string name="stop_title">停止模式</string>
+    <string name="switch_seat_belt_comfortable_tip">安全带自动收紧到舒适位置</string>
+    <string name="switch_seat_belt_comfortable_title">主驾安全带舒适</string>
+    <string name="text_please_close_snow_mode">请关闭雪地模式后再选择</string>
+    <string name="text_please_epedal_toast">该选项仅支持停止模式为缓行</string>
+    <string name="turn_back_to_positive_alarm">转向回正报警</string>
+    <string name="turn_back_to_positive_alarm_info">车辆起步阶段，转向未回正将会提醒</string>
+    <string name="tyre_pressure_title">胎压监测</string>
+    <string name="upload_close">关闭</string>
+    <string name="upload_explain_text">复现异常情形并上传数据，以便问题的精准分析与体验完善</string>
+    <string name="upload_explain_text2">复现异常情形并上传日志数据，以便问题的精准分析与体验完善</string>
+    <string name="upload_log_cancel">取消</string>
+    <string name="upload_log_explore_content">\u0009\u0009我们始终把用户体验放在第一位。为了优化和完善系统功能，我们诚邀您在这方面助极氪一臂之力。车机运行日志信息，包括系统运行过程中产出的异常、错误、警告等信息，该部分信息的获取是为了帮助我们快速完成系统远程诊断。&lt;br/> \u0009\u0009特此声明，我们收集的车机日志信息 不会主动关联您的个人信息，但不排除系统运行中带有相关您使用过程中的个人信息。这些信息的收集、传输和使用也将会使用相关的安全技术进行保护。&lt;br/> \u0009\u0009（此外，上传车机日志，将会消耗部分网络流量。）&lt;br/> \u0009\u0009您是否同意上传车机运行日志？</string>
+    <string name="upload_log_explore_content_bx">\u0009\u0009\u0009我们始终把⽤户体验放在第⼀位。为了优化和完善系统功能，我们诚邀您在这⽅⾯助极氪⼀臂之⼒。⻋机运⾏⽇志信息，包括系统运⾏过程中产出的异常、错误、警告等信息，该部分信息的获取是为了帮助我们快速完成系统远程诊断。&lt;br/> \u0009\u0009\u0009特此声明，我们收集的⻋机⽇志信息不会主动关联您的个⼈信息，但不排除系统运⾏中带有相关您使⽤过程中的个⼈信息。这些信息的收集、传输和使⽤也将会使⽤相关的安全技术进⾏保护。&lt;br/> &lt;br/> \u0009\u0009\u0009上传⻋机⽇志，将会消耗部分⽹络流量</string>
+    <string name="upload_log_explore_title">日志上传须知</string>
+    <string name="upload_log_failed_tip">上传失败</string>
+    <string name="upload_log_full_failed">上传失败，空间不⾜</string>
+    <string name="upload_log_hide">隐藏</string>
+    <string name="upload_log_network_error_tip">网络信号弱，上传已中断。网络恢复时，将继续上传</string>
+    <string name="upload_log_repeat_toast">两次操作间隔太短，请%1d分钟后再试</string>
+    <string name="upload_log_server_error_tip">服务器异常，请稍后再试</string>
+    <string name="upload_log_start">开始</string>
+    <string name="upload_log_stop_and_upload">结束并上传</string>
+    <string name="upload_log_succeed">上传成功</string>
+    <string name="upload_log_uploading">上传中</string>
+    <string name="upload_log_zipping_progress">压缩中</string>
+    <string name="upload_logcat">异常反馈</string>
+    <string name="upload_logcat_bx1e">异常反馈</string>
+    <string name="upload_logcat_content1">1、点击“开始抓取”，启动日志抓取</string>
+    <string name="upload_logcat_content2">2、再操作相关功能直到复现异常情形</string>
+    <string name="upload_logcat_content3">"3、问题复现后，回本⻚⾯点击“结束并上 
+ 传”停止抓取并上传数据"</string>
+    <string name="upload_logcat_text">异常反馈</string>
+    <string name="upload_logcat_text2">异常反馈</string>
+    <string name="upload_logcat_title">请保持车机上电并连接网络</string>
+    <string name="upload_start_logcat">开始抓取</string>
+    <string name="upload_sure">确定</string>
+    <string name="widget_all_error">请到就近的服务中心检查或呼叫救援</string>
+    <string name="widget_tire_pressure_result_fast_pressure_loss_front_left">左前轮胎正在漏气</string>
+    <string name="widget_tire_pressure_result_fast_pressure_loss_front_right">右前轮胎正在漏气</string>
+    <string name="widget_tire_pressure_result_fast_pressure_loss_multiple">多个轮胎正在漏气</string>
+    <string name="widget_tire_pressure_result_fast_pressure_loss_rear_left">左后轮胎正在漏气</string>
+    <string name="widget_tire_pressure_result_fast_pressure_loss_rear_right">右后轮胎正在漏气</string>
+    <string name="widget_tire_pressure_result_high_pressure_front_left">左前轮胎胎压过高</string>
+    <string name="widget_tire_pressure_result_high_pressure_front_right">右前轮胎胎压过高</string>
+    <string name="widget_tire_pressure_result_high_pressure_multiple">多个轮胎胎压过高</string>
+    <string name="widget_tire_pressure_result_high_pressure_rear_left">左后轮胎胎压过高</string>
+    <string name="widget_tire_pressure_result_high_pressure_rear_right">右后轮胎胎压过高</string>
+    <string name="widget_tire_pressure_result_high_temperature_front_left">左前轮胎温度过高</string>
+    <string name="widget_tire_pressure_result_high_temperature_front_right">右前轮胎温度过高</string>
+    <string name="widget_tire_pressure_result_high_temperature_multiple">多个轮胎温度过高</string>
+    <string name="widget_tire_pressure_result_high_temperature_rear_left">左后轮胎温度过高</string>
+    <string name="widget_tire_pressure_result_high_temperature_rear_right">右后轮胎温度过高</string>
+    <string name="widget_tire_pressure_result_low_pressure_front_left">左前轮胎胎压过低</string>
+    <string name="widget_tire_pressure_result_low_pressure_front_right">右前轮胎胎压过低</string>
+    <string name="widget_tire_pressure_result_low_pressure_multiple">多个轮胎胎压过低</string>
+    <string name="widget_tire_pressure_result_low_pressure_rear_left">左后轮胎胎压过低</string>
+    <string name="widget_tire_pressure_result_low_pressure_rear_right">右后轮胎胎压过低</string>
+    <string name="widget_tire_pressure_result_monitor_system_fault_front_left">左前轮胎胎压监测系统故障</string>
+    <string name="widget_tire_pressure_result_monitor_system_fault_front_right">右前轮胎胎压监测系统故障</string>
+    <string name="widget_tire_pressure_result_monitor_system_fault_multiple">多个轮胎胎压监测系统故障</string>
+    <string name="widget_tire_pressure_result_monitor_system_fault_rear_left">左后轮胎胎压监测系统故障</string>
+    <string name="widget_tire_pressure_result_monitor_system_fault_rear_right">右后轮胎胎压监测系统故障</string>
+    <string name="widget_tire_pressure_result_ok">胎压正常</string>
+    <string name="widget_tire_pressure_result_ok_tip">最佳轮胎压力可以降低能耗和轮胎磨损，提高操控性能</string>
+    <string name="widget_tire_pressure_result_sensor_battery_low_front_left">左前轮胎传感器电量低</string>
+    <string name="widget_tire_pressure_result_sensor_battery_low_front_right">右前轮胎传感器电量低</string>
+    <string name="widget_tire_pressure_result_sensor_battery_low_multiple">多个轮胎传感器电量低</string>
+    <string name="widget_tire_pressure_result_sensor_battery_low_rear_left">左后轮胎传感器电量低</string>
+    <string name="widget_tire_pressure_result_sensor_battery_low_rear_right">右后轮胎传感器电量低</string>
+    <string name="wireless_charging">无线充电</string>
+    <string name="wireless_def_rst_elec">雨刮加热</string>
+    <string name="wireless_def_rst_elec_tip">开启后，将在一段时间内加热前挡玻璃以解冻雨刮器</string>
+    <string name="xpopup_image_not_exist">Image not exist</string>
+    <string name="xpopup_save">save</string>
+    <string name="xpopup_saved_fail">Image save failed</string>
+    <string name="xpopup_saved_to_gallery">Saved to album</string>
+    <string name="zeekr_back">返回</string>
+    <string name="zeekr_cancel">取消</string>
+    <string name="zeekr_ok">确定</string>
+    <string name="zeekr_show_psw">显示密码</string>
+</resources>

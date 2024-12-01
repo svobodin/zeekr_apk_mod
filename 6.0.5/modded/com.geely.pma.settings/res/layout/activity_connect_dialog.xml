@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_root" android:tag="layout/activity_connect_dialog_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:tag="binding_1" android:background="@drawable/dialog_bt_wifi_ap_bg" android:layout_width="1080.0dip" android:layout_height="1090.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include android:id="@id/container_bt" android:visibility="visible" layout="@layout/dialog_bt" />
+        <include android:id="@id/container_wifi" android:visibility="gone" layout="@layout/dialog_wifi" />
+        <include android:id="@id/container_ap" android:visibility="gone" layout="@layout/dialog_ap" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

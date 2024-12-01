@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/bx_frag_ota_and_system_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ota_car_img" android:layout_width="@dimen/tip2_dp_1008" android:layout_height="@dimen/tip2_dp_1000" android:layout_marginTop="214.0dip" android:src="@drawable/cs_ota_car" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zeekr.component.tab.ZeekrTabLayout android:id="@id/tl_ota_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CommonTabLayoutStyle.CS" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/vp_ota_content" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tl_ota_title" style="@style/CommonScaffoldVp8295" />
+</androidx.constraintlayout.widget.ConstraintLayout>

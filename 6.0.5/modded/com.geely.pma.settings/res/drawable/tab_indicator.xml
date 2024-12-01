@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:width="@dimen/common_dp_48" android:drawable="@drawable/tab_indicator_select_bg" />
+</layer-list>

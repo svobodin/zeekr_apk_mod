@@ -1,0 +1,34 @@
+.class public final synthetic Lcom/geely/pma/settings/more/ui/fragment/n0;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/zeekr/dialog/ZeekrDialogCreate$Empty;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/zeekr/dialog/ZeekrDialogCreate$Empty;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/geely/pma/settings/more/ui/fragment/n0;->a:Lcom/zeekr/dialog/ZeekrDialogCreate$Empty;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/geely/pma/settings/more/ui/fragment/n0;->a:Lcom/zeekr/dialog/ZeekrDialogCreate$Empty;
+
+    invoke-static {v0, p1}, Lcom/geely/pma/settings/more/ui/fragment/DoorAndLockFragment;->g0(Lcom/zeekr/dialog/ZeekrDialogCreate$Empty;Landroid/view/View;)V
+
+    return-void
+.end method

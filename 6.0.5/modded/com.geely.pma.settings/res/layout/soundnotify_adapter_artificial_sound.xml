@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/art_sound_rl" android:layout_width="@dimen/tip2_dp_1000" android:layout_height="@dimen/common_dp_124"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.geely.pma.settings.commons.ui.widget.VcZeekrSwitch android:id="@id/v_divider" android:layout_width="fill_parent" android:layout_height="122.0dip" android:layout_marginTop="2.0dip" />
+    <CheckBox android:id="@id/iv_select" android:background="@drawable/cb_sound_type_bg" android:clickable="false" android:layout_width="@dimen/common_dp_48" android:layout_height="@dimen/common_dp_48" android:layout_marginLeft="@dimen/common_dp_64" android:button="@null" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?textAppearanceLabelMedium" android:textColor="@color/color_primary_app" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dp_40" android:maxWidth="@dimen/common_width_max_tv" android:layout_toRightOf="@id/iv_select" android:layout_centerVertical="true" />
+    <com.zeekr.component.slider.ZeekrCircularProgress android:id="@id/progress_circular" android:layout_width="@dimen/common_dp_64" android:layout_height="@dimen/common_dp_64" android:layout_marginRight="@dimen/common_dp_54" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:circularStrokeWidth="2" app:icon="@drawable/ic_sound_play" app:progress="0" app:showIcon="true" />
+    <ImageView android:id="@id/iv_divider" android:background="@color/color_primary_app" android:visibility="gone" android:layout_width="@dimen/common_dp_560" android:layout_height="1.0dip" android:layout_alignParentBottom="true" android:alpha="0.1" android:layout_alignParentEnd="true" />
+</RelativeLayout>

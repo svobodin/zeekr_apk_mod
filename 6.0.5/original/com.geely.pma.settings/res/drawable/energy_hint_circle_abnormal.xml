@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/energy_hint_circle_size" android:width="@dimen/energy_hint_circle_size" />
+    <solid android:color="@color/energy_hint_circle_abnormal" />
+</shape>
