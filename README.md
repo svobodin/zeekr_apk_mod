@@ -1,3 +1,5 @@
+> ! Use at your own risk! The scripts and binaries are provided as-is and may contain bugs or errors. The author is not responsible for any damage or data loss caused by the use of these scripts.
+
 The repo describes how to modify APKs for Zeekr OS, e.g. translating Chinese UI to English.
 
 It includes:
