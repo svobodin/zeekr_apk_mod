@@ -35,3 +35,5 @@ google-services.json
 6.0.5/modded/.DS_Store
 6.0.5/modded/com.geely.pma.settings/res/.DS_Store
 /_output
+
+!*/modded_apks/*.apk

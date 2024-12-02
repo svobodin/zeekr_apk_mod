@@ -43,6 +43,8 @@ If you wish to Mod an APK decompiling, changing and recompiling it, you will nee
 - Bash
     - Git Bash on Windows
     - Terminal on macOS
+ - git-lfs to be able to push large files to the repo
+    - `brew install git-lfs`, `git lfs install` and `git lfs track "*.apk"` on macOS
 
 ## Moding
 
