@@ -1,5 +1,4 @@
 androiddebugkey.jks:android
-my-release-key_old.jks:password1
 
 apktool b 6.0.5/com.android.systemui -o com.android.systemui_en.apk
 
