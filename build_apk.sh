@@ -26,6 +26,12 @@ fi
 outputDir=$(dirname "$outputFile")
 mkdir -p "$outputDir"
 
+# Check if the output directory is not empty
+if [ "$(find "$outputDir" -mindepth 1 -print -quit)" ]; then
+  echo "Error: Output directory '$outputDir' is not empty. Halting."
+  exit 1
+fi
+
 # Define paths
 alignedApk="${outputFile%.*}_aligned.apk"
 signedApk="${outputFile%.*}_signed.apk"
@@ -35,9 +41,17 @@ keyAlias="platformkey"
 
 # Build APK
 apktool b "$inputFolder" -o "$outputFile"
+if [ $? -ne 0 ]; then
+  echo "Error: Failed to build APK with Apktool."
+  exit 1
+fi
 
 # Align APK
 ./zipalign -p 4 "$outputFile" "$alignedApk"
+if [ $? -ne 0 ]; then
+  echo "Error: Failed to align APK with zipalign."
+  exit 1
+fi
 
 # Sign APK
 ./apksigner sign \
@@ -50,5 +64,9 @@ apktool b "$inputFolder" -o "$outputFile"
   --v2-signing-enabled true \
   --v3-signing-enabled false \
   "$alignedApk"
+if [ $? -ne 0 ]; then
+  echo "Error: Failed to sign APK with apksigner."
+  exit 1
+fi
 
 echo "APK built, aligned, and signed successfully: $signedApk"
