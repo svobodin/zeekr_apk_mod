@@ -733,17 +733,17 @@
         <item>Display</item>
         <item>General</item>
     </string-array>
-    <string-array name="energy_management_modes">
-        <item>Eco</item>
-        <item>Normal</item>
-        <item>Sport</item>
-        <item>Custom</item>
+    <string-array name="sky_curtain_groups">
+        <item>All Closed</item>
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>All Open</item>
     </string-array>
-    <string-array name="energy_saving_tips">
-        <item>Reduce speed</item>
-        <item>Use cruise control</item>
-        <item>Minimize AC usage</item>
-        <item>Check tire pressure</item>
+    <string-array name="sky_window_groups">
+        <item>Custom</item>
+        <item>Sky Style</item>
+        <item>Sunshade Mode</item>
     </string-array>
     <string-array name="speed_array_level">
         <item>Standard</item>
