@@ -66,9 +66,11 @@ Some of the apps:
 
 ### Make changes
 
+#### Resources/Translations
 - res/values
     - Check strings.xml, arrays.xml, plurals.xml
 - Pay attention to envoding special chars in XML, e.g. use \' for single quotes
+- Use '[^\x00-\x7F]' RegEx to help find non-ASCII characters
 
 ### Build and sign APK
 
