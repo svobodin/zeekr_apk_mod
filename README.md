@@ -1,6 +1,8 @@
 > ! Use at your own risk! The scripts and binaries are provided as-is and may contain bugs or errors. The author is not responsible for any damage or data loss caused by the use of these scripts.
 
-The repo describes how to modify APKs for Zeekr OS, e.g. translating Chinese UI to English.
+> ! Take caution, check you version of Zeekr OS before installing any APKs.
+
+The repo describes how to modify APKs for Zeekr OS (infotaimanet system from Zeekr 001/007, aka "the Tablet"), e.g. translating Chinese UI to English.
 
 It includes:
 - Decompiled sources of some of the original apps, e.g. `6.0.5/original/` folder has the originals from the OS version 6.0.5
@@ -17,7 +19,7 @@ It includes:
 
 | App | Version | APK | Description |
 | --- | --- | --- | --- |
-| Car Settings | 6.0.5 | 6.0.5/modded_apks/com.geely.pma.settings_en.apk | Car Settings APP Translated to English |
+| Car Settings | 6.0.5 () | 6.0.5/modded_apks/com.geely.pma.settings_en.apk | Car Settings APP Translated to English |
 
 ## Requirements
 
